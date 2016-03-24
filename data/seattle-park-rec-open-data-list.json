@@ -1,0 +1,619 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "dgi8-q5en",
+      "name" : "Seattle Parks & Recreation Open Datasets",
+      "averageRating" : 0,
+      "createdAt" : 1458329433,
+      "displayType" : "fatrow",
+      "downloadCount" : 0,
+      "indexUpdatedAt" : 1458335354,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 19023038,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1458332841,
+      "publicationGroup" : 9090908,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowIdentifierColumnId" : 247522534,
+      "rowsUpdatedAt" : 1458334542,
+      "rowsUpdatedBy" : "8wwb-4vf2",
+      "state" : "normal",
+      "tableId" : 9092142,
+      "totalTimesRated" : 0,
+      "viewCount" : 121,
+      "viewLastModified" : 1458334543,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 247522534,
+        "name" : "Dataset ID",
+        "dataTypeName" : "text",
+        "fieldName" : "dataset_id",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 35108350,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "2juf-crgy",
+          "null" : 0,
+          "largest" : "ymx5-v2h6",
+          "top" : [ {
+            "count" : 20,
+            "item" : "jv8d-creg"
+          }, {
+            "count" : 19,
+            "item" : "ck92-6u42"
+          }, {
+            "count" : 18,
+            "item" : "jsgn-a2ag"
+          }, {
+            "count" : 17,
+            "item" : "cef4-nwg2"
+          }, {
+            "count" : 16,
+            "item" : "c7h3-7shy"
+          }, {
+            "count" : 15,
+            "item" : "i53y-w2vu"
+          }, {
+            "count" : 14,
+            "item" : "3dfw-akrb"
+          }, {
+            "count" : 13,
+            "item" : "69dg-ecf7"
+          }, {
+            "count" : 12,
+            "item" : "3n3z-zjdd"
+          }, {
+            "count" : 11,
+            "item" : "6jqd-qkut"
+          }, {
+            "count" : 10,
+            "item" : "ckqe-i3ib"
+          }, {
+            "count" : 9,
+            "item" : "7ahz-pesx"
+          }, {
+            "count" : 8,
+            "item" : "bhtj-4mhs"
+          }, {
+            "count" : 7,
+            "item" : "ymx5-v2h6"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247522535,
+        "name" : "Dataset Name",
+        "dataTypeName" : "text",
+        "fieldName" : "dataset_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 35108352,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "Seattle Parks and Recreation Class Registration Data",
+          "null" : 0,
+          "largest" : "Seattle Parks and Recreation Park Addresses",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Soccer Field"
+          }, {
+            "count" : 19,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Spray Park"
+          }, {
+            "count" : 18,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Swim Float"
+          }, {
+            "count" : 17,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Swimming Beaches"
+          }, {
+            "count" : 16,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Swimming Pools"
+          }, {
+            "count" : 15,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - T-ball Field"
+          }, {
+            "count" : 14,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Tennis Court Outline"
+          }, {
+            "count" : 13,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Tennis Court Point"
+          }, {
+            "count" : 12,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Track Field"
+          }, {
+            "count" : 11,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Trails"
+          }, {
+            "count" : 10,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - View Points"
+          }, {
+            "count" : 9,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Vollyball Court Outline"
+          }, {
+            "count" : 8,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Vollyball Court Point"
+          }, {
+            "count" : 7,
+            "item" : "Seattle Parks and Recreation GIS Map Layer - Wading Pools"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247522540,
+        "name" : "API URL",
+        "dataTypeName" : "url",
+        "fieldName" : "api_url",
+        "position" : 3,
+        "renderTypeName" : "url",
+        "tableColumnId" : 35108362,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : {
+            "url" : "https://dev.socrata.com/foundry/data.seattle.gov/2kfp-z97k"
+          },
+          "null" : 0,
+          "largest" : {
+            "url" : "https://dev.socrata.com/foundry/data.seattle.gov/ybmn-w2mc"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/vre6-ceji"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/ikh4-6i8u"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/cfb7-vzsx"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/erme-8tfy"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/ppq2-qxkx"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/8te8-p8wb"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/agb7-rh9h"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/p8fp-a7qi"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/y5mt-y5i8"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/vwtx-gvpm"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/9c5r-54ck"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/wq8z-xgnk"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/qajs-seq4"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "url" : "https://dev.socrata.com/foundry/data.seattle.gov/q9rk-mk36"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 247522539,
+        "name" : "Dataset URL",
+        "dataTypeName" : "url",
+        "fieldName" : "dataset_url",
+        "position" : 4,
+        "renderTypeName" : "url",
+        "tableColumnId" : 35108360,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : {
+            "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-And-Recreation-Park-Addresses/v5tj-kqhc"
+          },
+          "null" : 0,
+          "largest" : {
+            "url" : "https://data.seattle.gov/dataset/Seattle-Parks-and-Recreation-GIS-Map-Layer-Park-Bo/ptpk-refv"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Soccer-/jv8d-creg"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Spray-P/ck92-6u42"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Swim-Fl/jsgn-a2ag"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Swimmin/cef4-nwg2"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Swimmin/c7h3-7shy"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-T-ball-/i53y-w2vu"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Tennis-/3dfw-akrb"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Tennis-/69dg-ecf7"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Track-F/3n3z-zjdd"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Trails/6jqd-qkut"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-View-Po/ckqe-i3ib"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Volleyb/7ahz-pesx"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Volleyb/bhtj-4mhs"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "url" : "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Wading-/ymx5-v2h6"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 247522541,
+        "name" : "API ID",
+        "dataTypeName" : "text",
+        "fieldName" : "api_id",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 35108364,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "2kfp-z97k",
+          "null" : 0,
+          "largest" : "ybmn-w2mc",
+          "top" : [ {
+            "count" : 20,
+            "item" : "vre6-ceji"
+          }, {
+            "count" : 19,
+            "item" : "ikh4-6i8u"
+          }, {
+            "count" : 18,
+            "item" : "cfb7-vzsx"
+          }, {
+            "count" : 17,
+            "item" : "erme-8tfy"
+          }, {
+            "count" : 16,
+            "item" : "ppq2-qxkx"
+          }, {
+            "count" : 15,
+            "item" : "8te8-p8wb"
+          }, {
+            "count" : 14,
+            "item" : "agb7-rh9h"
+          }, {
+            "count" : 13,
+            "item" : "p8fp-a7qi"
+          }, {
+            "count" : 12,
+            "item" : "y5mt-y5i8"
+          }, {
+            "count" : 11,
+            "item" : "vwtx-gvpm"
+          }, {
+            "count" : 10,
+            "item" : "9c5r-54ck"
+          }, {
+            "count" : 9,
+            "item" : "wq8z-xgnk"
+          }, {
+            "count" : 8,
+            "item" : "qajs-seq4"
+          }, {
+            "count" : 7,
+            "item" : "q9rk-mk36"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247522536,
+        "name" : "Viewable",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "viewable",
+        "position" : 6,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 35108353,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : true,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 20,
+            "item" : true
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247522537,
+        "name" : "Downloadable",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "downloadable",
+        "position" : 7,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 35108356,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : true,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 20,
+            "item" : true
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247522538,
+        "name" : "Date Checked",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date_checked",
+        "position" : 8,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 35108358,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "2016-03-17T00:00:00",
+          "null" : 0,
+          "largest" : "2016-03-17T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2016-03-17T00:00:00"
+          } ]
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Community Data Platform" : {
+            "Group" : "Open Seattle"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "fatrow" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "dataset_id",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "i7d8-sc4w",
+        "displayName" : "Chris Metcalf",
+        "profileImageUrlLarge" : "/api/users/i7d8-sc4w/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/i7d8-sc4w/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/i7d8-sc4w/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Chris Metcalf",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs" ],
+        "flags" : [ "admin" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "i7d8-sc4w",
+        "displayName" : "Chris Metcalf",
+        "profileImageUrlLarge" : "/api/users/i7d8-sc4w/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/i7d8-sc4w/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/i7d8-sc4w/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Chris Metcalf",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs" ],
+        "flags" : [ "admin" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "AFE6B20A-E03B-4E0F-AB2A-7AB1B0DC9CB8", 1, 1458329436, "21484", 1458334475, "882792", null, "k7wr-k9jj", "Seattle Parks and Recreation Community Center People Counter Data", [ "https://dev.socrata.com/foundry/data.seattle.gov/k7wr-k9jj", null ], [ "https://data.seattle.gov/Parks/Seattle-Parks-and-Recreation-Community-Center-Peop/k7wr-k9jj", null ], "k7wr-k9jj", true, true, "2016-03-17T00:00:00" ]
+, [ 2, "2AEF4B9D-4E25-47F6-9777-694C0D92E691", 2, 1458329436, "21484", 1458334476, "882792", null, "pfm3-d3j2", "Seattle Parks and Recreation Class Registration Data", [ "https://dev.socrata.com/foundry/data.seattle.gov/pfm3-d3j2", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-Class-Registration-Da/pfm3-d3j2", null ], "pfm3-d3j2", true, true, "2016-03-17T00:00:00" ]
+, [ 3, "81AF3982-4CC8-4295-BB1C-03A2409A4CEC", 3, 1458329436, "21484", 1458334478, "882792", null, "v5tj-kqhc", "Seattle Parks and Recreation Park Addresses", [ "https://dev.socrata.com/foundry/data.seattle.gov/v5tj-kqhc", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-And-Recreation-Park-Addresses/v5tj-kqhc", null ], "v5tj-kqhc", true, true, "2016-03-17T00:00:00" ]
+, [ 5, "86AAF47F-DAC5-47B7-B1C1-E09292ADCF90", 5, 1458329436, "21484", 1458334479, "882792", null, "2juf-crgy", "Seattle Parks and Recreation GIS Map Layer - Adult Fitness Equipment", [ "https://dev.socrata.com/foundry/data.seattle.gov/8epc-v8g9", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Adult-F/2juf-crgy", null ], "8epc-v8g9", true, true, "2016-03-17T00:00:00" ]
+, [ 6, "B5B9C023-CD1E-4302-B55A-6F52A9612D99", 6, 1458329436, "21484", 1458334480, "882792", null, "6z22-ggkp", "Seattle Parks and Recreation GIS Map Layer - Ash Can", [ "https://dev.socrata.com/foundry/data.seattle.gov/ppqs-kbjf", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Ash-Can/6z22-ggkp", null ], "ppqs-kbjf", true, true, "2016-03-17T00:00:00" ]
+, [ 7, "5D44BC88-0F75-468E-8D30-D704CBAADE1E", 7, 1458329436, "21484", 1458334481, "882792", null, "gjfq-6m44", "Seattle Parks and Recreation GIS Map Layer - Baseball Field", [ "https://dev.socrata.com/foundry/data.seattle.gov/6v75-vrvs", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Basebal/gjfq-6m44", null ], "6v75-vrvs", true, true, "2016-03-17T00:00:00" ]
+, [ 8, "E12D8D73-E971-4252-B860-2737DE0BA5C5", 8, 1458329436, "21484", 1458334482, "882792", null, "gpyb-x6xm", "Seattle Parks and Recreation GIS Map Layer - Basketball Court Outline", [ "https://dev.socrata.com/foundry/data.seattle.gov/bim3-23ue", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Basketb/gpyb-x6xm", null ], "bim3-23ue", true, true, "2016-03-17T00:00:00" ]
+, [ 9, "591FCDAC-5B9B-4D23-A2E7-A51DB5200624", 9, 1458329436, "21484", 1458334484, "882792", null, "a2vz-jfs8", "Seattle Parks and Recreation GIS Map Layer - Basketball Court Point", [ "https://dev.socrata.com/foundry/data.seattle.gov/dxss-26kb", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Basketb/a2vz-jfs8", null ], "dxss-26kb", true, true, "2016-03-17T00:00:00" ]
+, [ 10, "5E44728C-219A-4E56-93D1-4E73AC42C978", 10, 1458329436, "21484", 1458334485, "882792", null, "568p-y4mw", "Seattle Parks and Recreation GIS Map Layer - BBQ Grills", [ "https://dev.socrata.com/foundry/data.seattle.gov/q7g3-tcv9", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-BBQ-Gri/568p-y4mw", null ], "q7g3-tcv9", true, true, "2016-03-17T00:00:00" ]
+, [ 11, "0A7FE010-6B93-4F18-A206-639F3604AACE", 11, 1458329436, "21484", 1458334486, "882792", null, "fhsa-ft2a", "Seattle Parks and Recreation GIS Map Layer - Bocca Ball Outline", [ "https://dev.socrata.com/foundry/data.seattle.gov/6cd4-qt8k", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Bocce-B/fhsa-ft2a", null ], "6cd4-qt8k", true, true, "2016-03-17T00:00:00" ]
+, [ 12, "2154FCF8-8451-425C-9174-985863CB7A29", 12, 1458329436, "21484", 1458334487, "882792", null, "7yq8-8wbe", "Seattle Parks and Recreation GIS Map Layer - Bocca Ball Point", [ "https://dev.socrata.com/foundry/data.seattle.gov/vefj-ncdf", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Bocce-B/7yq8-8wbe", null ], "vefj-ncdf", true, true, "2016-03-17T00:00:00" ]
+, [ 13, "DB82AE8B-B4E1-47EA-9105-4BB27C7528F6", 13, 1458329436, "21484", 1458334489, "882792", null, "q59g-r5pd", "Seattle Parks and Recreation GIS Map Layer - Community Centers", [ "https://dev.socrata.com/foundry/data.seattle.gov/i9ke-b8b8", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Communi/q59g-r5pd", null ], "i9ke-b8b8", true, true, "2016-03-17T00:00:00" ]
+, [ 14, "6C430513-B6CE-4BD7-B58C-332AFC982309", 14, 1458329436, "21484", 1458334490, "882792", null, "ijiu-xezn", "Seattle Parks and Recreation GIS Map Layer - Dog Off Leash Areas", [ "https://dev.socrata.com/foundry/data.seattle.gov/ybmn-w2mc", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Dog-Off/ijiu-xezn", null ], "ybmn-w2mc", true, true, "2016-03-17T00:00:00" ]
+, [ 15, "F417004A-F7D4-46EC-B64B-D8ED419E55B1", 15, 1458329436, "21484", 1458334491, "882792", null, "m78m-bdc6", "Seattle Parks and Recreation GIS Map Layer - Drinking Fountain", [ "https://dev.socrata.com/foundry/data.seattle.gov/uk3y-v8n8", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Drinkin/m78m-bdc6", null ], "uk3y-v8n8", true, true, "2016-03-17T00:00:00" ]
+, [ 16, "71FF4E09-E3A4-41EA-B81B-89B30CA467CD", 16, 1458329436, "21484", 1458334492, "882792", null, "hwhb-ugys", "Seattle Parks and Recreation GIS Map Layer - Environmental Learning Centers", [ "https://dev.socrata.com/foundry/data.seattle.gov/h7zi-v4fb", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Envirno/hwhb-ugys", null ], "h7zi-v4fb", true, true, "2016-03-17T00:00:00" ]
+, [ 17, "B488474B-9EA0-42C6-88D9-7E1A0FE4FDDC", 17, 1458329436, "21484", 1458334494, "882792", null, "2mq3-6m5s", "Seattle Parks and Recreation GIS Map Layer - Fire Pits", [ "https://dev.socrata.com/foundry/data.seattle.gov/hrsc-g5tr", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Fire-Pi/2mq3-6m5s", null ], "hrsc-g5tr", true, true, "2016-03-17T00:00:00" ]
+, [ 18, "A87E9CA7-D774-4AAF-9171-6EACB7E74B50", 18, 1458329436, "21484", 1458334495, "882792", null, "rnss-rcmd", "Seattle Parks and Recreation GIS Map Layer - Fishing Piers", [ "https://dev.socrata.com/foundry/data.seattle.gov/p8xb-fvht", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Fishing/rnss-rcmd", null ], "p8xb-fvht", true, true, "2016-03-17T00:00:00" ]
+, [ 19, "AB30CE61-E001-4B6E-B947-F5920BBAFD9C", 19, 1458329436, "21484", 1458334496, "882792", null, "syq3-x3a3", "Seattle Parks and Recreation GIS Map Layer - Football Field", [ "https://dev.socrata.com/foundry/data.seattle.gov/tb38-79vv", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Footbal/syq3-x3a3", null ], "tb38-79vv", true, true, "2016-03-17T00:00:00" ]
+, [ 20, "0DAEA800-09DF-4410-9914-46D9BC90ACFC", 20, 1458329436, "21484", 1458334497, "882792", null, "gy8z-mgjc", "Seattle Parks and Recreation GIS Map Layer - Gardens", [ "https://dev.socrata.com/foundry/data.seattle.gov/uae3-txgu", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Gardens/gy8z-mgjc", null ], "uae3-txgu", true, true, "2016-03-17T00:00:00" ]
+, [ 21, "EFDB4184-D70F-462B-82CD-51A059C25DB2", 21, 1458329436, "21484", 1458334498, "882792", null, "eebm-kwb7", "Seattle Parks and Recreation GIS Map Layer - Golf Courses", [ "https://dev.socrata.com/foundry/data.seattle.gov/g7we-4rna", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Golf-Co/eebm-kwb7", null ], "g7we-4rna", true, true, "2016-03-17T00:00:00" ]
+, [ 22, "8D7D8361-780C-4CDB-9EC8-A0A34B6CA5B9", 22, 1458329436, "21484", 1458334500, "882792", null, "cdqh-nkev", "Seattle Parks and Recreation GIS Map Layer - Hand Carry Boat Launch", [ "https://dev.socrata.com/foundry/data.seattle.gov/r5zx-sdst", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Hand-Ca/cdqh-nkev", null ], "r5zx-sdst", true, true, "2016-03-17T00:00:00" ]
+, [ 23, "E74F49B8-5F1B-4D01-A361-B34AABED182E", 23, 1458329436, "21484", 1458334501, "882792", null, "hugs-vu7v", "Seattle Parks and Recreation GIS Map Layer - Horseshoe Pit Outline", [ "https://dev.socrata.com/foundry/data.seattle.gov/e5zt-3h3q", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Horsesh/hugs-vu7v", null ], "e5zt-3h3q", true, true, "2016-03-17T00:00:00" ]
+, [ 24, "9D34A4F5-D127-43D6-80D9-8BF749207396", 24, 1458329436, "21484", 1458334502, "882792", null, "4yd3-7cc9", "Seattle Parks and Recreation GIS Map Layer - Horseshoe Pit Point", [ "https://dev.socrata.com/foundry/data.seattle.gov/b23b-c8vr", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Horsesh/4yd3-7cc9", null ], "b23b-c8vr", true, true, "2016-03-17T00:00:00" ]
+, [ 25, "390A86E9-3DE8-4B5D-9FF7-5F5607DD3D9A", 25, 1458329436, "21484", 1458334503, "882792", null, "ijvj-rp4x", "Seattle Parks and Recreation GIS Map Layer - Lacrosse Field", [ "https://dev.socrata.com/foundry/data.seattle.gov/aesr-dg78", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Lacross/ijvj-rp4x", null ], "aesr-dg78", true, true, "2016-03-17T00:00:00" ]
+, [ 26, "80A07232-553F-422F-AE8B-233DDAD0C89C", 26, 1458329436, "21484", 1458334505, "882792", null, "md27-nsqu", "Seattle Parks and Recreation GIS Map Layer - Lawn Bowling Outline", [ "https://dev.socrata.com/foundry/data.seattle.gov/kxgn-9hgu", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Lawn-Bo/md27-nsqu", null ], "kxgn-9hgu", true, true, "2016-03-17T00:00:00" ]
+, [ 27, "E9F61CC9-E713-450D-A384-33ECEA871872", 27, 1458329436, "21484", 1458334506, "882792", null, "mxu9-tba2", "Seattle Parks and Recreation GIS Map Layer - Lawn Bowling Point", [ "https://dev.socrata.com/foundry/data.seattle.gov/7kdf-8kw8", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Lawn-Bo/mxu9-tba2", null ], "7kdf-8kw8", true, true, "2016-03-17T00:00:00" ]
+, [ 28, "6A01B744-771C-4885-95B2-22AC0F46583C", 28, 1458329436, "21484", 1458334507, "882792", null, "h5r8-ytew", "Seattle Parks and Recreation GIS Map Layer - Misc Court Outline", [ "https://dev.socrata.com/foundry/data.seattle.gov/a2rt-cng2", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Misc-Co/h5r8-ytew", null ], "a2rt-cng2", true, true, "2016-03-17T00:00:00" ]
+, [ 29, "132B0BD8-D533-4BF9-9AE6-4290E936E825", 29, 1458329436, "21484", 1458334509, "882792", null, "mwc8-dtqs", "Seattle Parks and Recreation GIS Map Layer - Misc Court Point", [ "https://dev.socrata.com/foundry/data.seattle.gov/awq4-7465", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Misc-Co/mwc8-dtqs", null ], "awq4-7465", true, true, "2016-03-17T00:00:00" ]
+, [ 30, "865ECD2E-7C3A-47D5-B952-290B13077BBD", 30, 1458329436, "21484", 1458334510, "882792", null, "ihyp-dwpf", "Seattle Parks and Recreation GIS Map Layer - Motorized Boat Launch", [ "https://dev.socrata.com/foundry/data.seattle.gov/urwq-pp23", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Motoriz/ihyp-dwpf", null ], "urwq-pp23", true, true, "2016-03-17T00:00:00" ]
+, [ 31, "9784ABDB-0052-491A-9347-67E5B68536F7", 31, 1458329436, "21484", 1458334511, "882792", null, "cjhd-5jyf", "Seattle Parks and Recreation GIS Map Layer - Olmsted Parks", [ "https://dev.socrata.com/foundry/data.seattle.gov/fa7k-e5bp", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Olmsted/cjhd-5jyf", null ], "fa7k-e5bp", true, true, "2016-03-17T00:00:00" ]
+, [ 32, "18325C5C-4633-4DAD-BA7B-1E1D6101BEAE", 32, 1458329436, "21484", 1458334512, "882792", null, "stxh-q78s", "Seattle Parks and Recreation GIS Map Layer - Park Bench", [ "https://dev.socrata.com/foundry/data.seattle.gov/eckx-ewe2", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Park-Be/stxh-q78s", null ], "eckx-ewe2", true, true, "2016-03-17T00:00:00" ]
+, [ 33, "32107A9E-DC4E-4053-8005-55165493A3D7", 33, 1458329436, "21484", 1458334514, "882792", null, "ptpk-refv", "Seattle Parks and Recreation GIS Map Layer - Park Boundary", [ "https://dev.socrata.com/foundry/data.seattle.gov/n99g-k8uj", null ], [ "https://data.seattle.gov/dataset/Seattle-Parks-and-Recreation-GIS-Map-Layer-Park-Bo/ptpk-refv", null ], "n99g-k8uj", true, true, "2016-03-17T00:00:00" ]
+, [ 34, "964224A4-14B9-48A2-8D19-72F090982D63", 34, 1458329436, "21484", 1458334515, "882792", null, "7wus-bmq9", "Seattle Parks and Recreation GIS Map Layer - Picnic Site", [ "https://dev.socrata.com/foundry/data.seattle.gov/urq6-dyzm", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Picnic-/7wus-bmq9", null ], "urq6-dyzm", true, true, "2016-03-17T00:00:00" ]
+, [ 35, "EF12D3C7-F3EF-47B7-804F-01BAD55C074F", 35, 1458329436, "21484", 1458334516, "882792", null, "4rvn-u3j6", "Seattle Parks and Recreation GIS Map Layer - Picnic Table", [ "https://dev.socrata.com/foundry/data.seattle.gov/2kfp-z97k", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Picnic-/4rvn-u3j6", null ], "2kfp-z97k", true, true, "2016-03-17T00:00:00" ]
+, [ 36, "B9BD4C78-B017-438C-8A7E-5C3A3F9F9EB7", 36, 1458329436, "21484", 1458334517, "882792", null, "dg8c-jk6w", "Seattle Parks and Recreation GIS Map Layer - Play Area", [ "https://dev.socrata.com/foundry/data.seattle.gov/wb4c-wiyr", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Play-Ar/dg8c-jk6w", null ], "wb4c-wiyr", true, true, "2016-03-17T00:00:00" ]
+, [ 37, "934BF14E-0D15-463D-9525-64B8C8E625D4", 37, 1458329436, "21484", 1458334518, "882792", null, "aq8p-s9tp", "Seattle Parks and Recreation GIS Map Layer - Public Art In Park", [ "https://dev.socrata.com/foundry/data.seattle.gov/btxz-8g5t", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Public-/aq8p-s9tp", null ], "btxz-8g5t", true, true, "2016-03-17T00:00:00" ]
+, [ 38, "D62DE219-7922-45A3-B5F4-8E8F14B4F069", 38, 1458329436, "21484", 1458334520, "882792", null, "w4nn-hsqi", "Seattle Parks and Recreation GIS Map Layer - Public Art Outside Park", [ "https://dev.socrata.com/foundry/data.seattle.gov/mcca-4fpb", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Public-/w4nn-hsqi", null ], "mcca-4fpb", true, true, "2016-03-17T00:00:00" ]
+, [ 39, "5DB00868-087B-4195-8EB5-DBB288A2D492", 39, 1458329436, "21484", 1458334521, "882792", null, "dfsk-abyq", "Seattle Parks and Recreation GIS Map Layer - Public Restroom", [ "https://dev.socrata.com/foundry/data.seattle.gov/9n95-kprs", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Public-/dfsk-abyq", null ], "9n95-kprs", true, true, "2016-03-17T00:00:00" ]
+, [ 40, "C827D806-DD0D-4ADD-8929-BC3F0621E288", 40, 1458329436, "21484", 1458334522, "882792", null, "9kpu-mz9x", "Seattle Parks and Recreation GIS Map Layer - Rugby Field", [ "https://dev.socrata.com/foundry/data.seattle.gov/67vb-f9s2", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Rugby-F/9kpu-mz9x", null ], "67vb-f9s2", true, true, "2016-03-17T00:00:00" ]
+, [ 41, "04F1FE21-D588-4169-8BDF-8FB9524FA99F", 41, 1458329436, "21484", 1458334524, "882792", null, "v5sd-qc37", "Seattle Parks and Recreation GIS Map Layer - Skate Park", [ "https://dev.socrata.com/foundry/data.seattle.gov/murj-7f2b", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Skate-P/v5sd-qc37", null ], "murj-7f2b", true, true, "2016-03-17T00:00:00" ]
+, [ 42, "75BD89C0-ECA8-41BA-A16F-BC81D99A6784", 42, 1458329436, "21484", 1458334525, "882792", null, "unxi-nxyf", "Seattle Parks and Recreation GIS Map Layer - Small Craft Centers", [ "https://dev.socrata.com/foundry/data.seattle.gov/svbj-uhhe", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Small-C/unxi-nxyf", null ], "svbj-uhhe", true, true, "2016-03-17T00:00:00" ]
+, [ 43, "A5FF8DD1-769A-4F85-BE49-1D9E9867D8E4", 43, 1458329436, "21484", 1458334526, "882792", null, "jv8d-creg", "Seattle Parks and Recreation GIS Map Layer - Soccer Field", [ "https://dev.socrata.com/foundry/data.seattle.gov/vre6-ceji", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Soccer-/jv8d-creg", null ], "vre6-ceji", true, true, "2016-03-17T00:00:00" ]
+, [ 44, "876B5236-41A4-40BB-A65F-463C9F2CE6E8", 44, 1458329436, "21484", 1458334527, "882792", null, "ck92-6u42", "Seattle Parks and Recreation GIS Map Layer - Spray Park", [ "https://dev.socrata.com/foundry/data.seattle.gov/ikh4-6i8u", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Spray-P/ck92-6u42", null ], "ikh4-6i8u", true, true, "2016-03-17T00:00:00" ]
+, [ 45, "1A041103-A31C-4C71-A3AA-83F3C5766F41", 45, 1458329436, "21484", 1458334528, "882792", null, "jsgn-a2ag", "Seattle Parks and Recreation GIS Map Layer - Swim Float", [ "https://dev.socrata.com/foundry/data.seattle.gov/cfb7-vzsx", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Swim-Fl/jsgn-a2ag", null ], "cfb7-vzsx", true, true, "2016-03-17T00:00:00" ]
+, [ 46, "0EE19EC0-CC88-4C6B-A8B3-704A48FCC19B", 46, 1458329436, "21484", 1458334529, "882792", null, "cef4-nwg2", "Seattle Parks and Recreation GIS Map Layer - Swimming Beaches", [ "https://dev.socrata.com/foundry/data.seattle.gov/erme-8tfy", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Swimmin/cef4-nwg2", null ], "erme-8tfy", true, true, "2016-03-17T00:00:00" ]
+, [ 47, "44007591-0E5A-4E60-BE69-B63593E419DA", 47, 1458329436, "21484", 1458334531, "882792", null, "c7h3-7shy", "Seattle Parks and Recreation GIS Map Layer - Swimming Pools", [ "https://dev.socrata.com/foundry/data.seattle.gov/ppq2-qxkx", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Swimmin/c7h3-7shy", null ], "ppq2-qxkx", true, true, "2016-03-17T00:00:00" ]
+, [ 48, "4D33291C-B565-45C6-98A8-F042022B7121", 48, 1458329436, "21484", 1458334532, "882792", null, "i53y-w2vu", "Seattle Parks and Recreation GIS Map Layer - T-ball Field", [ "https://dev.socrata.com/foundry/data.seattle.gov/8te8-p8wb", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-T-ball-/i53y-w2vu", null ], "8te8-p8wb", true, true, "2016-03-17T00:00:00" ]
+, [ 49, "C6EF35D3-F9E1-4B47-81DA-00CCEFA19E35", 49, 1458329436, "21484", 1458334533, "882792", null, "3dfw-akrb", "Seattle Parks and Recreation GIS Map Layer - Tennis Court Outline", [ "https://dev.socrata.com/foundry/data.seattle.gov/agb7-rh9h", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Tennis-/3dfw-akrb", null ], "agb7-rh9h", true, true, "2016-03-17T00:00:00" ]
+, [ 50, "1A3A05B6-A39B-40FA-8ECE-314C447BEE5C", 50, 1458329436, "21484", 1458334534, "882792", null, "69dg-ecf7", "Seattle Parks and Recreation GIS Map Layer - Tennis Court Point", [ "https://dev.socrata.com/foundry/data.seattle.gov/p8fp-a7qi", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Tennis-/69dg-ecf7", null ], "p8fp-a7qi", true, true, "2016-03-17T00:00:00" ]
+, [ 51, "5ED4CCF7-6607-4F61-B73D-F9F5C4E7B609", 51, 1458329436, "21484", 1458334536, "882792", null, "3n3z-zjdd", "Seattle Parks and Recreation GIS Map Layer - Track Field", [ "https://dev.socrata.com/foundry/data.seattle.gov/y5mt-y5i8", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Track-F/3n3z-zjdd", null ], "y5mt-y5i8", true, true, "2016-03-17T00:00:00" ]
+, [ 52, "785617E0-E19D-4A05-ACC6-A8CE5A598804", 52, 1458329436, "21484", 1458334537, "882792", null, "6jqd-qkut", "Seattle Parks and Recreation GIS Map Layer - Trails", [ "https://dev.socrata.com/foundry/data.seattle.gov/vwtx-gvpm", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Trails/6jqd-qkut", null ], "vwtx-gvpm", true, true, "2016-03-17T00:00:00" ]
+, [ 53, "17A83573-90FE-4A98-BB7C-056E296B4B21", 53, 1458329436, "21484", 1458334538, "882792", null, "ckqe-i3ib", "Seattle Parks and Recreation GIS Map Layer - View Points", [ "https://dev.socrata.com/foundry/data.seattle.gov/9c5r-54ck", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-View-Po/ckqe-i3ib", null ], "9c5r-54ck", true, true, "2016-03-17T00:00:00" ]
+, [ 54, "3A8F083E-4942-4A26-9772-4BA377B0A53F", 54, 1458329436, "21484", 1458334539, "882792", null, "7ahz-pesx", "Seattle Parks and Recreation GIS Map Layer - Vollyball Court Outline", [ "https://dev.socrata.com/foundry/data.seattle.gov/wq8z-xgnk", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Volleyb/7ahz-pesx", null ], "wq8z-xgnk", true, true, "2016-03-17T00:00:00" ]
+, [ 55, "4509693E-95A4-4C43-B78C-972F2A6B00B4", 55, 1458329436, "21484", 1458334541, "882792", null, "bhtj-4mhs", "Seattle Parks and Recreation GIS Map Layer - Vollyball Court Point", [ "https://dev.socrata.com/foundry/data.seattle.gov/qajs-seq4", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Volleyb/bhtj-4mhs", null ], "qajs-seq4", true, true, "2016-03-17T00:00:00" ]
+, [ 56, "4FC57FE0-32F8-4DF9-A368-D7157F94763B", 56, 1458329436, "21484", 1458334542, "882792", null, "ymx5-v2h6", "Seattle Parks and Recreation GIS Map Layer - Wading Pools", [ "https://dev.socrata.com/foundry/data.seattle.gov/q9rk-mk36", null ], [ "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Wading-/ymx5-v2h6", null ], "q9rk-mk36", true, true, "2016-03-17T00:00:00" ]
+ ]
+}

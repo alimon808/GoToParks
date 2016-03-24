@@ -1,0 +1,880 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "v5tj-kqhc",
+      "name" : "Seattle Parks And Recreation Park Addresses",
+      "attribution" : "Seattle Parks and Recreation",
+      "attributionLink" : "http://www.seattle.gov/parks",
+      "averageRating" : 0,
+      "category" : "Parks and Recreation",
+      "createdAt" : 1457718693,
+      "description" : "Seattle Parks and Recreation Park Addresses with X and Y coordinates",
+      "displayType" : "table",
+      "downloadCount" : 12,
+      "indexUpdatedAt" : 1458262010,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 18991022,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1458258275,
+      "publicationGroup" : 8869023,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1458258225,
+      "rowsUpdatedBy" : "3asm-yice",
+      "tableId" : 9065178,
+      "totalTimesRated" : 0,
+      "viewCount" : 41,
+      "viewLastModified" : 1458258275,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 247355960,
+        "name" : "PMAID",
+        "dataTypeName" : "number",
+        "fieldName" : "pmaid",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 34945876,
+        "width" : 72,
+        "cachedContents" : {
+          "non_null" : 412,
+          "smallest" : "43",
+          "sum" : "10039762",
+          "null" : 0,
+          "average" : "24368.35436893204",
+          "largest" : "1100393",
+          "top" : [ {
+            "count" : 20,
+            "item" : "580"
+          }, {
+            "count" : 19,
+            "item" : "3926"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 247355961,
+        "name" : "LocID",
+        "dataTypeName" : "number",
+        "fieldName" : "locid",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 34945877,
+        "width" : 73,
+        "cachedContents" : {
+          "non_null" : 412,
+          "smallest" : "0",
+          "sum" : "648869",
+          "null" : 0,
+          "average" : "1574.924757281553",
+          "largest" : "9909",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "1633"
+          }, {
+            "count" : 18,
+            "item" : "1667"
+          }, {
+            "count" : 17,
+            "item" : "1668"
+          }, {
+            "count" : 16,
+            "item" : "1669"
+          }, {
+            "count" : 15,
+            "item" : "2336"
+          }, {
+            "count" : 14,
+            "item" : "1748"
+          }, {
+            "count" : 13,
+            "item" : "1684"
+          }, {
+            "count" : 12,
+            "item" : "2394"
+          }, {
+            "count" : 11,
+            "item" : "393"
+          }, {
+            "count" : 10,
+            "item" : "2499"
+          }, {
+            "count" : 9,
+            "item" : "1689"
+          }, {
+            "count" : 8,
+            "item" : "1692"
+          }, {
+            "count" : 7,
+            "item" : "1694"
+          }, {
+            "count" : 6,
+            "item" : "1045"
+          }, {
+            "count" : 5,
+            "item" : "1695"
+          }, {
+            "count" : 4,
+            "item" : "2603"
+          }, {
+            "count" : 3,
+            "item" : "2401"
+          }, {
+            "count" : 2,
+            "item" : "2402"
+          }, {
+            "count" : 1,
+            "item" : "2561"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 247355962,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34945878,
+        "width" : 283,
+        "cachedContents" : {
+          "non_null" : 412,
+          "smallest" : "12th and Howe Play Park",
+          "null" : 0,
+          "largest" : "York Playground",
+          "top" : [ {
+            "count" : 20,
+            "item" : "York Park"
+          }, {
+            "count" : 19,
+            "item" : "York Playground"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247355963,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34945879,
+        "width" : 249,
+        "cachedContents" : {
+          "non_null" : 412,
+          "smallest" : "1000 N 50th St",
+          "null" : 0,
+          "largest" : "W Ruffner to Elliott Bay Marina",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3650 Renton Ave S"
+          }, {
+            "count" : 19,
+            "item" : "3327 34th Ave S"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247355964,
+        "name" : "ZIP Code",
+        "dataTypeName" : "text",
+        "fieldName" : "zip_code",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34945880,
+        "width" : 69,
+        "cachedContents" : {
+          "non_null" : 412,
+          "smallest" : "98101",
+          "null" : 0,
+          "largest" : "98199",
+          "top" : [ {
+            "count" : 20,
+            "item" : "98119"
+          }, {
+            "count" : 19,
+            "item" : "98144"
+          }, {
+            "count" : 18,
+            "item" : "98122"
+          }, {
+            "count" : 17,
+            "item" : "98107"
+          }, {
+            "count" : 16,
+            "item" : "98112"
+          }, {
+            "count" : 15,
+            "item" : "98199"
+          }, {
+            "count" : 14,
+            "item" : "98117"
+          }, {
+            "count" : 13,
+            "item" : "98103"
+          }, {
+            "count" : 12,
+            "item" : "98118"
+          }, {
+            "count" : 11,
+            "item" : "98125"
+          }, {
+            "count" : 10,
+            "item" : "98116"
+          }, {
+            "count" : 9,
+            "item" : "98146"
+          }, {
+            "count" : 8,
+            "item" : "98102"
+          }, {
+            "count" : 7,
+            "item" : "98115"
+          }, {
+            "count" : 6,
+            "item" : "98104"
+          }, {
+            "count" : 5,
+            "item" : "98105"
+          }, {
+            "count" : 4,
+            "item" : "98121"
+          }, {
+            "count" : 3,
+            "item" : "98126"
+          }, {
+            "count" : 2,
+            "item" : "98109"
+          }, {
+            "count" : 1,
+            "item" : "98133"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247355965,
+        "name" : "X Coord",
+        "dataTypeName" : "number",
+        "fieldName" : "x_coord",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 34945881,
+        "width" : 106,
+        "cachedContents" : {
+          "non_null" : 412,
+          "smallest" : "-122.416054",
+          "sum" : "-50400.991836",
+          "null" : 0,
+          "average" : "-122.3325044563107",
+          "largest" : "-122.246841",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-122.295537"
+          }, {
+            "count" : 19,
+            "item" : "-122.290713"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247355966,
+        "name" : "Y Coord",
+        "dataTypeName" : "number",
+        "fieldName" : "y_coord",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 34945882,
+        "width" : 108,
+        "cachedContents" : {
+          "non_null" : 412,
+          "smallest" : "47.50039",
+          "sum" : "19619.103126",
+          "null" : 0,
+          "average" : "47.61918234466019",
+          "largest" : "47.733024",
+          "top" : [ {
+            "count" : 20,
+            "item" : "47.570461"
+          }, {
+            "count" : 19,
+            "item" : "47.572695"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 247355967,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 8,
+        "renderTypeName" : "location",
+        "tableColumnId" : 34945884,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 412,
+          "smallest" : {
+            "longitude" : "-122.372985",
+            "latitude" : "47.636097"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : "-122.290713",
+            "latitude" : "47.572695"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-122.295537",
+              "latitude" : "47.570461"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-122.290713",
+              "latitude" : "47.572695"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Refresh Frequency" : {
+            "Frequency" : "monthly"
+          },
+          "Data Owner" : {
+            "Owner" : "Seattle Parks and Recreation"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "row"
+      },
+      "owner" : {
+        "id" : "3asm-yice",
+        "displayName" : "Smith, Christopher",
+        "profileImageUrlLarge" : "/api/users/3asm-yice/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3asm-yice/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3asm-yice/profile_images/TINY",
+        "roleName" : "publisher",
+        "screenName" : "Smith, Christopher",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "3asm-yice",
+        "displayName" : "Smith, Christopher",
+        "profileImageUrlLarge" : "/api/users/3asm-yice/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3asm-yice/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3asm-yice/profile_images/TINY",
+        "roleName" : "publisher",
+        "screenName" : "Smith, Christopher",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs" ]
+      },
+      "tags" : [ "seattle", "parks", "recreation", "address", "addresses" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "90BA051E-66FF-433A-A2A2-1404B814DCCB", 1, 1457718696, "386118", 1457718696, "386118", null, "281", "2545", "12th and Howe Play Park", "1200 W Howe St", "98119", "-122.372985", "47.636097", [ null, "47.636097", "-122.372985", null, false ] ]
+, [ 2, "B936C8B7-C65B-49E9-83D8-66147E036ABE", 2, 1457718696, "386118", 1457718696, "386118", null, "4159", "2387", "12th Ave S Viewpoint", "2821 12TH Ave S", "98144", "-122.317765", "47.577953", [ null, "47.577953", "-122.317765", null, false ] ]
+, [ 3, "64E4698B-B9F8-414B-9974-A0AE72D5520C", 3, 1457718696, "386118", 1457718696, "386118", null, "4467", "2382", "12th Ave Square Park", "564 12th Ave", "98122", "-122.316455", "47.607427", [ null, "47.607427", "-122.316455", null, false ] ]
+, [ 4, "FBBC7E52-D260-490B-BC63-60D50CBED063", 4, 1457718696, "386118", 1457718696, "386118", null, "4010", "2546", "14th Ave NW Boat Ramp", "4400 14th Ave NW", "98107", "-122.373536", "47.660775", [ null, "47.660775", "-122.373536", null, false ] ]
+, [ 5, "09C30189-A8CE-4380-9502-582AC55A3A77", 5, 1457718696, "386118", 1457718696, "386118", null, "296", "296", "3001 E Madison", "3001 E Madison St", "98112", "-122.293173", "47.625169", [ null, "47.625169", "-122.293173", null, false ] ]
+, [ 6, "BDB2D422-D9E8-42CD-AB62-62183B5808A6", 6, 1457718696, "386118", 1457718696, "386118", null, "1000001", "0", "32nd Ave W Boat Launch", "32nd Ave W", "98199", "-122.398685", "47.632345", [ null, "47.632345", "-122.398685", null, false ] ]
+, [ 7, "7B76BF91-0E88-45A4-AA2D-04FEBA8EFBB2", 7, 1457718696, "386118", 1457718696, "386118", null, "3158", "2378", "6th Ave NW Pocket Park", "606  NW 76th St", "98117", "-122.363566", "47.684202", [ null, "47.684202", "-122.363566", null, false ] ]
+, [ 8, "2307D325-0D19-4DD7-9D4D-578127E5C712", 8, 1457718696, "386118", 1457718696, "386118", null, "4404", "2533", "A. B. Ernst Park", "723 N 35th St", "98103", "-122.348826", "47.650087", [ null, "47.650087", "-122.348826", null, false ] ]
+, [ 9, "31628BCE-8943-42DB-81F7-560AF46213A8", 9, 1457718696, "386118", 1457718696, "386118", null, "1000002", "0", "Adams Street Boat Ramp", "Lake Washington Blvd S & S Adams St", "98118", "-122.267178", "47.565219", [ null, "47.565219", "-122.267178", null, false ] ]
+, [ 10, "05CC82BB-D2E8-4D94-B305-360EF9A22A2C", 10, 1457718696, "386118", 1457718696, "386118", null, "244", "1886", "Albert Davis Park", "12526 27th Ave NE", "98125", "-122.298752", "47.72016", [ null, "47.72016", "-122.298752", null, false ] ]
+, [ 11, "3664DA14-3449-46E7-ADC9-92F0DB1252E3", 11, 1457718696, "386118", 1457718696, "386118", null, "445", "1888", "Alki Beach Park", "1702 Alki Ave SW", "98116", "-122.402173", "47.582912", [ null, "47.582912", "-122.402173", null, false ] ]
+, [ 12, "019266CD-A490-4BDF-9585-AB3A3E974FFC", 12, 1457718696, "386118", 1457718696, "386118", null, "446", "1049", "Alki Playground", "5817 SW Lander St", "98116", "-122.407312", "47.578497", [ null, "47.578497", "-122.407312", null, false ] ]
+, [ 13, "88A634D3-213A-47AA-88B1-FE83869C72BB", 13, 1457718696, "386118", 1457718696, "386118", null, "3914", "1891", "Alvin Larkins Park", "1504 34TH Ave", "98122", "-122.288745", "47.614318", [ null, "47.614318", "-122.288745", null, false ] ]
+, [ 14, "57E7A996-EF97-4244-BC5C-94AC42507F20", 14, 1457718696, "386118", 1457718696, "386118", null, "426", "1892", "Amy Yee Tennis Center", "2000 Martin Luther King Jr Way S", "98144", "-122.29742", "47.584876", [ null, "47.584876", "-122.29742", null, false ] ]
+, [ 15, "1AFE7B00-D3F6-4EE3-9FD3-197E6B1599C8", 15, 1457718696, "386118", 1457718696, "386118", null, "2927", "1894", "Andover Place", "4000 Beach Dr SW", "98116", "-122.409993", "47.568517", [ null, "47.568517", "-122.409993", null, false ] ]
+, [ 16, "81F47EAA-213D-4B76-8A19-2D7430C3AAD3", 16, 1457718696, "386118", 1457718696, "386118", null, "1556", "1898", "Arapahoe Triangle", "3431 Arapahoe Pl W", "98199", "-122.409139", "47.65129", [ null, "47.65129", "-122.409139", null, false ] ]
+, [ 17, "5E7F9BA5-99BF-4552-9DA7-6D2754DAB1B0", 17, 1457718696, "386118", 1457718696, "386118", null, "485", "1907", "Arroyos Natural Area", "4120 Arroyo Dr SW", "98146", "-122.387822", "47.505679", [ null, "47.505679", "-122.387822", null, false ] ]
+, [ 18, "DF427752-C939-469F-8D8D-3A712D39BD7E", 18, 1457718696, "386118", 1457718696, "386118", null, "4081", "1908", "Atlantic City Boat Ramp", "8702 Seward Park Ave S", "98118", "-122.263078", "47.522834", [ null, "47.522834", "-122.263078", null, false ] ]
+, [ 19, "C5418760-F1C4-4B7A-8CB5-5A4501C674AF", 19, 1457718696, "386118", 1457718696, "386118", null, "4243", "2541", "Atlantic Street Park", "1501 21st Ave S", "98144", "-122.30566", "47.589165", [ null, "47.589165", "-122.30566", null, false ] ]
+, [ 20, "69BC8975-1512-4BAD-8589-9007E64B348C", 20, 1457718696, "386118", 1457718696, "386118", null, "241", "2552", "B.F. Day Playground", "4020 Fremont Ave N", "98103", "-122.349222", "47.65603", [ null, "47.65603", "-122.349222", null, false ] ]
+, [ 21, "9CEF1828-5CB4-4C4F-80F4-BF4269AC519A", 21, 1457718696, "386118", 1457718696, "386118", null, "4006", "1910", "Bagley Viewpoint", "2548 Delmar Dr E", "98102", "-122.318347", "47.643015", [ null, "47.643015", "-122.318347", null, false ] ]
+, [ 22, "37E5DE96-36BB-43C5-B8AD-3212D7BC4D47", 22, 1457718696, "386118", 1457718696, "386118", null, "2840", "1911", "Baker Park on Crown Hill", "8347 14th Ave NW", "98117", "-122.374794", "47.690119", [ null, "47.690119", "-122.374794", null, false ] ]
+, [ 23, "F1F69118-74D7-4094-9DD5-3B258D080E22", 23, 1457718696, "386118", 1457718696, "386118", null, "4278", "1913", "Ballard Commons Park", "5701 22nd Ave NW", "98107", "-122.385487", "47.670549", [ null, "47.670549", "-122.385487", null, false ] ]
+, [ 24, "4F4F2307-313E-493A-A697-0B4B03288DF1", 24, 1457718696, "386118", 1457718696, "386118", null, "4428", "1914", "Ballard Corners Park", "1702 nw 62nd St", "98107", "-122.379116", "47.674186", [ null, "47.674186", "-122.379116", null, false ] ]
+, [ 25, "55374566-CAEE-468C-AC02-3B5B90BC8F42", 25, 1457718696, "386118", 1457718696, "386118", null, "497", "1108", "Ballard Playground", "2644 NW 60th St", "98107", "-122.39155", "47.672786", [ null, "47.672786", "-122.39155", null, false ] ]
+, [ 26, "359177AF-E743-44FC-ABA5-031E8D98C729", 26, 1457718696, "386118", 1457718696, "386118", null, "4073", "2553", "Banner Way Triangle", "7802 Banner Way NE", "98115", "-122.32343", "47.685762", [ null, "47.685762", "-122.32343", null, false ] ]
+, [ 27, "61865364-1D71-482A-83F6-FD15C8D69F4F", 27, 1457718696, "386118", 1457718696, "386118", null, "3703", "1919", "Bar-S Playground", "6425 SW Admiral Way", "98116", "-122.416054", "47.575195", [ null, "47.575195", "-122.416054", null, false ] ]
+, [ 28, "A8448E86-F435-43D2-AE68-4C780E7DA324", 28, 1457718696, "386118", 1457718696, "386118", null, "303", "1110", "Bayview Playground", "2614 24th Ave W", "98199", "-122.386786", "47.643802", [ null, "47.643802", "-122.386786", null, false ] ]
+, [ 29, "5E9A733D-54CA-4AD8-BF9C-A3AC34C262C2", 29, 1457718696, "386118", 1457718696, "386118", null, "1000342", "0", "Bayview-Kinnear (Lower Kerry Park)", "3rd Ave W & W Prospect St", "98119", "-122.360626", "47.628948", [ null, "47.628948", "-122.360626", null, false ] ]
+, [ 30, "527C3ACB-7B24-4B5C-A9C6-6BFE9779AB13", 30, 1457718696, "386118", 1457718696, "386118", null, "400", "1074", "Beacon Hill Playground", "1902 13th Ave S", "98144", "-122.315325", "47.586226", [ null, "47.586226", "-122.315325", null, false ] ]
+, [ 31, "328BBC02-5E23-4639-A2F6-A69DB280D4F2", 31, 1457718696, "386118", 1457718696, "386118", null, "3119", "1923", "Beacon Place", "1110 S Dearborn St", "98104", "-122.318716", "47.596236", [ null, "47.596236", "-122.318716", null, false ] ]
+, [ 32, "0F41EAAC-24FC-4765-81BA-6FFCE786BDFC", 32, 1457718696, "386118", 1457718696, "386118", null, "4481", "1075", "Beaver Pond Natural Area on Thornton Creek", "5th Ave NE & NE 103rd St", "98125", "-122.323168", "47.703288", [ null, "47.703288", "-122.323168", null, false ] ]
+, [ 33, "C403C5C0-865E-4C59-89CE-DBE7B90743EF", 33, 1457718696, "386118", 1457718696, "386118", null, "4028", "0", "Beck Place", "5809 15th Ave NE", "98105", "-122.312027", "47.671888", [ null, "47.671888", "-122.312027", null, false ] ]
+, [ 34, "31EADBA2-22CE-4073-8FD0-8D2F17ED981B", 34, 1457718696, "386118", 1457718696, "386118", null, "440", "1925", "Beer Sheva Park", "8650 55th Ave S", "98118", "-122.263223", "47.524191", [ null, "47.524191", "-122.263223", null, false ] ]
+, [ 35, "85A8E644-1390-49FD-8C4D-925416217DB0", 35, 1457718696, "386118", 1457718696, "386118", null, "4472", "2543", "Bell Street Park", "1st to 5th Ave on Bell St", "98121", "-122.344866", "47.614696", [ null, "47.614696", "-122.344866", null, false ] ]
+, [ 36, "064A6645-9958-4E97-AECC-68BF2E296CDE", 36, 1457718696, "386118", 1457718696, "386118", null, "4022", "1182", "Bellevue Place", "Bellevue Ave E & Bellevue Pl E", "98102", "-122.327658", "47.626904", [ null, "47.626904", "-122.327658", null, false ] ]
+, [ 37, "CE29A094-5FC7-462B-BA1A-839A724A5121", 37, 1457718696, "386118", 1457718696, "386118", null, "4415", "1186", "Belltown Cottage Park", "2512 Elliott Ave", "98121", "-122.350776", "47.613889", [ null, "47.613889", "-122.350776", null, false ] ]
+, [ 38, "8DE46852-12AE-4C1A-B3CE-BDD24D9DA4D4", 38, 1457718696, "386118", 1457718696, "386118", null, "346", "1290", "Belmont Place", "703 Belmont Pl E", "98102", "-122.324408", "47.625727", [ null, "47.625727", "-122.324408", null, false ] ]
+, [ 39, "E65439B4-8313-46B7-93F1-C9983EEB7F17", 39, 1457718696, "386118", 1457718696, "386118", null, "447", "1188", "Belvedere Park", "3600 SW Admiral Way", "98126", "-122.376896", "47.580673", [ null, "47.580673", "-122.376896", null, false ] ]
+, [ 40, "2CA15F81-0887-4127-ADB2-AF07DA043984", 40, 1457718696, "386118", 1457718696, "386118", null, "475", "1189", "Belvoir Place", "3659 42nd Ave NE", "98105", "-122.283215", "47.655124", [ null, "47.655124", "-122.283215", null, false ] ]
+, [ 41, "60856C89-15E8-4A30-93F3-A7FC27848F5C", 41, 1457718696, "386118", 1457718696, "386118", null, "436", "1077", "Benefit Playground", "9320 38th Ave S", "98118", "-122.284294", "47.518998", [ null, "47.518998", "-122.284294", null, false ] ]
+, [ 42, "CE17274F-04FB-4797-A7BD-7221A450F612", 42, 1457718696, "386118", 1457718696, "386118", null, "4245", "1190", "Benvenuto Viewpoint", "1401 23rd Ave S", "98122", "-122.303029", "47.589841", [ null, "47.589841", "-122.303029", null, false ] ]
+, [ 43, "179E36CD-DC94-40D2-8505-C99F3C8DB32A", 43, 1457718696, "386118", 1457718696, "386118", null, "253", "1191", "Bergen Place", "5420 22nd Ave NW", "98107", "-122.384495", "47.66833", [ null, "47.66833", "-122.384495", null, false ] ]
+, [ 44, "DD34C927-5FCC-416F-93B8-927A278807CA", 44, 1457718696, "386118", 1457718696, "386118", null, "304", "1193", "Bhy Kracke Park", "1215 5th Ave N", "98109", "-122.348403", "47.630426", [ null, "47.630426", "-122.348403", null, false ] ]
+, [ 45, "2C17BF86-68ED-4BD1-95C6-D05854BB071E", 45, 1457718696, "386118", 1457718696, "386118", null, "288", "1113", "Bitter Lake Playfield", "13035 Linden Ave N", "98133", "-122.349314", "47.724209", [ null, "47.724209", "-122.349314", null, false ] ]
+, [ 46, "0AEB6DE6-4AD2-4E2A-BF31-BAE1FA589A47", 46, 1457718696, "386118", 1457718696, "386118", null, "4450", "1194", "Bitter Lake Reservoir Open Space", "14201 Linden Ave N", "98133", "-122.348583", "47.731181", [ null, "47.731181", "-122.348583", null, false ] ]
+, [ 47, "A1C582E7-53AA-481A-A918-C0D69B8CD322", 47, 1457718696, "386118", 1457718696, "386118", null, "3907", "1196", "Blaine Place", "513 W Olympic Pl", "98119", "-122.364152", "47.626809", [ null, "47.626809", "-122.364152", null, false ] ]
+, [ 48, "5BE58312-9536-45AF-BFF1-BB3F3DEC3F87", 48, 1457718696, "386118", 1457718696, "386118", null, "4418", "1198", "Blue Dog Pond", "1520 26th Ave S", "98144", "-122.297814", "47.589982", [ null, "47.589982", "-122.297814", null, false ] ]
+, [ 49, "9DAB03B4-A1D3-4BC6-AFC2-DF555BBB1C71", 49, 1457718696, "386118", 1457718696, "386118", null, "238", "1199", "Blue Ridge Circle", "1851 NW Blue Ridge Dr", "98117", "-122.380095", "47.70439", [ null, "47.70439", "-122.380095", null, false ] ]
+, [ 50, "6C0D2A20-4099-469D-94BA-94D2805C3C44", 50, 1457718696, "386118", 1457718696, "386118", null, "239", "1200", "Blue Ridge Place", "Radford Ave NW & NW Milford Way", "98117", "-122.381171", "47.703423", [ null, "47.703423", "-122.381171", null, false ] ]
+, [ 51, "972E8496-2D68-4403-AFC2-69C2417374D4", 51, 1457718696, "386118", 1457718696, "386118", null, "348", "0", "Boren Place", "321 Broadway", "98122", "-122.320952", "47.604999", [ null, "47.604999", "-122.320952", null, false ] ]
+, [ 52, "AA81AECE-B865-4087-B536-6A7343096C35", 52, 1457718696, "386118", 1457718696, "386118", null, "349", "1202", "Boylston Place", "815 Broadway", "98104", "-122.32094", "47.609976", [ null, "47.609976", "-122.32094", null, false ] ]
+, [ 53, "1DEC2C5D-6161-42CF-9933-465C42B1ACD0", 53, 1457718696, "386118", 1457718696, "386118", null, "401", "1203", "Bradner Gardens Park", "1730 Bradner Pl S", "98144", "-122.295426", "47.587419", [ null, "47.587419", "-122.295426", null, false ] ]
+, [ 54, "A01C741D-1BED-459B-B3B9-BFB0C676F8DC", 54, 1457718696, "386118", 1457718696, "386118", null, "402", "1115", "Brighton Playfield", "6000 39th Ave S", "98118", "-122.2821", "47.548387", [ null, "47.548387", "-122.2821", null, false ] ]
+, [ 55, "C4C6D522-2E5A-4AAD-82B4-81C1813FBAF6", 55, 1457718696, "386118", 1457718696, "386118", null, "3997", "1207", "Broadview Park", "Greenwood Ave N & N 122nd St", "98133", "-122.355836", "47.717936", [ null, "47.717936", "-122.355836", null, false ] ]
+, [ 56, "41EDDEDA-0056-4600-A807-9DF6F8F62059", 56, 1457718696, "386118", 1457718696, "386118", null, "482", "1082", "Bryant Neighborhood Playground", "4103 NE 65th St", "98115", "-122.283644", "47.675299", [ null, "47.675299", "-122.283644", null, false ] ]
+, [ 57, "BAF5D612-9974-455B-8F2D-136703E6859C", 57, 1457718696, "386118", 1457718696, "386118", null, "496", "1083", "Burke-Gilman Playground Park", "5201 Sand Point Way NE", "98105", "-122.282623", "47.666634", [ null, "47.666634", "-122.282623", null, false ] ]
+, [ 58, "08A4CF60-4172-46E3-B949-ED71E2BF1C15", 58, 1457718696, "386118", 1457718696, "386118", null, "3102", "1211", "Cal Anderson Park and Bobby Morris Playfield", "1635 11th Ave", "98122", "-122.319134", "47.617013", [ null, "47.617013", "-122.319134", null, false ] ]
+, [ 59, "71325124-B97B-4572-96BE-1D4D4E2DEBD7", 59, 1457718696, "386118", 1457718696, "386118", null, "448", "1212", "California Place", "2099 California Ave SW", "98116", "-122.386696", "47.585641", [ null, "47.585641", "-122.386696", null, false ] ]
+, [ 60, "D79B873C-5403-462E-9117-15F8374A1197", 60, 1457718696, "386118", 1457718696, "386118", null, "4154", "1213", "Camp Long", "5200 35th Ave SW", "98126", "-122.373161", "47.556242", [ null, "47.556242", "-122.373161", null, false ] ]
+, [ 61, "25DA141A-FECC-4B35-9459-BDF2A082588E", 61, 1457718696, "386118", 1457718696, "386118", null, "240", "1227", "Carkeek Park", "950 NW Carkeek Park Rd", "98117", "-122.379763", "47.712194", [ null, "47.712194", "-122.379763", null, false ] ]
+, [ 62, "8A3FFB32-2743-4E38-99DF-C09586CBE51D", 62, 1457718696, "386118", 1457718696, "386118", null, "305", "1232", "Carleton Center", "2319 Westmont Way W", "98199", "-122.406385", "47.639414", [ null, "47.639414", "-122.406385", null, false ] ]
+, [ 63, "17EF8F44-EFF8-4227-BBED-03F9E350AA83", 63, 1457718696, "386118", 1457718696, "386118", null, "4049", "1233", "Carleton Highlands", "3298 Perkins Ln W", "98199", "-122.415934", "47.650028", [ null, "47.650028", "-122.415934", null, false ] ]
+, [ 64, "D0CD075F-00BC-4DC3-B78E-2EAB2082F706", 64, 1457718696, "386118", 1457718696, "386118", null, "3902", "1235", "Cascade Place", "5119 Palmer Ct NW", "98107", "-122.358092", "47.666216", [ null, "47.666216", "-122.358092", null, false ] ]
+, [ 65, "FABE6633-728F-4E0A-91CA-DBC47FB5A519", 65, 1457718696, "386118", 1457718696, "386118", null, "350", "1117", "Cascade Playground", "333 Pontius Ave N", "98109", "-122.332355", "47.621405", [ null, "47.621405", "-122.332355", null, false ] ]
+, [ 66, "75CFBF6F-71D0-4016-8D3C-E37E5ED627F3", 66, 1457718696, "386118", 1457718696, "386118", null, "4167", "1237", "Cedar Park", "3737 NE 135th St", "98125", "-122.288042", "47.725808", [ null, "47.725808", "-122.288042", null, false ] ]
+, [ 67, "D140C86F-1C93-4CB4-A8DD-81B93CF4BA28", 67, 1457718696, "386118", 1457718696, "386118", null, "4448", "1245", "Cesar Chavez Park", "700 S Cloverdale St", "98108", "-122.32562", "47.52678", [ null, "47.52678", "-122.32562", null, false ] ]
+, [ 68, "5D1A012D-EEAB-4F81-BA5C-560DE925F903", 68, 1457718696, "386118", 1457718696, "386118", null, "80", "2497", "Charles Richey Sr Viewpoint", "3521 Beach Dr SW", "98116", "-122.413877", "47.57242", [ null, "47.57242", "-122.413877", null, false ] ]
+, [ 69, "7CDB72F1-0EC4-4B9F-854C-2F457F101102", 69, 1457718696, "386118", 1457718696, "386118", null, "4214", "2532", "Cheasty Boulevard", "Cheasty Blvd S & S Della St", "98144", "-122.299204", "47.572682", [ null, "47.572682", "-122.299204", null, false ] ]
+, [ 70, "5658091E-7321-48B6-A010-D29C0642D795", 70, 1457718696, "386118", 1457718696, "386118", null, "258", "2021", "Cheasty GS: Cheasty Blvd", "Cheasty Blvd S & S Della St", "98144", "-122.299204", "47.572682", [ null, "47.572682", "-122.299204", null, false ] ]
+, [ 71, "E9AEEB31-1D0B-4418-9644-F93A3BDCE67E", 71, 1457718696, "386118", 1457718696, "386118", null, "421", "1249", "Chinook Beach Park", "700 S Cloverdale St", "98118", "-122.258376", "47.520135", [ null, "47.520135", "-122.258376", null, false ] ]
+, [ 72, "C6579FEE-D73C-4A58-A40B-367AC47449D0", 72, 1457718696, "386118", 1457718696, "386118", null, "595", "1250", "Christie Park", "817 NE 43rd St", "98105", "-122.319072", "47.659308", [ null, "47.659308", "-122.319072", null, false ] ]
+, [ 73, "7FA8EEF2-A5A9-4D1A-97F7-2448AC1C5009", 73, 1457718696, "386118", 1457718696, "386118", null, "306", "1252", "City Hall Park", "450 3rd Ave", "98119", "-122.329875", "47.602022", [ null, "47.602022", "-122.329875", null, false ] ]
+, [ 74, "FC12CBA7-0CFE-471D-8747-D55CB6DBD58B", 74, 1457718696, "386118", 1457718696, "386118", null, "404", "2026", "Cleveland Playfield", "5512 13th Ave S", "98108", "-122.315542", "47.552012", [ null, "47.552012", "-122.315542", null, false ] ]
+, [ 75, "02D20D9E-90F3-4CCA-BC42-DC9985BFB84B", 75, 1457718696, "386118", 1457718696, "386118", null, "3985", "1261", "Coe Play Park", "2420 7th Ave W", "98119", "-122.365952", "47.640108", [ null, "47.640108", "-122.365952", null, false ] ]
+, [ 76, "10370F61-89B2-4C42-915E-F5C47B4A9423", 76, 1457718696, "386118", 1457718696, "386118", null, "3922", "2503", "College Street Park", "30th Ave S & S College St", "98144", "-122.294616", "47.582697", [ null, "47.582697", "-122.294616", null, false ] ]
+, [ 77, "FF6B22A2-10E0-482F-A158-1975FC08E571", 77, 1457718696, "386118", 1457718696, "386118", null, "260", "2504", "College Street Ravine", "5050 SW College St", "98116", "-122.395546", "47.583406", [ null, "47.583406", "-122.395546", null, false ] ]
+, [ 78, "9F7E78E0-D2B4-4B67-BD20-1095BACBBF40", 78, 1457718696, "386118", 1457718696, "386118", null, "405", "1263", "Colman Park", "1800 Lake Washington Blvd S", "98144", "-122.288612", "47.58547", [ null, "47.58547", "-122.288612", null, false ] ]
+, [ 79, "981CD269-7A34-4A61-903E-87B532385C5C", 79, 1457718696, "386118", 1457718696, "386118", null, "406", "1121", "Colman Playground", "1740 23rd Ave S", "98122", "-122.301957", "47.587625", [ null, "47.587625", "-122.301957", null, false ] ]
+, [ 80, "310CF778-A9F7-4D76-A4D7-017BA5C10892", 80, 1457718696, "386118", 1457718696, "386118", null, "4034", "1271", "Columbia Park", "4721 Rainier Ave S", "98118", "-122.287394", "47.559792", [ null, "47.559792", "-122.287394", null, false ] ]
+, [ 81, "43FBF011-FD7B-4A87-8144-0F9CB0F8DB62", 81, 1457718696, "386118", 1457718696, "386118", null, "308", "1272", "Commodore Park", "3330 W Commodore Way", "98107", "-122.40014", "47.66538", [ null, "47.66538", "-122.40014", null, false ] ]
+, [ 82, "93081A8A-7922-49BF-8C7B-570246ADCC93", 82, 1457718696, "386118", 1457718696, "386118", null, "4017", "1275", "Corliss Place", "2166 N 50th St", "98103", "-122.330874", "47.665198", [ null, "47.665198", "-122.330874", null, false ] ]
+, [ 83, "34339583-C0AA-4C45-B27C-8D4CA4806CF0", 83, 1457718696, "386118", 1457718696, "386118", null, "295", "1276", "Cormorant Cove", "3701 Beach Dr SW", "98116", "-122.412089", "47.570984", [ null, "47.570984", "-122.412089", null, false ] ]
+, [ 84, "51FC3E6D-33E3-4FA4-B5D4-23CC8C81581C", 84, 1457718696, "386118", 1457718696, "386118", null, "4462", "1277", "Cottage Grove Park", "5206 26th Ave SW", "98106", "-122.365311", "47.554364", [ null, "47.554364", "-122.365311", null, false ] ]
+, [ 85, "FCE66636-5222-48D0-8F54-E6A03356D49F", 85, 1457718696, "386118", 1457718696, "386118", null, "4438", "1084", "Counterbalance Park: An Urban Oasis", "700 Queen Anne Ave N", "98109", "-122.356323", "47.625683", [ null, "47.625683", "-122.356323", null, false ] ]
+, [ 86, "70050552-0AAF-4338-9727-28AFAF9DC8EF", 86, 1457718696, "386118", 1457718696, "386118", null, "483", "1279", "Cowen Park", "5849 15th Ave NE", "98105", "-122.313072", "47.672596", [ null, "47.672596", "-122.313072", null, false ] ]
+, [ 87, "BEA04657-F8F5-4373-8DBB-A23333BC89BD", 87, 1457718696, "386118", 1457718696, "386118", null, "4018", "1280", "Crescent Place", "7515 Orin Ct N", "98103", "-122.333029", "47.684317", [ null, "47.684317", "-122.333029", null, false ] ]
+, [ 88, "77DE0738-D55D-4C45-9448-8157DBD24F84", 88, 1457718696, "386118", 1457718696, "386118", null, "4070", "1281", "Crown Hill Glen", "8735 19th Ave NW", "98117", "-122.381394", "47.693703", [ null, "47.693703", "-122.381394", null, false ] ]
+, [ 89, "47684CE0-4058-4565-9CD3-AECAC114C81C", 89, 1457718696, "386118", 1457718696, "386118", null, "4469", "1282", "Crown Hill Park", "9089 Holman Rd NW", "98117", "-122.373976", "47.696071", [ null, "47.696071", "-122.373976", null, false ] ]
+, [ 90, "BC366BEF-9300-424F-8316-5012C65D0A03", 90, 1457718696, "386118", 1457718696, "386118", null, "4400", "1285", "Daejeon Park", "1144 Sturgus Ave S", "98144", "-122.312163", "47.59192", [ null, "47.59192", "-122.312163", null, false ] ]
+, [ 91, "92EAC086-68B4-44AE-82E0-1CD803A6D353", 91, 1457718696, "386118", 1457718696, "386118", null, "499", "1819", "Dahl Playfield", "7700 25th Ave NE", "98115", "-122.299309", "47.685267", [ null, "47.685267", "-122.299309", null, false ] ]
+, [ 92, "88DBCA68-A15B-414C-8AD2-8D49F80FEE28", 92, 1457718696, "386118", 1457718696, "386118", null, "575", "1287", "Dakota Place Park", "4304 SW Dakota St", "98116", "-122.387164", "47.566844", [ null, "47.566844", "-122.387164", null, false ] ]
+, [ 93, "F46715AA-3DAE-4D2E-8917-3F8D009A940E", 93, 1457718696, "386118", 1457718696, "386118", null, "331", "1289", "David Rodgers Park", "2800 1st Ave W", "98119", "-122.359484", "47.644135", [ null, "47.644135", "-122.359484", null, false ] ]
+, [ 94, "DE4EEE30-648B-4C6C-B219-74B226BDC69B", 94, 1457718696, "386118", 1457718696, "386118", null, "4082", "2505", "Day Street Boat Ramp", "1402 Lakeside Ave S", "98144", "-122.285154", "47.59026", [ null, "47.59026", "-122.285154", null, false ] ]
+, [ 95, "71F3B13A-056F-4019-A323-E67A4D967217", 95, 1457718696, "386118", 1457718696, "386118", null, "408", "1291", "Dearborn Park", "2919 S Brandon St", "98126", "-122.296225", "47.553389", [ null, "47.553389", "-122.296225", null, false ] ]
+, [ 96, "EC962140-2F0C-4E91-8BD8-FBEEE470CF7D", 96, 1457718696, "386118", 1457718696, "386118", null, "450", "1124", "Delridge Playfield", "4458 Delridge Way SW", "98106", "-122.364371", "47.562842", [ null, "47.562842", "-122.364371", null, false ] ]
+, [ 97, "8D872639-EFB8-4E4B-A556-91B69786C334", 97, 1457718696, "386118", 1457718696, "386118", null, "3980", "1298", "Denny Blaine Lake Park", "100 Maiden Ln E", "98112", "-122.284838", "47.61833", [ null, "47.61833", "-122.284838", null, false ] ]
+, [ 98, "67D20167-5EF1-4A5A-A9FD-2CA1CA745716", 98, 1457718696, "386118", 1457718696, "386118", null, "3982", "1300", "Denny Blaine Park", "200 Lake Washington Blvd E", "98112", "-122.280548", "47.62011", [ null, "47.62011", "-122.280548", null, false ] ]
+, [ 99, "BD2500C3-2A4F-491E-A51F-FE2D386F05E3", 99, 1457718696, "386118", 1457718696, "386118", null, "309", "1297", "Denny Park", "100 Dexter Ave N", "98109", "-122.341049", "47.61913", [ null, "47.61913", "-122.341049", null, false ] ]
+, [ 100, "1FCDB40D-21F8-45DF-AF53-18556A9B4FCB", 100, 1457718696, "386118", 1457718696, "386118", null, "310", "1301", "Discovery Park", "3801 Discovery Park Blvd", "98199", "-122.415282", "47.66083", [ null, "47.66083", "-122.415282", null, false ] ]
+, [ 101, "2886EC28-2F61-4ED5-A1E0-55488E08970D", 101, 1457718696, "386118", 1457718696, "386118", null, "3917", "1085", "Don Armeni Park", "1222 Harbor Ave SW", "98116", "-122.382295", "47.59274", [ null, "47.59274", "-122.382295", null, false ] ]
+, [ 102, "3BC1163D-548C-472F-AACE-F987E682AEEA", 102, 1457718696, "386118", 1457718696, "386118", null, "395", "2496", "Dr. Blanche Lavizzo Park", "2100 S Jackson St", "98144", "-122.304179", "47.600278", [ null, "47.600278", "-122.304179", null, false ] ]
+, [ 103, "90E872F0-8660-4B30-BF46-1D16D6E645CD", 103, 1457718696, "386118", 1457718696, "386118", null, "433", "2490", "Dr. Jose Rizal Park", "1007 12th Ave S", "98144", "-122.318094", "47.593859", [ null, "47.593859", "-122.318094", null, false ] ]
+, [ 104, "2A0E5F07-A1DE-443D-9684-1DFC888F145A", 104, 1457718696, "386118", 1457718696, "386118", null, "705", "1304", "Duwamish Waterway Park", "7900 10th Ave S", "98106", "-122.319694", "47.531156", [ null, "47.531156", "-122.319694", null, false ] ]
+, [ 105, "ED8BF8D0-CD13-4C5D-AAF6-62482FB7A0F3", 105, 1457718696, "386118", 1457718696, "386118", null, "458", "2534", "E.C. Hughes Playground", "2805 SW Holden St", "98126", "-122.369545", "47.532805", [ null, "47.532805", "-122.369545", null, false ] ]
+, [ 106, "A78A94A5-7BDC-4A29-8BEE-2D91B16C7692", 106, 1457718696, "386118", 1457718696, "386118", null, "374", "1305", "East Montlake Park", "2802 E Park Drive East", "98112", "-122.301441", "47.646662", [ null, "47.646662", "-122.301441", null, false ] ]
+, [ 107, "964217E2-21AB-45D8-82B7-CE5FD749A2C9", 107, 1457718696, "386118", 1457718696, "386118", null, "4241", "2507", "East Portal Viewpoint", "1400 Lake Washington Blvd S", "98144", "-122.287893", "47.590222", [ null, "47.590222", "-122.287893", null, false ] ]
+, [ 108, "4B0622D0-BADE-475D-90B9-3751EEC3CBA9", 108, 1457718696, "386118", 1457718696, "386118", null, "329", "2535", "East Queen Anne Playground", "1912 Warren Ave N", "98109", "-122.353786", "47.636139", [ null, "47.636139", "-122.353786", null, false ] ]
+, [ 109, "30984021-0DA1-4157-B527-A56801B2C913", 109, 1457718696, "386118", 1457718696, "386118", null, "3977", "0", "Eastlake Triangle", "10th Ave E & E Prospect St", "98109", "-122.328918", "47.62841", [ null, "47.62841", "-122.328918", null, false ] ]
+, [ 110, "06C01C39-DE58-4A85-AF1A-574914AA65EF", 110, 1457718696, "386118", 1457718696, "386118", null, "4012", "1308", "Eastmont Place", "2201 Westmont Way W", "98199", "-122.405566", "47.637689", [ null, "47.637689", "-122.405566", null, false ] ]
+, [ 111, "8B52DD31-45C7-45E3-8007-C9BC8AEE857F", 111, 1457718696, "386118", 1457718696, "386118", null, "1000003", "0", "Eddie Vine Boat Ramp", "8001 Seaview Ave NW", "98117", "-122.403454", "47.686852", [ null, "47.686852", "-122.403454", null, false ] ]
+, [ 112, "FF5D8DDA-6170-4046-ADBC-8E337DBF1E31", 112, 1457718696, "386118", 1457718696, "386118", null, "318", "1311", "Ella Bailey Park", "2601 W Smith St", "98199", "-122.39106", "47.640584", [ null, "47.640584", "-122.39106", null, false ] ]
+, [ 113, "D2DA7029-6A1C-4BDD-A0C9-84D588814147", 113, 1457718696, "386118", 1457718696, "386118", null, "3920", "1086", "Emma Schmitz Memorial Overlook", "4503 Beach Dr SW", "98116", "-122.40712", "47.562898", [ null, "47.562898", "-122.40712", null, false ] ]
+, [ 114, "104DD1A2-C110-4F90-8929-82F3AFB780CF", 114, 1457718696, "386118", 1457718696, "386118", null, "1653", "1314", "Endolyne Park", "9827 49th Ave SW", "98116", "-122.39438", "47.514542", [ null, "47.514542", "-122.39438", null, false ] ]
+, [ 115, "E4EF255C-55DF-48E5-9B91-08D598FC4BB1", 115, 1457718696, "386118", 1457718696, "386118", null, "4454", "1316", "Ercolini Park", "4542 48th Ave SW", "98116", "-122.394275", "47.515021", [ null, "47.515021", "-122.394275", null, false ] ]
+, [ 116, "C4A56807-D535-447A-8AA0-80EB6B40FF2D", 116, 1457718696, "386118", 1457718696, "386118", null, "452", "1127", "Fairmount Playfield", "5400 Fauntleroy Way SW", "98136", "-122.380549", "47.554041", [ null, "47.554041", "-122.380549", null, false ] ]
+, [ 117, "6E1E59D2-2326-4AC8-82FD-A4B5406599B7", 117, 1457718696, "386118", 1457718696, "386118", null, "2975", "1323", "Fairview Park", "2900 Fairview Ave E", "98102", "-122.325368", "47.647413", [ null, "47.647413", "-122.325368", null, false ] ]
+, [ 118, "17A1912A-8A31-46F4-AEAD-883BDC51DFAA", 118, 1457718696, "386118", 1457718696, "386118", null, "4155", "1461", "Fairview Walkway", "1251 Fairview Ave. N", "98109", "-122.328967", "47.630501", [ null, "47.630501", "-122.328967", null, false ] ]
+, [ 119, "15569008-6F6E-4776-B093-EAFA3BB10735", 119, 1457718696, "386118", 1457718696, "386118", null, "3149", "1324", "Fauntleroy Creek Ravine", "9102 Fauntleroy Way SW", "98136", "-122.392498", "47.522599", [ null, "47.522599", "-122.392498", null, false ] ]
+, [ 120, "77D42FCF-D795-45B3-9FEC-C451B829A37B", 120, 1457718696, "386118", 1457718696, "386118", null, "453", "1325", "Fauntleroy Park", "3951 SW Barton St", "98136", "-122.383222", "47.5192", [ null, "47.5192", "-122.383222", null, false ] ]
+, [ 121, "62170562-8B0A-4FCA-84CB-1BDE787FB5ED", 121, 1457718696, "386118", 1457718696, "386118", null, "3921", "1326", "Fauntleroy Place", "4501 Fauntleroy Way SW", "98126", "-122.379834", "47.562715", [ null, "47.562715", "-122.379834", null, false ] ]
+, [ 122, "DC18444C-EF1E-4B13-8950-8C9DD4208D72", 122, 1457718696, "386118", 1457718696, "386118", null, "413", "2498", "Ferdinand Street Boat Ramp", "5018 Lake Washington Blvd S", "98118", "-122.264912", "47.561358", [ null, "47.561358", "-122.264912", null, false ] ]
+, [ 123, "160AFFF4-AACD-497D-817C-EFDCEE029CF1", 123, 1457718696, "386118", 1457718696, "386118", null, "351", "1331", "Firehouse Mini Park", "712 18th Ave", "98122", "-122.308558", "47.608448", [ null, "47.608448", "-122.308558", null, false ] ]
+, [ 124, "6F782453-D1CB-4ACB-9FE9-16938D737A8A", 124, 1457718696, "386118", 1457718696, "386118", null, "3910", "1332", "First Hill Park", "1201 University St", "98101", "-122.325512", "47.611906", [ null, "47.611906", "-122.325512", null, false ] ]
+, [ 125, "03851377-D933-49DC-BEAF-2C25C14D9499", 125, 1457718696, "386118", 1457718696, "386118", null, "3948", "1333", "Fletcher Place", "9285 Waters Ave S", "98118", "-122.261484", "47.519093", [ null, "47.519093", "-122.261484", null, false ] ]
+, [ 126, "B7725546-3623-4057-9FDC-30262857F942", 126, 1457718696, "386118", 1457718696, "386118", null, "363", "1334", "Flo Ware Park", "2800 S Jackson St", "98144", "-122.295868", "47.599557", [ null, "47.599557", "-122.295868", null, false ] ]
+, [ 127, "AFB6D0FF-F9BC-4EF0-8507-285F39132EE0", 127, 1457718696, "386118", 1457718696, "386118", null, "312", "2390", "Freeway Park - Jim Ellis Freeway Park", "700 Seneca St", "98101", "-122.330904", "47.609472", [ null, "47.609472", "-122.330904", null, false ] ]
+, [ 128, "6009A0D0-A4F6-41D9-B79B-E6CD4FF737FF", 128, 1457718696, "386118", 1457718696, "386118", null, "4011", "1341", "Fremont Canal Park", "199 N Canal St", "98103", "-122.357864", "47.651802", [ null, "47.651802", "-122.357864", null, false ] ]
+, [ 129, "1DCDB51D-1B20-431C-988E-D4D941D1A888", 129, 1457718696, "386118", 1457718696, "386118", null, "4424", "1343", "Fremont Peak Park", "4357 Palatine Ave N", "98103", "-122.356671", "47.661108", [ null, "47.661108", "-122.356671", null, false ] ]
+, [ 130, "C3C8B339-83F4-4F6E-B27F-90B9A19E9A69", 130, 1457718696, "386118", 1457718696, "386118", null, "392", "1345", "Frink Park", "398 Lake Washington Blvd S", "98144", "-122.290256", "47.599506", [ null, "47.599506", "-122.290256", null, false ] ]
+, [ 131, "4F5F4DB7-5DFA-487B-88F0-86B7DAADCF10", 131, 1457718696, "386118", 1457718696, "386118", null, "287", "1128", "Froula Playground", "7200 12th Ave NE", "98115", "-122.313978", "47.680538", [ null, "47.680538", "-122.313978", null, false ] ]
+, [ 132, "D04E6C90-58AC-4B1E-A80C-0C3E8B101F64", 132, 1457718696, "386118", 1457718696, "386118", null, "353", "1130", "Garfield Playfield", "537 25th Ave", "98122", "-122.301412", "47.607098", [ null, "47.607098", "-122.301412", null, false ] ]
+, [ 133, "783F8907-57A0-42EB-970F-FEF1520F37F2", 133, 1457718696, "386118", 1457718696, "386118", null, "293", "1349", "Gas Works Park", "2101 N Northlake Way", "98103", "-122.334906", "47.645639", [ null, "47.645639", "-122.334906", null, false ] ]
+, [ 134, "86AEFB36-C901-47B5-B648-BE2BA8E350B5", 134, 1457718696, "386118", 1457718696, "386118", null, "409", "1786", "Genesee Park and Playfield", "4316 S Genesee St", "98118", "-122.278744", "47.564856", [ null, "47.564856", "-122.278744", null, false ] ]
+, [ 135, "CAB774FC-CD0C-4F1B-A0D5-8859D083EE45", 135, 1457718696, "386118", 1457718696, "386118", null, "410", "2094", "Georgetown Playfield", "750 S Homer St", "98108", "-122.321396", "47.55162", [ null, "47.55162", "-122.321396", null, false ] ]
+, [ 136, "E4483B69-B7B3-4E8C-9962-EAA7EFA69063", 136, 1457718696, "386118", 1457718696, "386118", null, "3759", "1359", "Gerber Park", "575 M L King Jr Way S", "98122", "-122.296568", "47.607709", [ null, "47.607709", "-122.296568", null, false ] ]
+, [ 137, "4E3A87EE-60AD-4F11-9F3D-E9123A09CA0A", 137, 1457718696, "386118", 1457718696, "386118", null, "242", "1134", "Gilman Playground", "923 NW 54th St", "98107", "-122.369684", "47.667292", [ null, "47.667292", "-122.369684", null, false ] ]
+, [ 138, "EAF56D0C-5570-4B7E-BC48-CFFDA0D6FCB0", 138, 1457718696, "386118", 1457718696, "386118", null, "243", "1361", "Golden Gardens Park", "8498 Seaview Pl NW", "98117", "-122.403454", "47.686852", [ null, "47.686852", "-122.403454", null, false ] ]
+, [ 139, "069CE23C-2E46-43A9-8B40-9C52C50D8459", 139, 1457718696, "386118", 1457718696, "386118", null, "354", "1346", "Grand Army of the Republic Cemetery", "1200 E Howe St", "98102", "-122.316261", "47.636461", [ null, "47.636461", "-122.316261", null, false ] ]
+, [ 140, "7795971F-9385-40E7-9A81-7DC284C8108E", 140, 1457718696, "386118", 1457718696, "386118", null, "307", "1366", "Green Lake Park", "7201 E Greenlake Dr N", "98115", "-122.330394", "47.678938", [ null, "47.678938", "-122.330394", null, false ] ]
+, [ 141, "177A0AB4-2943-49A8-89F5-CE5D41079843", 141, 1457718696, "386118", 1457718696, "386118", null, "4408", "1369", "Greenwood Park", "602 N 87th St", "98117", "-122.350647", "47.693048", [ null, "47.693048", "-122.350647", null, false ] ]
+, [ 142, "FCEC93F7-8AD7-4A8E-A297-FD9A7BE8FF13", 142, 1457718696, "386118", 1457718696, "386118", null, "245", "1371", "Greenwood Triangle", "304 NW 55th St", "98107", "-122.361032", "47.668902", [ null, "47.668902", "-122.361032", null, false ] ]
+, [ 143, "8CF20E15-E9C6-49C3-BA2F-78360400DBA2", 143, 1457718696, "386118", 1457718696, "386118", null, "4157", "1372", "Greg Davis Park", "2600 SW Brandon St", "98106", "-122.366001", "47.55437", [ null, "47.55437", "-122.366001", null, false ] ]
+, [ 144, "B1DB7056-6905-4824-91B8-384C24F64F5E", 144, 1457718696, "386118", 1457718696, "386118", null, "454", "1375", "Hamilton Viewpoint Park", "1120 California Ave SW", "98116", "-122.38907", "47.590748", [ null, "47.590748", "-122.38907", null, false ] ]
+, [ 145, "C74FF6F2-E268-4F47-A039-C78F2F22995C", 145, 1457718696, "386118", 1457718696, "386118", null, "355", "0", "Harborview Park", "779 Alder St", "98104", "-122.323693", "47.603014", [ null, "47.603014", "-122.323693", null, false ] ]
+, [ 146, "9B0C11DE-EDE4-4173-BB18-27E83288D8BA", 146, 1457718696, "386118", 1457718696, "386118", null, "356", "1377", "Harrison Ridge Greenbelt", "138 32nd Ave E", "98112", "-122.290339", "47.619711", [ null, "47.619711", "-122.290339", null, false ] ]
+, [ 147, "BD39B8F6-6D38-44A4-98F7-120BC447CDC5", 147, 1457718696, "386118", 1457718696, "386118", null, "3695", "1378", "Harvard-Miller/Roanoke Annex", "2351 Broadway E", "98102", "-122.321643", "47.641091", [ null, "47.641091", "-122.321643", null, false ] ]
+, [ 148, "097E99AC-8A3D-43D1-B91C-084A13F4BFA4", 148, 1457718696, "386118", 1457718696, "386118", null, "4412", "1381", "Herring's House Park (T'ul'altx)", "4570 West Marginal Way SW", "98106", "-122.349545", "47.561514", [ null, "47.561514", "-122.349545", null, false ] ]
+, [ 149, "EABD19BA-DD20-4606-B497-E4A41E852966", 149, 1457718696, "386118", 1457718696, "386118", null, "456", "1788", "Hiawatha Playfield", "2700 California Ave SW", "98116", "-122.384965", "47.578272", [ null, "47.578272", "-122.384965", null, false ] ]
+, [ 150, "95275775-DCDF-4911-8F30-DE45CFB08E62", 150, 1457718696, "386118", 1457718696, "386118", null, "3983", "1383", "Highland Drive Parkway", "165 Highland Dr", "98109", "-122.353337", "47.629736", [ null, "47.629736", "-122.353337", null, false ] ]
+, [ 151, "A2555DBE-9758-4E17-80F3-C41EF8FCE4E4", 151, 1457718696, "386118", 1457718696, "386118", null, "457", "1137", "Highland Park Playground", "1100 SW Cloverdale St", "98106", "-122.349034", "47.52738", [ null, "47.52738", "-122.349034", null, false ] ]
+, [ 152, "85C7474A-D971-4D36-BCDE-CDEE7BD0B543", 152, 1457718696, "386118", 1457718696, "386118", null, "3979", "1384", "Highland Place", "93 Highland Dr", "98109", "-122.355466", "47.629656", [ null, "47.629656", "-122.355466", null, false ] ]
+, [ 153, "00E3D250-9568-4D6F-81C7-67A43427F121", 153, 1457718696, "386118", 1457718696, "386118", null, "358", "1093", "Hing Hay Park", "423 Maynard Ave S", "98104", "-122.325435", "47.598609", [ null, "47.598609", "-122.325435", null, false ] ]
+, [ 154, "5EC5ED58-19B2-4AEB-907D-C93178EF6220", 154, 1457718696, "386118", 1457718696, "386118", null, "4413", "1389", "Hitt's Hill Park", "5234 37th Ave S", "98118", "-122.28455", "47.554207", [ null, "47.554207", "-122.28455", null, false ] ]
+, [ 155, "480ED743-36B3-4A55-B93B-E9C1D75CC49E", 155, 1457718696, "386118", 1457718696, "386118", null, "4426", "1392", "Homer Harris Park", "2401 E Howell St", "98122", "-122.300994", "47.617309", [ null, "47.617309", "-122.300994", null, false ] ]
+, [ 156, "1F346962-D716-4150-A91B-45D219D28710", 156, 1457718696, "386118", 1457718696, "386118", null, "43", "1394", "Horiuchi Park", "156 Boren Ave", "98122", "-122.318982", "47.603132", [ null, "47.603132", "-122.318982", null, false ] ]
+, [ 157, "C6264051-EB1F-49DD-B30F-B3454AB825ED", 157, 1457718696, "386118", 1457718696, "386118", null, "3927", "1396", "Horton Hill Corridor", "3298 36th Ave S", "98144", "-122.287187", "47.573846", [ null, "47.573846", "-122.287187", null, false ] ]
+, [ 158, "EE30BBF2-CFB1-4BF8-8D4E-4460A7A2D4B6", 158, 1457718696, "386118", 1457718696, "386118", null, "359", "1397", "Howell Park", "1740 Howell Pl", "98122", "-122.280313", "47.617518", [ null, "47.617518", "-122.280313", null, false ] ]
+, [ 159, "67DED7D9-87B1-4D84-9933-23F1154B4900", 159, 1457718696, "386118", 1457718696, "386118", null, "4456", "1398", "Hubbard Homestead", "11203 5th Ave NE", "98125", "-122.324674", "47.709964", [ null, "47.709964", "-122.324674", null, false ] ]
+, [ 160, "62FC0711-D87D-489D-AEF2-0F69C94E5D8D", 160, 1457718696, "386118", 1457718696, "386118", null, "4032", "2391", "Hunter Boulevard", "3299 Hunter Blvd S", "98144", "-122.285153", "47.573877", [ null, "47.573877", "-122.285153", null, false ] ]
+, [ 161, "0A52AE20-7D0C-425F-8AF6-864C2F8FE7C7", 161, 1457718696, "386118", 1457718696, "386118", null, "439", "1089", "Hutchinson Playground", "59th Ave S & S Norfolk St", "98118", "-122.260062", "47.514312", [ null, "47.514312", "-122.260062", null, false ] ]
+, [ 162, "A1EBE9B9-D502-411A-AE75-15A531E4CE96", 162, 1457718696, "386118", 1457718696, "386118", null, "3905", "1399", "Hyde Place", "3811 E Madison St", "98112", "-122.282887", "47.632304", [ null, "47.632304", "-122.282887", null, false ] ]
+, [ 163, "0A5A4CEA-BA3F-4121-B79D-1D9CDC5B9CFD", 163, 1457718696, "386118", 1457718696, "386118", null, "4446", "1400", "I-5 Colonnade", "1701 Lakeview Blvd E", "98102", "-122.323409", "47.634898", [ null, "47.634898", "-122.323409", null, false ] ]
+, [ 164, "9BDAF04E-2838-4478-B610-A4C630FDAB8D", 164, 1457718696, "386118", 1457718696, "386118", null, "3887", "1821", "Interbay Athletic Complex", "3027 17th Ave W", "98119", "-122.379191", "47.647239", [ null, "47.647239", "-122.379191", null, false ] ]
+, [ 165, "040A2864-C4A7-4712-ADAE-49B437DC6D60", 165, 1457718696, "386118", 1457718696, "386118", null, "313", "1407", "Interbay Golf", "2501 15th Ave W", "98119", "-122.378455", "47.643753", [ null, "47.643753", "-122.378455", null, false ] ]
+, [ 166, "4A5F2034-E314-4421-A927-AA250E617BC9", 166, 1457718696, "386118", 1457718696, "386118", null, "3023", "1412", "Interlaken Park", "2451 Delmar Dr E", "98102", "-122.308316", "47.636257", [ null, "47.636257", "-122.308316", null, false ] ]
+, [ 167, "C97A12AF-FDEE-4BD8-90CA-9DF452E52975", 167, 1457718696, "386118", 1457718696, "386118", null, "364", "1413", "International Children's Park", "700 S Lane St", "98104", "-122.323412", "47.596897", [ null, "47.596897", "-122.323412", null, false ] ]
+, [ 168, "B6F93ADA-CB32-4333-BEFA-1DA0F83CDFAE", 168, 1457718696, "386118", 1457718696, "386118", null, "4001", "1095", "Inverness Ravine Park", "8619 45th Ave NE", "98115", "-122.280809", "47.691145", [ null, "47.691145", "-122.280809", null, false ] ]
+, [ 169, "AA617B6C-7260-41D6-871A-49E95F2E1FFD", 169, 1457718696, "386118", 1457718696, "386118", null, "327", "1790", "Jackson Park Golf Course", "1100 NE 135th St", "98125", "-122.319103", "47.729254", [ null, "47.729254", "-122.319103", null, false ] ]
+, [ 170, "B54FBD91-D463-4EFD-846F-49F826112FE1", 170, 1457718696, "386118", 1457718696, "386118", null, "1000393", "0", "Japanese Garden", "1075 Lake Washington Blvd E", "98112", "-122.2952", "47.627312", [ null, "47.627312", "-122.2952", null, false ] ]
+, [ 171, "06927139-DBAB-445D-ABB7-C1B0C1A673CE", 171, 1457718696, "386118", 1457718696, "386118", null, "114", "1434", "Jefferson Park", "3801 Beacon Ave S", "98108", "-122.311441", "47.568067", [ null, "47.568067", "-122.311441", null, false ] ]
+, [ 172, "95080EF9-527C-43CF-A5C3-1464960AD787", 172, 1457718696, "386118", 1457718696, "386118", null, "4153", "1791", "Jefferson Park Golf Course", "4101 Beacon Ave S", "98108", "-122.305242", "47.567202", [ null, "47.567202", "-122.305242", null, false ] ]
+, [ 173, "0593C5B7-2B62-420D-9C93-94F9818857F9", 173, 1457718696, "386118", 1457718696, "386118", null, "3121", "1437", "Jimi Hendrix Park", "2400 S Massachusetts St", "98144", "-122.300842", "47.588907", [ null, "47.588907", "-122.300842", null, false ] ]
+, [ 174, "058A4B3F-0CAE-4914-85F2-82555D165D67", 174, 1457718696, "386118", 1457718696, "386118", null, "429", "2560", "John C. Little, Sr. Park", "6961 37th Ave S", "98118", "-122.286686", "47.539048", [ null, "47.539048", "-122.286686", null, false ] ]
+, [ 175, "F239ACB6-B9FD-4874-850B-F2D00864844C", 175, 1457718696, "386118", 1457718696, "386118", null, "4244", "2491", "Judge Charles M. Stokes Overlook", "20th Ave S & S Judkins St", "98144", "-122.306962", "47.591632", [ null, "47.591632", "-122.306962", null, false ] ]
+, [ 176, "53EF8BB0-D3F5-494C-A01F-4C14814B5CB1", 176, 1457718696, "386118", 1457718696, "386118", null, "397", "1097", "Judkins Park and Playfield", "2150 S Norman St", "98144", "-122.303951", "47.592425", [ null, "47.592425", "-122.303951", null, false ] ]
+, [ 177, "A27E915D-F683-4949-B7FC-0AA4394E249D", 177, 1457718696, "386118", 1457718696, "386118", null, "4455", "1439", "Junction Plaza", "42nd Ave SW & SW Alaska St", "98116", "-122.385491", "47.561204", [ null, "47.561204", "-122.385491", null, false ] ]
+, [ 178, "E0BE40E0-E3A2-4155-AF74-3399AAD1F074", 178, 1457718696, "386118", 1457718696, "386118", null, "3122", "1098", "Katie Black's Garden", "1150 S Atlantic St", "98144", "-122.317642", "47.590421", [ null, "47.590421", "-122.317642", null, false ] ]
+, [ 179, "0FF03A61-72AF-4E0F-814D-B8F6793A3353", 179, 1457718696, "386118", 1457718696, "386118", null, "342", "2374", "Kerry Park", "211 W Highland Dr", "98119", "-122.359874", "47.629023", [ null, "47.629023", "-122.359874", null, false ] ]
+, [ 180, "1D551D3B-CDF8-4F14-9A36-66EF52CFF582", 180, 1457718696, "386118", 1457718696, "386118", null, "3880", "1440", "Keystone Place", "5664 Keystone Pl N", "98103", "-122.333769", "47.670304", [ null, "47.670304", "-122.333769", null, false ] ]
+, [ 181, "C33C61A5-A50E-4A3A-8773-E72EF9499D91", 181, 1457718696, "386118", 1457718696, "386118", null, "459", "1441", "Kilbourne Park", "9131 California Ave SW", "98136", "-122.388277", "47.52133", [ null, "47.52133", "-122.388277", null, false ] ]
+, [ 182, "D2265278-190B-4CF6-955B-BA612DF0E2BF", 182, 1457718696, "386118", 1457718696, "386118", null, "4480", "1099", "Kingfisher Natural Area on Thornton Creek", "15th Ave NE & NE 105th St", "98125", "-122.312411", "47.704889", [ null, "47.704889", "-122.312411", null, false ] ]
+, [ 183, "FD4B5C83-96BF-4115-AF06-B79E39CFF828", 183, 1457718696, "386118", 1457718696, "386118", null, "314", "1442", "Kinnear Park", "899 W Olympic Pl", "98119", "-122.367207", "47.627317", [ null, "47.627317", "-122.367207", null, false ] ]
+, [ 184, "A0CFFAA6-38A6-4908-BBA8-A2EEBCF2BBDB", 184, 1457718696, "386118", 1457718696, "386118", null, "4468", "1444", "Kirke Park", "7028 9th Ave NW", "98117", "-122.368021", "47.680338", [ null, "47.680338", "-122.368021", null, false ] ]
+, [ 185, "A91B34C0-18CA-4265-929E-CE72574188D1", 185, 1457718696, "386118", 1457718696, "386118", null, "246", "1100", "Kiwanis Memorial Preserve Park", "4441 Brygger Dr W", "98199", "-122.401004", "47.66197", [ null, "47.66197", "-122.401004", null, false ] ]
+, [ 186, "E35CCC08-0911-421E-BE11-2A1DDF9AC030", 186, 1457718696, "386118", 1457718696, "386118", null, "4429", "1448", "Kiwanis Memorial Preserve Park", "4531 33rd Ave W", "98199", "-122.403237", "47.660251", [ null, "47.660251", "-122.403237", null, false ] ]
+, [ 187, "06C0CFE8-03DD-4AD9-A0E3-9400E6D521D3", 187, 1457718696, "386118", 1457718696, "386118", null, "3915", "1449", "Kobe Terrace", "650 Main St", "98104", "-122.324494", "47.60042", [ null, "47.60042", "-122.324494", null, false ] ]
+, [ 188, "E47F1CF2-A05F-42D2-A7FE-40B5763AE448", 188, 1457718696, "386118", 1457718696, "386118", null, "415", "1450", "Kubota Garden", "9817 55th Ave S", "98118", "-122.266125", "47.513543", [ null, "47.513543", "-122.266125", null, false ] ]
+, [ 189, "0F312D6C-FB4A-48CD-BAF8-458E0F8BA050", 189, 1457718696, "386118", 1457718696, "386118", null, "333", "1457", "Lake City Memorial Triangle", "12356 Lake City Way NE", "98125", "-122.295266", "47.718819", [ null, "47.718819", "-122.295266", null, false ] ]
+, [ 190, "CFB0CACA-35C4-4FB3-84FC-6A9CF3AC71EA", 190, 1457718696, "386118", 1457718696, "386118", null, "487", "1458", "Lake City Mini Park", "12359 Lake City Way NE", "98125", "-122.295875", "47.71911", [ null, "47.71911", "-122.295875", null, false ] ]
+, [ 191, "7977FB70-F95A-48FA-AE6B-2EA805835430", 191, 1457718696, "386118", 1457718696, "386118", null, "4439", "1459", "Lake People Park (Xacua'bs)", "3100 S Bradford st", "98108", "-122.292012", "47.569133", [ null, "47.569133", "-122.292012", null, false ] ]
+, [ 192, "72E9F213-4585-48CE-8A1D-302AA90C1EFE", 192, 1457718696, "386118", 1457718696, "386118", null, "344", "1460", "Lake Union Park", "860 Terry Ave N", "98109", "-122.338848", "47.627015", [ null, "47.627015", "-122.338848", null, false ] ]
+, [ 193, "3367076B-CAD2-4F2B-9BB9-5FB0826AA454", 193, 1457718696, "386118", 1457718696, "386118", null, "411", "1462", "Lakeridge Park", "10201 Holyoke Way S", "98178", "-122.247429", "47.506033", [ null, "47.506033", "-122.247429", null, false ] ]
+, [ 194, "A7B4466B-63F2-4AE6-8181-4B7D7315C7F0", 194, 1457718696, "386118", 1457718696, "386118", null, "3972", "1140", "Lakeridge Playfield", "10145 Rainier Ave S", "98178", "-122.246841", "47.510319", [ null, "47.510319", "-122.246841", null, false ] ]
+, [ 195, "E2FB3447-364A-41C7-AE02-FC1FE9910C50", 195, 1457718696, "386118", 1457718696, "386118", null, "365", "1463", "Lakeview Park", "340 37th Ave E", "98112", "-122.284732", "47.62205", [ null, "47.62205", "-122.284732", null, false ] ]
+, [ 196, "43BDADF6-0C47-4E6B-8FB2-784377703A1A", 196, 1457718696, "386118", 1457718696, "386118", null, "366", "1464", "Lakeview Place", "1042 Lakeview Blvd E", "98102", "-122.325705", "47.62939", [ null, "47.62939", "-122.325705", null, false ] ]
+, [ 197, "1BACE28A-ED6A-408A-8347-6B06863EB1C6", 197, 1457718696, "386118", 1457718696, "386118", null, "4040", "1465", "Lakewood Moorage", "4400 Lake Washington Blvd S", "98118", "-122.268295", "47.562981", [ null, "47.562981", "-122.268295", null, false ] ]
+, [ 198, "B03CADD6-42C1-41EC-B8E8-BE95332B42F6", 198, 1457718696, "386118", 1457718696, "386118", null, "414", "2167", "Lakewood Playfield", "5013 S Angeline St", "98118", "-122.27006", "47.558831", [ null, "47.558831", "-122.27006", null, false ] ]
+, [ 199, "62C30721-5C2C-4DEF-8A25-0A70383C9A9F", 199, 1457718696, "386118", 1457718696, "386118", null, "4024", "1466", "Lakewood Triangle", "3114 Cascadia Ave S", "98144", "-122.28372", "47.576058", [ null, "47.576058", "-122.28372", null, false ] ]
+, [ 200, "B24C536D-7588-43A4-B66D-801E1E7099F9", 200, 1457718696, "386118", 1457718696, "386118", null, "3096", "0", "Lambert Place", "3800 E Madison St", "98112", "-122.283837", "47.632017", [ null, "47.632017", "-122.283837", null, false ] ]
+, [ 201, "C6BC49E2-2FAC-489B-AA34-69709417C56D", 201, 1457718696, "386118", 1457718696, "386118", null, "3929", "1468", "Landing Parkway", "4099 S Horton St", "98144", "-122.283396", "47.573861", [ null, "47.573861", "-122.283396", null, false ] ]
+, [ 202, "134A8E09-071D-40D4-834E-B0B871B8CDD0", 202, 1457718696, "386118", 1457718696, "386118", null, "340", "1142", "Laurelhurst Playfield", "4544 NE 41st St", "98105", "-122.278019", "47.65989", [ null, "47.65989", "-122.278019", null, false ] ]
+, [ 203, "66BFD096-7B3B-459E-B27A-AFC78F01D088", 203, 1457718696, "386118", 1457718696, "386118", null, "4162", "1053", "Laurelhurst Triangle", "3325 East Laurelhurst Dr NE", "98105", "-122.277487", "47.652696", [ null, "47.652696", "-122.277487", null, false ] ]
+, [ 204, "065FDE86-ADDA-4751-AE9C-30AF79449D1B", 204, 1457718696, "386118", 1457718696, "386118", null, "4482", "1102", "LaVilla Meadows Natural Area on Thornton Creek", "Ravenna Ave NE & NE 100th St", "98115", "-122.299926", "47.701262", [ null, "47.701262", "-122.299926", null, false ] ]
+, [ 205, "209816F8-2A3A-4ADB-A525-EC168FABEED1", 205, 1457718696, "386118", 1457718696, "386118", null, "316", "1054", "Lawton Park", "4005 27th Ave W", "98199", "-122.391158", "47.655065", [ null, "47.655065", "-122.391158", null, false ] ]
+, [ 206, "9E894185-FD00-43EB-8C5C-5F25417FF45B", 206, 1457718696, "386118", 1457718696, "386118", null, "367", "1057", "Leschi Park", "201 Lakeside Ave. S", "98122", "-122.286548", "47.600931", [ null, "47.600931", "-122.286548", null, false ] ]
+, [ 207, "600D3561-4997-4F9D-AD9A-1B1605FBCF81", 207, 1457718696, "386118", 1457718696, "386118", null, "263", "1808", "Leschi-Lake Dell Natural Area", "3525 E Terrace St", "98122", "-122.287835", "47.604695", [ null, "47.604695", "-122.287835", null, false ] ]
+, [ 208, "82A211AA-F271-407C-8937-A6890FD76420", 208, 1457718696, "386118", 1457718696, "386118", null, "4076", "1058", "Lewis Park", "1120 15th Ave S", "98144", "-122.314435", "47.592857", [ null, "47.592857", "-122.314435", null, false ] ]
+, [ 209, "C01ED5CE-E970-49F8-823D-801CAD973263", 209, 1457718696, "386118", 1457718696, "386118", null, "4479", "1103", "Licorice Fern Natural Area on Thornton Creek", "12th Ave NE & NE 130th St", "98115", "-122.315433", "47.723106", [ null, "47.723106", "-122.315433", null, false ] ]
+, [ 210, "04733916-1D77-4B98-8977-62382B618289", 210, 1457718696, "386118", 1457718696, "386118", null, "286", "1059", "Licton Springs Park", "9536 Ashworth Ave N", "98103", "-122.338735", "47.698542", [ null, "47.698542", "-122.338735", null, false ] ]
+, [ 211, "B06C7758-09E1-4E01-A07A-8C3152F80E87", 211, 1457718696, "386118", 1457718696, "386118", null, "460", "1060", "Lincoln Park", "8011 Fauntleroy Way SW", "98136", "-122.396012", "47.531176", [ null, "47.531176", "-122.396012", null, false ] ]
+, [ 212, "8789D3EA-3D77-47F6-84E0-FCA50230F6B9", 212, 1457718696, "386118", 1457718696, "386118", null, "4419", "1061", "Linden Orchard Park", "Linden Ave N & N 67th St", "98103", "-122.347727", "47.678016", [ null, "47.678016", "-122.347727", null, false ] ]
+, [ 213, "1FA7D18B-A864-4349-929F-2B0D053D11AE", 213, 1457718696, "386118", 1457718696, "386118", null, "297", "1064", "Little Brook Park", "14043 32nd Ave NE", "98125", "-122.294567", "47.731387", [ null, "47.731387", "-122.294567", null, false ] ]
+, [ 214, "0A9148EB-BA75-47E1-8CCF-5437DF47CCD4", 214, 1457718696, "386118", 1457718696, "386118", null, "301", "1809", "Llandover Woods Greenspace", "14499 3rd Ave NW", "98177", "-122.364545", "47.733024", [ null, "47.733024", "-122.364545", null, false ] ]
+, [ 215, "48F6DF24-F6C1-4246-8534-A8AAAFF9B73C", 215, 1457718696, "386118", 1457718696, "386118", null, "264", "2437", "Longfellow Creek Greenspace", "Delridge Way SW & SW Graham St", "98106", "-122.363435", "47.530167", [ null, "47.530167", "-122.363435", null, false ] ]
+, [ 216, "4D7F6983-D5B6-46C0-9FEE-A5CE58C67D45", 216, 1457718696, "386118", 1457718696, "386118", null, "362", "1066", "Louisa Boren Park", "1606 15th Ave E", "98112", "-122.311628", "47.635274", [ null, "47.635274", "-122.311628", null, false ] ]
+, [ 217, "C0CE2469-675E-4BFB-89B2-B897AA69E127", 217, 1457718696, "386118", 1457718696, "386118", null, "461", "1067", "Lowman Beach Park", "7017 Beach Dr SW", "98136", "-122.396728", "47.540367", [ null, "47.540367", "-122.396728", null, false ] ]
+, [ 218, "9A63BBF3-225A-4072-B9A9-DB4B342C14AC", 218, 1457718696, "386118", 1457718696, "386118", null, "289", "1146", "Loyal Heights Playfield", "2101 NW 77th St", "98117", "-122.38324", "47.684106", [ null, "47.684106", "-122.38324", null, false ] ]
+, [ 219, "7AE5C70D-D06F-4C87-BF9A-69901D0293A8", 219, 1457718696, "386118", 1457718696, "386118", null, "4075", "2494", "Lynn Street Mini Park", "2291 Fairview Ave E", "98102", "-122.32975", "47.639849", [ null, "47.639849", "-122.32975", null, false ] ]
+, [ 220, "A9D8D88D-2F88-41E6-9345-FFF4D5087B60", 220, 1457718696, "386118", 1457718696, "386118", null, "4422", "1069", "MacLean Park", "1922 Taylor Ave N", "98109", "-122.345276", "47.636191", [ null, "47.636191", "-122.345276", null, false ] ]
+, [ 221, "9D9254AB-64AD-43DC-8CD2-AF859C096FE9", 221, 1457718696, "386118", 1457718696, "386118", null, "369", "1071", "Madison Park", "4201 E Madison St", "98112", "-122.276602", "47.635779", [ null, "47.635779", "-122.276602", null, false ] ]
+, [ 222, "5817489C-7C34-4B1F-8A57-FB8D907097EC", 222, 1457718696, "386118", 1457718696, "386118", null, "4441", "2509", "Madison Park North Beach", "2300 43rd Ave E", "98112", "-122.276118", "47.639084", [ null, "47.639084", "-122.276118", null, false ] ]
+, [ 223, "732BB6B7-1F93-47D4-B731-4E30B32A7FA0", 223, 1457718696, "386118", 1457718696, "386118", null, "4005", "1471", "Madrona Briar Patch", "1605 Madrona Dr", "98122", "-122.284261", "47.615231", [ null, "47.615231", "-122.284261", null, false ] ]
+, [ 224, "998C32A0-712E-4F9E-AAA6-4D65738A8589", 224, 1457718696, "386118", 1457718696, "386118", null, "370", "1473", "Madrona Park", "853 Lake Washington Blvd", "98122", "-122.282679", "47.609299", [ null, "47.609299", "-122.282679", null, false ] ]
+, [ 225, "CB994E85-92CB-4238-8E17-E757C526EEDB", 225, 1457718696, "386118", 1457718696, "386118", null, "371", "1147", "Madrona Playground", "3211 E Spring St", "98122", "-122.289885", "47.611022", [ null, "47.611022", "-122.289885", null, false ] ]
+, [ 226, "92856AD9-663C-4C28-A803-04E10020EE94", 226, 1457718696, "386118", 1457718696, "386118", null, "2856", "1474", "Madrona Ravine", "3799 E Spring St", "98122", "-122.285412", "47.611456", [ null, "47.611456", "-122.285412", null, false ] ]
+, [ 227, "A4949960-A9CD-4225-A7CD-581385FD85D5", 227, 1457718696, "386118", 1457718696, "386118", null, "492", "1476", "Magnolia Greenbelt", "W Howe St & Dartmouth Ave W", "98199", "-122.389073", "47.636006", [ null, "47.636006", "-122.389073", null, false ] ]
+, [ 228, "0AFDFF7A-035A-4C89-9D33-D4F786E31B78", 228, 1457718696, "386118", 1457718696, "386118", null, "747", "1477", "Magnolia Manor Park", "3500 28th Ave W", "98119", "-122.390877", "47.651085", [ null, "47.651085", "-122.390877", null, false ] ]
+, [ 229, "97A0974D-0385-4C34-9432-1782ED2049AB", 229, 1457718696, "386118", 1457718696, "386118", null, "317", "1478", "Magnolia Park", "1461 Magnolia Blvd W", "98199", "-122.398993", "47.632366", [ null, "47.632366", "-122.398993", null, false ] ]
+, [ 230, "2F9F3671-40E6-474C-AA29-DE530DF7203F", 230, 1457718696, "386118", 1457718696, "386118", null, "319", "2564", "Magnolia Playfield", "2518 34th Ave W", "98199", "-122.399472", "47.643746", [ null, "47.643746", "-122.399472", null, false ] ]
+, [ 231, "8F87C960-874B-4CA6-B459-A1D52FE7C2AE", 231, 1457718696, "386118", 1457718696, "386118", null, "2970", "0", "Magnolia Tidelands Park", "W Ruffner to Elliott Bay Marina", "98144", "-122.391648", "47.630922", [ null, "47.630922", "-122.391648", null, false ] ]
+, [ 232, "3068684A-E7AF-4087-A8A8-188496591B14", 232, 1457718696, "386118", 1457718696, "386118", null, "111110", "0", "Magnuson Park", "7400 Sand Point Way NE", "98115", "-122.255084", "47.680304", [ null, "47.680304", "-122.255084", null, false ] ]
+, [ 233, "452A75AF-8AD7-43CD-B42D-5D3397B90410", 233, 1457718696, "386118", 1457718696, "386118", null, "4434", "1522", "Maple Leaf Community Garden", "529 NE 103rd St", "98125", "-122.322269", "47.70326", [ null, "47.70326", "-122.322269", null, false ] ]
+, [ 234, "03D930A0-C0A9-458C-8D7B-AC68110EBE10", 234, 1457718696, "386118", 1457718696, "386118", null, "3881", "1105", "Maple Leaf Resevoir Park", "1020 NE 82nd St", "98115", "-122.315613", "47.689015", [ null, "47.689015", "-122.315613", null, false ] ]
+, [ 235, "C3FD61F6-200E-4A50-BC93-FAFF9330A9E6", 235, 1457718696, "386118", 1457718696, "386118", null, "1630", "1523", "Maple School Ravine", "1950 S Graham St", "98108", "-122.308342", "47.551071", [ null, "47.551071", "-122.308342", null, false ] ]
+, [ 236, "7CD3BE4E-EAD0-4D8E-A47C-9004B120EE49", 236, 1457718696, "386118", 1457718696, "386118", null, "418", "1106", "Maple Wood Playfield", "4801 Corson Ave S", "98108", "-122.318845", "47.560041", [ null, "47.560041", "-122.318845", null, false ] ]
+, [ 237, "60F88444-2A9D-4DAB-94AB-A02F441EE4CC", 237, 1457718696, "386118", 1457718696, "386118", null, "4447", "1524", "Marra-Desimone Park", "9026 4th Ave S", "98108", "-122.329372", "47.522124", [ null, "47.522124", "-122.329372", null, false ] ]
+, [ 238, "BCB474BC-786D-497C-8CE9-9B360C504868", 238, 1457718696, "386118", 1457718696, "386118", null, "320", "1525", "Marshall Park", "1191 7th Ave W", "98119", "-122.366805", "47.629436", [ null, "47.629436", "-122.366805", null, false ] ]
+, [ 239, "F7B299F9-F53B-47FA-96EA-873B012C1940", 239, 1457718696, "386118", 1457718696, "386118", null, "432", "1527", "Martha Washington Park", "6612 57th Ave S", "98115", "-122.260054", "47.542398", [ null, "47.542398", "-122.260054", null, false ] ]
+, [ 240, "BBE95D04-893B-4928-9EFD-4149BE0C3B3C", 240, 1457718696, "386118", 1457718696, "386118", null, "3923", "2615", "Martin Luther King, Jr. Memorial", "2200 Martin Luther King Jr  Way S", "98144", "-122.297165", "47.582756", [ null, "47.582756", "-122.297165", null, false ] ]
+, [ 241, "81BB3441-7239-46AB-865B-8F6665AE1251", 241, 1457718696, "386118", 1457718696, "386118", null, "298", "1880", "Marvin's Garden", "5400 Ballard Ave NW", "98107", "-122.384972", "47.667976", [ null, "47.667976", "-122.384972", null, false ] ]
+, [ 242, "C4455377-77AE-48EF-9F92-9C3F1A352E36", 242, 1457718696, "386118", 1457718696, "386118", null, "347", "1529", "Matthews Beach Park", "5100 NE 93rd St", "98115", "-122.271785", "47.694564", [ null, "47.694564", "-122.271785", null, false ] ]
+, [ 243, "308522F3-60E3-4EDC-9F36-84A7D4B3917C", 243, 1457718696, "386118", 1457718696, "386118", null, "321", "1530", "Mayfair Park", "2600 2nd Ave N", "98109", "-122.353356", "47.643241", [ null, "47.643241", "-122.353356", null, false ] ]
+, [ 244, "E5827C67-D28F-4D18-ADAB-B25FED4F6317", 244, 1457718696, "386118", 1457718696, "386118", null, "3918", "0", "McClellan Place", "S McClellan St & Beacon Ave S", "98144", "-122.311648", "47.578695", [ null, "47.578695", "-122.311648", null, false ] ]
+, [ 245, "0CBA6176-7F05-405D-B20C-C08749D5D47A", 245, 1457718696, "386118", 1457718696, "386118", null, "4013", "2395", "McGilvra Boulevard", "1099 McGilvra Blvd E", "98112", "-122.282116", "47.626925", [ null, "47.626925", "-122.282116", null, false ] ]
+, [ 246, "4C280A02-3417-4AFA-A71A-8A68B9A6EC5A", 246, 1457718696, "386118", 1457718696, "386118", null, "4008", "1535", "McGilvra Place", "1425 E Madison St", "98122", "-122.313032", "47.614233", [ null, "47.614233", "-122.313032", null, false ] ]
+, [ 247, "B42D2378-4EFE-438A-B11D-572D0CC3E2B5", 247, 1457718696, "386118", 1457718696, "386118", null, "339", "1536", "McGraw Square", "Westlake Ave N & Stewart St", "98101", "-122.337587", "47.61299", [ null, "47.61299", "-122.337587", null, false ] ]
+, [ 248, "C4B62C17-C257-48A0-920B-9FC76B926D2A", 248, 1457718696, "386118", 1457718696, "386118", null, "352", "1107", "Meadowbrook Playfield", "10533 35th Ave NE", "98125", "-122.293493", "47.705771", [ null, "47.705771", "-122.293493", null, false ] ]
+, [ 249, "E887110D-A7DE-42F7-AEC4-6A1F2D7BE4B6", 249, 1457718696, "386118", 1457718696, "386118", null, "268", "2590", "Me-Kwa-Mooks Natural Area", "4100 Aikins Ave SW", "98116", "-122.403424", "47.563782", [ null, "47.563782", "-122.403424", null, false ] ]
+, [ 250, "205E7BB8-6A5D-4E55-B5EE-E1735C56AA76", 250, 1457718696, "386118", 1457718696, "386118", null, "473", "1539", "Me-Kwa-Mooks Park", "4503 Beach Dr SW", "98116", "-122.404006", "47.563167", [ null, "47.563167", "-122.404006", null, false ] ]
+, [ 251, "BC0AC90B-29A5-42E4-B46B-C62D40BE01F8", 251, 1457718696, "386118", 1457718696, "386118", null, "1104", "1149", "Meridian Playground", "4649 Sunnyside Ave N", "98103", "-122.332557", "47.664159", [ null, "47.664159", "-122.332557", null, false ] ]
+, [ 252, "2B473929-DAFD-434A-9664-697468A85003", 252, 1457718696, "386118", 1457718696, "386118", null, "373", "1150", "Miller Playfield", "330 19th Ave E", "98112", "-122.306261", "47.621433", [ null, "47.621433", "-122.306261", null, false ] ]
+, [ 253, "E7E261EF-4605-4F90-9475-2CFF7B65E6E3", 253, 1457718696, "386118", 1457718696, "386118", null, "4015", "1541", "Miller Triangle", "222 20th Ave E", "98112", "-122.305711", "47.620311", [ null, "47.620311", "-122.305711", null, false ] ]
+, [ 254, "3CA3F9B2-2524-49D6-B01C-B4CAAF63E5C3", 254, 1457718696, "386118", 1457718696, "386118", null, "291", "1542", "Mineral Springs Park", "1500 N 105th St", "98133", "-122.336528", "47.705755", [ null, "47.705755", "-122.336528", null, false ] ]
+, [ 255, "04727DC6-0DBC-448F-9941-7ED1202AC42C", 255, 1457718696, "386118", 1457718696, "386118", null, "277", "1543", "Mock Creek Ravine", "9612 35th Ave NE", "98115", "-122.28962", "47.699037", [ null, "47.699037", "-122.28962", null, false ] ]
+, [ 256, "E4E5E425-A9AC-4F69-8E48-A7840B7192E4", 256, 1457718696, "386118", 1457718696, "386118", null, "4021", "2536", "Montlake Boulevard", "2811 Montlake Blvd E", "98112", "-122.30474", "47.645971", [ null, "47.645971", "-122.30474", null, false ] ]
+, [ 257, "33CC630C-7A38-4DCD-A51E-A92AC19C9F54", 257, 1457718696, "386118", 1457718696, "386118", null, "376", "2536", "Montlake Playfield", "1618 E Calhoun St", "98112", "-122.310081", "47.642407", [ null, "47.642407", "-122.310081", null, false ] ]
+, [ 258, "CB61D838-682C-4FA1-8D5F-6F3E7ADF4C5F", 258, 1457718696, "386118", 1457718696, "386118", null, "4460", "1545", "Morgan Junction", "6413 California Ave SW", "98136", "-122.387528", "47.545507", [ null, "47.545507", "-122.387528", null, false ] ]
+, [ 259, "557195F4-39AE-4D28-9C93-3FAD6111FB9F", 259, 1457718696, "386118", 1457718696, "386118", null, "419", "2537", "Mt. Baker Park", "2521 Lake Park Dr S", "98144", "-122.288481", "47.580957", [ null, "47.580957", "-122.288481", null, false ] ]
+, [ 260, "3AD7F9E6-AF15-4ACD-B177-3022A0523AEF", 260, 1457718696, "386118", 1457718696, "386118", null, "4427", "2399", "Mt. Baker Ridge Viewpoint", "1403 31st Ave S", "98144", "-122.292616", "47.589983", [ null, "47.589983", "-122.292616", null, false ] ]
+, [ 261, "C738CF45-B4A1-41EF-AF20-A17E050795E0", 261, 1457718696, "386118", 1457718696, "386118", null, "4019", "2595", "Mt. Claire Park", "2523 Mount Claire Dr S", "98144", "-122.28642", "47.580737", [ null, "47.580737", "-122.28642", null, false ] ]
+, [ 262, "F38DE613-9AAB-42EF-B2C1-C0D6D8B9BF50", 262, 1457718696, "386118", 1457718696, "386118", null, "311", "1547", "Myrtle Edwards Park", "3130 Alaskan Way", "98121", "-122.36087", "47.618767", [ null, "47.618767", "-122.36087", null, false ] ]
+, [ 263, "D4B1C2D4-D121-4E01-AC0A-0A040DD34462", 263, 1457718696, "386118", 1457718696, "386118", null, "4463", "1548", "Myrtle Reservoir", "35th Ave SW & SW Myrtle St", "98126", "-122.376716", "47.539206", [ null, "47.539206", "-122.376716", null, false ] ]
+, [ 264, "AF3BE992-2C98-4871-BB9A-16343CCBE2B0", 264, 1457718696, "386118", 1457718696, "386118", null, "3916", "1551", "Nantes Park", "5062 SW Admiral Way", "98116", "-122.397063", "47.579565", [ null, "47.579565", "-122.397063", null, false ] ]
+, [ 265, "7A4BAC50-F93C-48B5-BE24-FE28A6C5E939", 265, 1457718696, "386118", 1457718696, "386118", null, "4023", "1155", "Nathan Hale Playfield", "10750 30th Ave NE", "98125", "-122.292028", "47.707715", [ null, "47.707715", "-122.292028", null, false ] ]
+, [ 266, "82F607A3-42FB-4F54-AEB0-49E4EF7C6C77", 266, 1457718696, "386118", 1457718696, "386118", null, "3975", "2596", "NE 60th Street Park", "551 NE 60th St", "98115", "-122.322634", "47.671728", [ null, "47.671728", "-122.322634", null, false ] ]
+, [ 267, "7F8E8219-AAAE-4056-9FA9-A71952D0D379", 267, 1457718696, "386118", 1457718696, "386118", null, "4403", "1557", "Nora's Woods", "720 29th Ave", "98122", "-122.294573", "47.608732", [ null, "47.608732", "-122.294573", null, false ] ]
+, [ 268, "7FF2117A-7A8B-4DE6-9157-3D9DD87C36CD", 268, 1457718696, "386118", 1457718696, "386118", null, "247", "247", "North Beach Park", "8999 24th Ave NW", "98117", "-122.390258", "47.69471", [ null, "47.69471", "-122.390258", null, false ] ]
+, [ 269, "01AE3BC1-881B-412D-922F-0CD08BA4BAA3", 269, 1457718696, "386118", 1457718696, "386118", null, "2956", "2487", "North Passage Point Park", "600 NE Northlake Way", "98105", "-122.322428", "47.653963", [ null, "47.653963", "-122.322428", null, false ] ]
+, [ 270, "18CA1843-9268-4CE8-8C7D-AB3E0D14E734", 270, 1457718696, "386118", 1457718696, "386118", null, "361", "361", "Northacres Park", "12718 1st Ave NE", "98125", "-122.326124", "47.721775", [ null, "47.721775", "-122.326124", null, false ] ]
+, [ 271, "CA4BF571-310E-4292-98ED-5A8EB5237150", 271, 1457718696, "386118", 1457718696, "386118", null, "279", "2618", "Northeast Queen Anne Greenbelt", "Dexter Way N & Lynn St & Wheeler", "98109", "-122.345011", "47.635866", [ null, "47.635866", "-122.345011", null, false ] ]
+, [ 272, "36F8F804-8CF1-42A5-9E23-90C0B4AF0C13", 272, 1457718696, "386118", 1457718696, "386118", null, "4445", "1562", "Northgate Park", "10510 5th Ave NE", "98125", "-122.322424", "47.705194", [ null, "47.705194", "-122.322424", null, false ] ]
+, [ 273, "E3257EC2-2E42-48DC-8BEE-DF8C01DF5211", 273, 1457718696, "386118", 1457718696, "386118", null, "4452", "1563", "Northlake Park", "699 NE Northlake Way", "98105", "-122.320826", "47.654365", [ null, "47.654365", "-122.320826", null, false ] ]
+, [ 274, "AC6D0EFF-4800-4B59-9B2F-F1363301D82F", 274, 1457718696, "386118", 1457718696, "386118", null, "4161", "2599", "Northwest 60th St. Viewpoint", "6001 Seaview Ave NW", "98107", "-122.40656", "47.672184", [ null, "47.672184", "-122.40656", null, false ] ]
+, [ 275, "E2DBBD31-B6EC-4E55-B8B8-7237FDF82846", 275, 1457718696, "386118", 1457718696, "386118", null, "322", "1926", "Observatory Courts", "1405 Warren Ave N", "98109", "-122.355134", "47.631342", [ null, "47.631342", "-122.355134", null, false ] ]
+, [ 276, "89AA20F3-D12A-4C9E-B3BF-E21B09D37E39", 276, 1457718696, "386118", 1457718696, "386118", null, "323", "1927", "Occidental Square", "117 S Washington St", "98104", "-122.333272", "47.600463", [ null, "47.600463", "-122.333272", null, false ] ]
+, [ 277, "5D55D85E-5C79-42F8-8F0A-AE848D998C60", 277, 1457718696, "386118", 1457718696, "386118", null, "4414", "1929", "Olympic Sculpture Park", "2901 Western Ave", "98121", "-122.35418", "47.616577", [ null, "47.616577", "-122.35418", null, false ] ]
+, [ 278, "A4C9E60B-ECFC-4C5B-9D98-5DD1596A7D96", 278, 1457718696, "386118", 1457718696, "386118", null, "3005", "1930", "Open Water Park", "2351 W Marina Pl", "98199", "-122.386693", "47.629555", [ null, "47.629555", "-122.386693", null, false ] ]
+, [ 279, "4D44FF52-25F7-4810-AD69-15804C9FE448", 279, 1457718696, "386118", 1457718696, "386118", null, "300", "2403", "Orchard Street Ravine", "39th Ave SW & SW Orchard St", "98136", "-122.380151", "47.538315", [ null, "47.538315", "-122.380151", null, false ] ]
+, [ 280, "3D773164-C7E2-477F-859E-5205DF17104B", 280, 1457718696, "386118", 1457718696, "386118", null, "403", "1933", "Othello Playground", "4351 S Othello St", "98118", "-122.278105", "47.536214", [ null, "47.536214", "-122.278105", null, false ] ]
+, [ 281, "D63F428C-E349-40E6-BE1C-D4725EAF8816", 281, 1457718696, "386118", 1457718696, "386118", null, "4416", "1934", "Oxbow Park", "6430 Corson Ave S", "98108", "-122.321583", "47.54499", [ null, "47.54499", "-122.321583", null, false ] ]
+, [ 282, "BD9DC7A4-54C5-4638-A4FE-DE6767A5F05A", 282, 1457718696, "386118", 1457718696, "386118", null, "4027", "1937", "Park Home Circle", "5622 Park Rd NE", "98105", "-122.305464", "47.67005", [ null, "47.67005", "-122.305464", null, false ] ]
+, [ 283, "89A4CE52-E535-4658-B0E1-3C5E86A79727", 283, 1457718696, "386118", 1457718696, "386118", null, "4009", "1938", "Parkmont Place", "2401 West Viewmont Way W", "98199", "-122.410083", "47.640142", [ null, "47.640142", "-122.410083", null, false ] ]
+, [ 284, "D229290A-32D6-4BBD-BA6D-D9129563850C", 284, 1457718696, "386118", 1457718696, "386118", null, "324", "2415", "Parsons Gardens", "650 W Highland Dr", "98119", "-122.366082", "47.629868", [ null, "47.629868", "-122.366082", null, false ] ]
+, [ 285, "FDE639F9-A0AE-43FF-A5A4-B444F18BC015", 285, 1457718696, "386118", 1457718696, "386118", null, "4029", "1940", "Peace Park", "NE 40th St & NE Pacific St, Seattle", "98105", "-122.323616", "47.65543", [ null, "47.65543", "-122.323616", null, false ] ]
+, [ 286, "3D9B09C1-B719-4E2F-897B-531748A98917", 286, 1457718696, "386118", 1457718696, "386118", null, "237", "1810", "Pelly Place Natural Area", "6762 Murray Ave SW", "98136", "-122.39309", "47.541492", [ null, "47.541492", "-122.39309", null, false ] ]
+, [ 287, "38545BB0-2AD4-4E1F-84C6-297F44C6B726", 287, 1457718696, "386118", 1457718696, "386118", null, "378", "2239", "Peppi's Playground", "3233 E Spruce St", "98122", "-122.290602", "47.602723", [ null, "47.602723", "-122.290602", null, false ] ]
+, [ 288, "B193F812-A26B-4043-9C3A-1112DC9099A4", 288, 1457718696, "386118", 1457718696, "386118", null, "274", "1943", "Piers 62 and 63", "1951 Alaskan Way", "98101", "-122.345237", "47.608656", [ null, "47.608656", "-122.345237", null, false ] ]
+, [ 289, "8ABEC0BF-1929-4A9A-BC1E-37532125C9CB", 289, 1457718696, "386118", 1457718696, "386118", null, "282", "1945", "Pigeon Point Park", "4418 21st Ave SW", "98106", "-122.356966", "47.563271", [ null, "47.563271", "-122.356966", null, false ] ]
+, [ 290, "79AB9C7E-5C0C-403B-8B53-134E27031209", 290, 1457718696, "386118", 1457718696, "386118", null, "382", "1157", "Pinehurst Playground", "12029 14th Ave NE", "98125", "-122.314628", "47.716436", [ null, "47.716436", "-122.314628", null, false ] ]
+, [ 291, "5B9EF11E-A50F-4F59-94C4-E1E38FBC9958", 291, 1457718696, "386118", 1457718696, "386118", null, "4444", "1947", "Pinehurst Pocket Park", "11700 19th Ave NE", "98125", "-122.308222", "47.714186", [ null, "47.714186", "-122.308222", null, false ] ]
+, [ 292, "DE04C1C0-A831-4A32-8583-03F4A59E9A27", 292, 1457718696, "386118", 1457718696, "386118", null, "325", "1949", "Pioneer Square", "100 Yesler Way", "98104", "-122.333886", "47.602076", [ null, "47.602076", "-122.333886", null, false ] ]
+, [ 293, "1220B8DA-8D17-4710-8444-EE8127A10FFE", 293, 1457718696, "386118", 1457718696, "386118", null, "275", "2242", "Pipers Creek Natural Area", "600 NW 117th St", "98133", "-122.364699", "47.714678", [ null, "47.714678", "-122.364699", null, false ] ]
+, [ 294, "C7E8B32D-FF30-4366-A92B-B0EAEBE097B5", 294, 1457718696, "386118", 1457718696, "386118", null, "387", "1951", "Plum Tree Park", "1717 26th Ave", "98122", "-122.299142", "47.617053", [ null, "47.617053", "-122.299142", null, false ] ]
+, [ 295, "07C67C88-697C-43F0-8E80-22B244A38FE1", 295, 1457718696, "386118", 1457718696, "386118", null, "4000", "1952", "Plymouth Pillars Park", "1050 Pike St", "98101", "-122.329092", "47.614124", [ null, "47.614124", "-122.329092", null, false ] ]
+, [ 296, "B0844CD1-A63D-4ABE-B66A-11BB55C8EEA6", 296, 1457718696, "386118", 1457718696, "386118", null, "345", "1953", "Powell Barnett Park", "352 Martin Luther King Jr Way", "98112", "-122.295998", "47.605197", [ null, "47.605197", "-122.295998", null, false ] ]
+, [ 297, "7A393E1F-A6E1-4C69-9E15-431F04C2AB2E", 297, 1457718696, "386118", 1457718696, "386118", null, "390", "2404", "Pratt Park", "1800 S Main St", "98144", "-122.307257", "47.601407", [ null, "47.601407", "-122.307257", null, false ] ]
+, [ 298, "88C006BC-5928-4E46-9DFF-1F77BD8E044C", 298, 1457718696, "386118", 1457718696, "386118", null, "326", "1956", "Prefontaine Place", "425 3rd Ave", "98104", "-122.330883", "47.601844", [ null, "47.601844", "-122.330883", null, false ] ]
+, [ 299, "2F0C3956-1B41-49F7-8C2A-3C7DA5C7A123", 299, 1457718696, "386118", 1457718696, "386118", null, "357", "2438", "Prentis I. Frazier Park", "401 24th Ave E", "98112", "-122.301614", "47.622895", [ null, "47.622895", "-122.301614", null, false ] ]
+, [ 300, "3AB20CF9-F369-4E7A-98D5-8E64F98A286A", 300, 1457718696, "386118", 1457718696, "386118", null, "420", "1957", "Pritchard Island Beach", "8400 55th Ave S", "98118", "-122.26283", "47.528948", [ null, "47.528948", "-122.26283", null, false ] ]
+, [ 301, "6BBFE4AD-F3ED-43CE-A326-1C20073AC173", 301, 1457718696, "386118", 1457718696, "386118", null, "4158", "2405", "Puget Boulevard Commons", "5200 26th Ave SW", "98106", "-122.365575", "47.555356", [ null, "47.555356", "-122.365575", null, false ] ]
+, [ 302, "C9824D14-1040-44A6-A47B-DE423263B2D6", 302, 1457718696, "386118", 1457718696, "386118", null, "3993", "2247", "Puget Creek Greenspace", "1901 SW Brandon St", "98106", "-122.358556", "47.55187", [ null, "47.55187", "-122.358556", null, false ] ]
+, [ 303, "C7B11564-069B-4B20-B6DB-70B3F4685345", 303, 1457718696, "386118", 1457718696, "386118", null, "462", "1961", "Puget Park", "4767 Puget Way SW", "98106", "-122.356922", "47.558473", [ null, "47.558473", "-122.356922", null, false ] ]
+, [ 304, "CC261AC3-C043-4B18-A1DA-9FC35BF19066", 304, 1457718696, "386118", 1457718696, "386118", null, "4201", "1039", "Puget Ridge Playground", "6029 21st Ave SW", "98106", "-122.359947", "47.547368", [ null, "47.547368", "-122.359947", null, false ] ]
+, [ 305, "9A3CD022-6FA2-4766-A5A7-ED483E175B73", 305, 1457718696, "386118", 1457718696, "386118", null, "3984", "1040", "Queen Anne Bowl Playfield", "2806 3rd Ave W", "98119", "-122.359711", "47.645599", [ null, "47.645599", "-122.359711", null, false ] ]
+, [ 306, "9B92CCA8-1022-445C-8A21-353D2799863B", 306, 1457718696, "386118", 1457718696, "386118", null, "4045", "1565", "Rainbow Point", "631 NE Banner Pl", "98115", "-122.320476", "47.682713", [ null, "47.682713", "-122.320476", null, false ] ]
+, [ 307, "1B5C2EEE-7EAD-48D9-B6F0-2C5D2D913C5C", 307, 1457718696, "386118", 1457718696, "386118", null, "422", "1160", "Rainier Beach Playfield", "8802 Rainier Ave S", "98118", "-122.273136", "47.525041", [ null, "47.525041", "-122.273136", null, false ] ]
+, [ 308, "EC204375-AC88-4434-BA15-0361818D97A4", 308, 1457718696, "386118", 1457718696, "386118", null, "3999", "1568", "Rainier Place", "230 NW 53rd St", "98107", "-122.359434", "47.667567", [ null, "47.667567", "-122.359434", null, false ] ]
+, [ 309, "EEE7E667-F06A-42EE-A8E4-3DEC3E721BC7", 309, 1457718696, "386118", 1457718696, "386118", null, "423", "1162", "Rainier Playfield", "3700 S Alaska St", "98118", "-122.2862", "47.561817", [ null, "47.561817", "-122.2862", null, false ] ]
+, [ 310, "34315A8E-896F-41A9-A2F6-2D2879BBC236", 310, 1457718696, "386118", 1457718696, "386118", null, "391", "1570", "Ravenna Park", "5520 Ravenna Ave NE", "98105", "-122.305705", "47.671404", [ null, "47.671404", "-122.305705", null, false ] ]
+, [ 311, "43CB7165-ACB6-41D8-97C5-7975D33DE074", 311, 1457718696, "386118", 1457718696, "386118", null, "4080", "1572", "Ravenna Park Triangle", "Ravenna Ave NE & NE 54th St", "98105", "-122.30367", "47.668089", [ null, "47.668089", "-122.30367", null, false ] ]
+, [ 312, "94422CEE-F1BB-4924-B824-D0CAC12E6B7A", 312, 1457718696, "386118", 1457718696, "386118", null, "254", "1571", "Ravenna Ravine", "6215 24th Ave NE", "98115", "-122.301707", "47.674823", [ null, "47.674823", "-122.301707", null, false ] ]
+, [ 313, "AC8F4A39-3463-4DFE-B637-CA651E576282", 313, 1457718696, "386118", 1457718696, "386118", null, "4411", "1574", "Ravenna Woods", "4633 Ravenna Ave NE", "98105", "-122.303161", "47.662559", [ null, "47.662559", "-122.303161", null, false ] ]
+, [ 314, "45D22A92-7DB5-4290-97E7-7724D3502F55", 314, 1457718696, "386118", 1457718696, "386118", null, "488", "1576", "Ravenna-Eckstein Park", "6535 Ravenna Ave NE", "98115", "-122.304964", "47.676873", [ null, "47.676873", "-122.304964", null, false ] ]
+, [ 315, "214A7A21-C5A0-428A-A7E4-9E1FCA97FDB2", 315, 1457718696, "386118", 1457718696, "386118", null, "336", "1588", "Regrade Park", "2251 3rd Ave", "98121", "-122.344776", "47.614346", [ null, "47.614346", "-122.344776", null, false ] ]
+, [ 316, "BF545870-B2DE-40A9-8765-95A24DAF9229", 316, 1457718696, "386118", 1457718696, "386118", null, "463", "2269", "Riverview Playfield", "7226 12th Ave SW", "98106", "-122.348688", "47.54101", [ null, "47.54101", "-122.348688", null, false ] ]
+, [ 317, "24E57540-0385-4E6F-9A29-DC94B35EFC17", 317, 1457718696, "386118", 1457718696, "386118", null, "379", "1591", "Roanoke Park", "950 E Roanoke St", "98102", "-122.320185", "47.643723", [ null, "47.643723", "-122.320185", null, false ] ]
+, [ 318, "C9C2BB6C-D111-4877-8A43-6FBC04A8238E", 318, 1457718696, "386118", 1457718696, "386118", null, "9064", "0", "Roanoke St. Mini Park", "1 E Roanoke St", "98102", "-122.329327", "47.643193", [ null, "47.643193", "-122.329327", null, false ] ]
+, [ 319, "E5CFBC0C-CD14-4BF1-9E7B-18FDB55A9BF4", 319, 1457718696, "386118", 1457718696, "386118", null, "380", "1165", "Rogers Playground", "2516 Eastlake Ave E", "98102", "-122.325257", "47.642601", [ null, "47.642601", "-122.325257", null, false ] ]
+, [ 320, "1DEEF403-BE2B-45DB-B8B1-DF00CC9DC5A6", 320, 1457718696, "386118", 1457718696, "386118", null, "248", "1812", "Ross Playground", "4320 4th Ave NW", "98107", "-122.361347", "47.659718", [ null, "47.659718", "-122.361347", null, false ] ]
+, [ 321, "8B5224D6-330B-43B4-939A-AA1058070ED9", 321, 1457718696, "386118", 1457718696, "386118", null, "4465", "1594", "Rotary Viewpoint", "4622 35th Ave SW", "98126", "-122.375859", "47.560222", [ null, "47.560222", "-122.375859", null, false ] ]
+, [ 322, "85187976-000C-4A7A-8A49-B4B3EB85981C", 322, 1457718696, "386118", 1457718696, "386118", null, "464", "1595", "Roxhill Park", "2850 SW Roxbury St", "98126", "-122.368881", "47.519496", [ null, "47.519496", "-122.368881", null, false ] ]
+, [ 323, "21C669C5-C4A4-4203-8140-34397FD1EEFF", 323, 1457718696, "386118", 1457718696, "386118", null, "394", "1168", "Sacajawea Playground", "1726 NE 94th St", "98115", "-122.308132", "47.697132", [ null, "47.697132", "-122.308132", null, false ] ]
+, [ 324, "3F5AAA78-381B-46F6-88E2-E0FE9BDBDCDE", 324, 1457718696, "386118", 1457718696, "386118", null, "249", "1599", "Salmon Bay Park", "2001 NW Canoe Pl", "98117", "-122.381343", "47.679297", [ null, "47.679297", "-122.381343", null, false ] ]
+, [ 325, "2E53F80A-56F5-45BF-8E55-E7F5A16553FE", 325, 1457718696, "386118", 1457718696, "386118", null, "4242", "1600", "Sam Smith Park", "1400 Martin Luther King Jr Way S", "98122", "-122.297814", "47.589982", [ null, "47.589982", "-122.297814", null, false ] ]
+, [ 326, "483FC01E-935E-4771-BFAE-E630FE34F9D2", 326, 1457718696, "386118", 1457718696, "386118", null, "250", "2493", "Sandel Playground", "9053 1st Ave NW", "98117", "-122.358701", "47.695134", [ null, "47.695134", "-122.358701", null, false ] ]
+, [ 327, "8E40FF17-96F0-46B9-941E-08BB8D5F2FC5", 327, 1457718696, "386118", 1457718696, "386118", null, "4236", "2539", "Schmitz Boulevard", "5717 SW Stevens St", "98116", "-122.405592", "47.577899", [ null, "47.577899", "-122.405592", null, false ] ]
+, [ 328, "7BC915C6-A3A7-4A34-823B-818E18FC2FE7", 328, 1457718696, "386118", 1457718696, "386118", null, "465", "1603", "Schmitz Preserve Park", "5551 SW Admiral Way", "98116", "-122.400425", "47.574375", [ null, "47.574375", "-122.400425", null, false ] ]
+, [ 329, "4CC4ECC4-287B-4429-9F15-F2C800E4606E", 329, 1457718696, "386118", 1457718696, "386118", null, "455", "1605", "Seacrest Park", "1660 Harbor Ave SW", "98126", "-122.381226", "47.589941", [ null, "47.589941", "-122.381226", null, false ] ]
+, [ 330, "0778D014-A6B5-4536-A3DD-254031D04219", 330, 1457718696, "386118", 1457718696, "386118", null, "335", "2384", "Seattle Aquarium", "1483 Alaskan Way", "98101", "-122.342836", "47.607411", [ null, "47.607411", "-122.342836", null, false ] ]
+, [ 331, "D6896C0A-F941-4C48-93D4-21BCA011FB99", 331, 1457718696, "386118", 1457718696, "386118", null, "466", "1609", "Seola Park", "11399 Seola Beach Dr SW", "98146", "-122.374332", "47.50039", [ null, "47.50039", "-122.374332", null, false ] ]
+, [ 332, "10EC7A84-25D2-4E2A-8B13-CB3FB9E7A98D", 332, 1457718696, "386118", 1457718696, "386118", null, "4466", "1610", "Seven Hills Park", "1514 E Howell St", "98122", "-122.312534", "47.617684", [ null, "47.617684", "-122.312534", null, false ] ]
+, [ 333, "066B9B85-1269-4AEF-85F3-E514DEF91FEE", 333, 1457718696, "386118", 1457718696, "386118", null, "428", "1611", "Seward Park", "5900 Lake Washington Blvd S", "98118", "-122.250639", "47.54923", [ null, "47.54923", "-122.250639", null, false ] ]
+, [ 334, "BE9F9A3F-758F-467E-AD8A-FE3F336B553F", 334, 1457718696, "386118", 1457718696, "386118", null, "3928", "1616", "Sierra Place", "3300 Sierra Dr S", "98144", "-122.282492", "47.573282", [ null, "47.573282", "-122.282492", null, false ] ]
+, [ 335, "03BCD65B-6D30-4844-9D19-6AFC7DE3C4EE", 335, 1457718696, "386118", 1457718696, "386118", null, "4433", "1617", "Smith Cove", "23rd Ave West", "98199", "-122.387679", "47.632602", [ null, "47.632602", "-122.387679", null, false ] ]
+, [ 336, "D03AE2CC-8874-432C-ACF3-5242CE228945", 336, 1457718696, "386118", 1457718696, "386118", null, "4453", "1619", "Solstice Park", "7400 Fauntleroy Way SW", "98136", "-122.390347", "47.536414", [ null, "47.536414", "-122.390347", null, false ] ]
+, [ 337, "394056F9-6233-4467-A7A6-976729FF4648", 337, 1457718696, "386118", 1457718696, "386118", null, "251", "1175", "Soundview Playfield", "1590 NW 90th St", "98117", "-122.378878", "47.695416", [ null, "47.695416", "-122.378878", null, false ] ]
+, [ 338, "2165D8E6-79DE-42E9-8FA9-66A4424AA19A", 338, 1457718696, "386118", 1457718696, "386118", null, "3987", "1738", "Soundview Terrace", "2500 11th Ave W", "98119", "-122.37141", "47.640849", [ null, "47.640849", "-122.37141", null, false ] ]
+, [ 339, "55FE3F7D-CF71-4A0D-9E29-63F78413C889", 339, 1457718696, "386118", 1457718696, "386118", null, "4048", "1624", "South Park Meadow", "9141 8th Ave S", "98108", "-122.323649", "47.520795", [ null, "47.520795", "-122.323649", null, false ] ]
+, [ 340, "24856DDC-AFDA-4F78-B3D6-5D11A09BC5C7", 340, 1457718696, "386118", 1457718696, "386118", null, "467", "1177", "South Park Playground", "738 S Sullivan St", "98108", "-122.324159", "47.528016", [ null, "47.528016", "-122.324159", null, false ] ]
+, [ 341, "2FD86C9B-E0D5-4A6E-852B-F2720AE8CC0A", 341, 1457718696, "386118", 1457718696, "386118", null, "377", "2431", "South Passage Point Park", "3320 Fuhrman Ave E", "98102", "-122.322486", "47.652087", [ null, "47.652087", "-122.322486", null, false ] ]
+, [ 342, "D593CA48-D96B-4C4C-8AE2-00261D722161", 342, 1457718696, "386118", 1457718696, "386118", null, "381", "2523", "Spring Street Mini Park", "1506 E Spring St", "98122", "-122.3124", "47.611801", [ null, "47.611801", "-122.3124", null, false ] ]
+, [ 343, "ABE9D22F-BDFB-4C87-B578-1C9208E1DFBD", 343, 1457718696, "386118", 1457718696, "386118", null, "3117", "2524", "Spruce Street Mini Park", "160 21st Ave", "98122", "-122.304648", "47.603091", [ null, "47.603091", "-122.304648", null, false ] ]
+, [ 344, "8A76941F-48BC-4323-AC1A-0767C3BFC47E", 344, 1457718696, "386118", 1457718696, "386118", null, "2848", "2848", "St. Mark's Greenbelt", "1500 Lakeview Blvd E", "98102", "-122.322174", "47.63115", [ null, "47.63115", "-122.322174", null, false ] ]
+, [ 345, "BE4E02C3-BF17-48D2-B766-7B5BBB3FEEA5", 345, 1457718696, "386118", 1457718696, "386118", null, "425", "1844", "Stan Sayres Memorial Park", "3808 Lake Washington Blvd S", "98118", "-122.277162", "47.571222", [ null, "47.571222", "-122.277162", null, false ] ]
+, [ 346, "B9D41C15-351E-49BE-A6A4-D260ED9124C8", 346, 1457718696, "386118", 1457718696, "386118", null, "3919", "1630", "Stevens Place", "2919 Beacon Ave S", "98144", "-122.310563", "47.577122", [ null, "47.577122", "-122.310563", null, false ] ]
+, [ 347, "0246C57C-D496-484F-B6C1-613021D8EE12", 347, 1457718696, "386118", 1457718696, "386118", null, "3981", "1631", "Stevens Triangle", "3809 E John St", "98112", "-122.283592", "47.619443", [ null, "47.619443", "-122.283592", null, false ] ]
+, [ 348, "F3D9CB81-23D8-4465-93AA-E2ED2944AFE5", 348, 1457718696, "386118", 1457718696, "386118", null, "592", "1633", "Sturgus Park", "904 Sturgus Ave S", "98144", "-122.314376", "47.59409", [ null, "47.59409", "-122.314376", null, false ] ]
+, [ 349, "EF2001EE-24AC-4BE4-9EA9-A5382BF5C427", 349, 1457718696, "386118", 1457718696, "386118", null, "290", "1633", "Sturtevant Ravine", "9335 Sturtevant Ave S", "98118", "-122.268561", "47.51783", [ null, "47.51783", "-122.268561", null, false ] ]
+, [ 350, "444522FA-2FFA-4CAD-A70C-9A4912A20976", 350, 1457718696, "386118", 1457718696, "386118", null, "383", "1635", "Summit Place", "Belmont Ave E & Bellevue Pl E", "98102", "-122.325708", "47.627081", [ null, "47.627081", "-122.325708", null, false ] ]
+, [ 351, "5965312F-AFC1-4C0B-9291-41187881586C", 351, 1457718696, "386118", 1457718696, "386118", null, "4461", "1636", "Summit Slope Park", "200 Summit Ave E", "98102", "-122.325298", "47.619832", [ null, "47.619832", "-122.325298", null, false ] ]
+, [ 352, "A5C0BC47-49C1-4C71-88B2-8A7EE30EC9C6", 352, 1457718696, "386118", 1457718696, "386118", null, "3903", "2500", "Sunnyside Ave N Boat Ramp", "2301 N Northlake Way", "98103", "-122.330723", "47.650292", [ null, "47.650292", "-122.330723", null, false ] ]
+, [ 353, "9736298A-9048-491F-BF80-E4ADC87D8268", 353, 1457718696, "386118", 1457718696, "386118", null, "252", "1638", "Sunset Hill Park", "7531 34th Ave NW", "98117", "-122.400938", "47.684034", [ null, "47.684034", "-122.400938", null, false ] ]
+, [ 354, "F59D01AE-F7AE-4954-B831-003521433A88", 354, 1457718696, "386118", 1457718696, "386118", null, "3901", "1639", "Sunset Place", "105 NW 52nd St", "98107", "-122.357602", "47.666686", [ null, "47.666686", "-122.357602", null, false ] ]
+, [ 355, "CADE2FB4-D2A1-4512-8B85-8DC9F80FA6BB", 355, 1457718696, "386118", 1457718696, "386118", null, "234", "2416", "SW Queen Anne Greenbelt", "12th Ave W & W Howe St", "98119", "-122.373209", "47.633353", [ null, "47.633353", "-122.373209", null, false ] ]
+, [ 356, "B8A34FB6-5C77-4FB1-9280-C10AFE88A2D7", 356, 1457718696, "386118", 1457718696, "386118", null, "3913", "2591", "T.T. Minor Playground", "1698 E Union St", "98122", "-122.310543", "47.613111", [ null, "47.613111", "-122.310543", null, false ] ]
+, [ 357, "F9F3B987-F1FA-4AAD-95B5-5CF69499EF9F", 357, 1457718696, "386118", 1457718696, "386118", null, "384", "1076", "Tashkent Park", "511 Boylston Ave E", "98102", "-122.323444", "47.62379", [ null, "47.62379", "-122.323444", null, false ] ]
+, [ 358, "5BCB1F5B-A766-479F-81BC-788995F9B550", 358, 1457718696, "386118", 1457718696, "386118", null, "3889", "1643", "Terry Pettus Park", "2001 Fairview Ave E", "98102", "-122.329689", "47.636742", [ null, "47.636742", "-122.329689", null, false ] ]
+, [ 359, "18FE4A60-6F08-48FC-9CEB-96737C6D9C83", 359, 1457718696, "386118", 1457718696, "386118", null, "4014", "1644", "Thayer Place", "10088 Waters Ave S", "98178", "-122.250038", "47.510613", [ null, "47.510613", "-122.250038", null, false ] ]
+, [ 360, "639AA349-6E78-4EA4-9B9F-FE492E1FCD27", 360, 1457718696, "386118", 1457718696, "386118", null, "1106", "1756", "Thomas C. Wales Park", "2401 6th Ave N", "98109", "-122.344468", "47.640523", [ null, "47.640523", "-122.344468", null, false ] ]
+, [ 361, "54ACC1E1-4EE3-4081-BF46-E92B424F7333", 361, 1457718696, "386118", 1457718696, "386118", null, "386", "1044", "Thomas St. Mini Park", "306 Bellevue Ave E", "98102", "-122.326216", "47.621036", [ null, "47.621036", "-122.326216", null, false ] ]
+, [ 362, "2C5BF461-B476-46F0-B783-C4637319EB2B", 362, 1457718696, "386118", 1457718696, "386118", null, "343", "1648", "Thorndyke Park", "1818 Thorndyke Ave W", "98199", "-122.390161", "47.635099", [ null, "47.635099", "-122.390161", null, false ] ]
+, [ 363, "FECC1ECA-A9BD-441B-A1EF-DD574959D941", 363, 1457718696, "386118", 1457718696, "386118", null, "416", "0", "Thornton Creek Park #1", "13002 10th Ave NE", "98125", "-122.307629", "47.707034", [ null, "47.707034", "-122.307629", null, false ] ]
+, [ 364, "82D0B9AC-A52D-48CC-8B84-0507675AD3CD", 364, 1457718696, "386118", 1457718696, "386118", null, "4405", "1649", "Thyme Patch Park", "2853 NW 58th St", "98107", "-122.395214", "47.670709", [ null, "47.670709", "-122.395214", null, false ] ]
+, [ 365, "B65F2C50-8967-4BDA-BA8F-B20AA879E5E6", 365, 1457718696, "386118", 1457718696, "386118", null, "3909", "1651", "Tilikum Place", "2701 5th Ave", "98121", "-122.347411", "47.618382", [ null, "47.618382", "-122.347411", null, false ] ]
+, [ 366, "38AA66DA-B290-4F95-828A-BC41B738FF87", 366, 1457718696, "386118", 1457718696, "386118", null, "4421", "1654", "Trolley Hill Park", "1800 Taylor Ave N", "98109", "-122.347039", "47.635143", [ null, "47.635143", "-122.347039", null, false ] ]
+, [ 367, "558F1389-0028-4D64-9FEC-371221B25361", 367, 1457718696, "386118", 1457718696, "386118", null, "4007", "1658", "Union Station Square", "316 S Jackson St", "98104", "-122.330086", "47.599362", [ null, "47.599362", "-122.330086", null, false ] ]
+, [ 368, "6F63B7E2-073E-436F-A1DC-50F3660BE910", 368, 1457718696, "386118", 1457718696, "386118", null, "424", "1659", "University Circle", "5801 University Circle NE", "98105", "-122.275181", "47.67203", [ null, "47.67203", "-122.275181", null, false ] ]
+, [ 369, "99F55C5D-588E-41C7-B45C-2D90D26DE5F1", 369, 1457718696, "386118", 1457718696, "386118", null, "3998", "1662", "University Lake Shore Place", "4275 NE 125th St", "98125", "-122.28006", "47.718937", [ null, "47.718937", "-122.28006", null, false ] ]
+, [ 370, "0DED0393-E927-4E69-B073-8F2C32FB0B2E", 370, 1457718696, "386118", 1457718696, "386118", null, "435", "1180", "University Playground", "4745 9th Ave NE", "98105", "-122.319312", "47.664447", [ null, "47.664447", "-122.319312", null, false ] ]
+, [ 371, "C4540F6D-82D4-445E-AD89-F145D71CF022", 371, 1457718696, "386118", 1457718696, "386118", null, "4451", "1757", "Ursula Judkins Viewpoint", "2605 W Galer St", "98199", "-122.390232", "47.632049", [ null, "47.632049", "-122.390232", null, false ] ]
+, [ 372, "CC6E2A77-9032-4D39-8228-5B18CD10AFEF", 372, 1457718696, "386118", 1457718696, "386118", null, "431", "1874", "Van Asselt Playground", "7050 Beacon Ave S", "98108", "-122.294068", "47.539446", [ null, "47.539446", "-122.294068", null, false ] ]
+, [ 373, "C4A5C441-0784-47A8-B011-91B728B1787D", 373, 1457718696, "386118", 1457718696, "386118", null, "338", "1664", "Victor Steinbrueck Park", "2001 Western Ave", "98121", "-122.343869", "47.610153", [ null, "47.610153", "-122.343869", null, false ] ]
+, [ 374, "49206887-8773-4201-AC76-01E8CA569EE6", 374, 1457718696, "386118", 1457718696, "386118", null, "4443", "1666", "Victory Creek Park", "1059 NE Northgate Way", "98125", "-122.315554", "47.709155", [ null, "47.709155", "-122.315554", null, false ] ]
+, [ 375, "6A595536-CBEB-47ED-96C1-73395B2D5656", 375, 1457718696, "386118", 1457718696, "386118", null, "438", "1875", "Victory Heights Playground", "1737 NE 106th St", "98125", "-122.307834", "47.705672", [ null, "47.705672", "-122.307834", null, false ] ]
+, [ 376, "D609EF71-8C1B-4634-8B3A-6E99AC96354E", 376, 1457718696, "386118", 1457718696, "386118", null, "444", "1876", "View Ridge Playfield", "4408 NE 70th St", "98115", "-122.279969", "47.679747", [ null, "47.679747", "-122.279969", null, false ] ]
+, [ 377, "8B565C18-56DC-4E3D-8B1A-2E3F6A003727", 377, 1457718696, "386118", 1457718696, "386118", null, "3098", "1667", "Viretta Park", "151 Lake Washington Blvd E", "98112", "-122.282003", "47.61875", [ null, "47.61875", "-122.282003", null, false ] ]
+, [ 378, "EAF144F9-2122-4D3F-AFF2-FC89619DF01F", 378, 1457718696, "386118", 1457718696, "386118", null, "4002", "1668", "Virgil Flaim Park", "2700 NE 123rd St", "98125", "-122.299374", "47.717955", [ null, "47.717955", "-122.299374", null, false ] ]
+, [ 379, "04044B93-B6D0-4C77-A6D7-E81DFF280B40", 379, 1457718696, "386118", 1457718696, "386118", null, "399", "1669", "Volunteer Park", "1247 15th Ave E", "98112", "-122.315568", "47.630378", [ null, "47.630378", "-122.315568", null, false ] ]
+, [ 380, "E47CAFD7-ACB8-450D-BC77-8EE6BC691F2B", 380, 1457718696, "386118", 1457718696, "386118", null, "1000399", "0", "Volunteer Park Conservatory", "1400 E Galer St", "98112", "-122.315708", "47.632063", [ null, "47.632063", "-122.315708", null, false ] ]
+, [ 381, "56A7079B-738A-4981-9224-46D4536E84F9", 381, 1457718696, "386118", 1457718696, "386118", null, "449", "2336", "Wallingford Playfield", "4219 Wallingford Ave N", "98103", "-122.337444", "47.658544", [ null, "47.658544", "-122.337444", null, false ] ]
+, [ 382, "A834532B-BBC9-4A32-88EF-7472BD7D8A6F", 382, 1457718696, "386118", 1457718696, "386118", null, "1000004", "0", "Wallingford Steps", "1800 N Northlake Way", "98103", "-122.336152", "47.647345", [ null, "47.647345", "-122.336152", null, false ] ]
+, [ 383, "EEF30DFF-ECFA-4F17-A92D-BD2998DFB8E0", 383, 1457718696, "386118", 1457718696, "386118", null, "3941", "1748", "Walt Hundley Playfield", "6920 34th Ave SW", "98126", "-122.373415", "47.54017", [ null, "47.54017", "-122.373415", null, false ] ]
+, [ 384, "BCDB5E8F-B0E4-4145-AF30-DE55397E9A93", 384, 1457718696, "386118", 1457718696, "386118", null, "763", "1684", "Ward Springs Park", "4th Ave N & Ward St", "98109", "-122.349245", "47.627747", [ null, "47.627747", "-122.349245", null, false ] ]
+, [ 385, "348AA8D8-AD41-42ED-A754-71CAD40E1266", 385, 1457718696, "386118", 1457718696, "386118", null, "398", "2394", "Warren G. Magnuson Park", "7400 Sand Point Way NE", "98115", "-122.255084", "47.680304", [ null, "47.680304", "-122.255084", null, false ] ]
+, [ 386, "A723CDC3-7963-4F51-A092-FC18646AFF85", 386, 1457718696, "386118", 1457718696, "386118", null, "393", "0", "Washington Park Arboretum", "2300 Arboretum Dr E", "98112", "-122.294835", "47.636477", [ null, "47.636477", "-122.294835", null, false ] ]
+, [ 387, "35955B0B-F431-41B6-BC21-E2F9C458D4C5", 387, 1457718696, "386118", 1457718696, "386118", null, "1100393", "393", "Washington Park Playfield", "1017 Lake Washington Blvd E", "98112", "-122.293925", "47.627064", [ null, "47.627064", "-122.293925", null, false ] ]
+, [ 388, "9F2E8F2A-D425-424B-98D5-A6C8B3BDA687", 388, 1457718696, "386118", 1457718696, "386118", null, "4165", "2499", "Washington Street Public Boat Landing", "199 Alaskan Way S", "98104", "-122.336045", "47.601007", [ null, "47.601007", "-122.336045", null, false ] ]
+, [ 389, "0D5E1CBF-6300-41A7-B64F-721F4B33D6F7", 389, 1457718696, "386118", 1457718696, "386118", null, "3973", "1689", "Waterfront Park", "1401 Alaskan Way", "98101", "-122.342196", "47.606778", [ null, "47.606778", "-122.342196", null, false ] ]
+, [ 390, "FE171EF2-71A8-4E04-8CBB-54883F721E2A", 390, 1457718696, "386118", 1457718696, "386118", null, "4083", "1692", "Waterway 19", "2119 N Northlake Way", "98103", "-122.332567", "47.646349", [ null, "47.646349", "-122.332567", null, false ] ]
+, [ 391, "128FEBC8-25A9-4D44-99BA-6E65F58D20F8", 391, 1457718696, "386118", 1457718696, "386118", null, "3966", "1694", "Weather Watch Park", "4035 Beach Dr SW", "98116", "-122.409506", "47.568247", [ null, "47.568247", "-122.409506", null, false ] ]
+, [ 392, "C2AE21D7-9B1B-4B2D-8AE5-8459987A578C", 392, 1457718696, "386118", 1457718696, "386118", null, "3894", "1045", "Webster Park", "3025 NW 68th St", "98117", "-122.397851", "47.677832", [ null, "47.677832", "-122.397851", null, false ] ]
+, [ 393, "D4CEAA1D-7E6F-490B-A63E-3C30F1B26548", 393, 1457718696, "386118", 1457718696, "386118", null, "3899", "1695", "Wedgwood Square", "8126 31st Ave NE", "98115", "-122.294772", "47.688151", [ null, "47.688151", "-122.294772", null, false ] ]
+, [ 394, "36E1B1AB-772E-408D-848E-5B71D76DD727", 394, 1457718696, "386118", 1457718696, "386118", null, "4401", "2603", "West Duwamish Greenbelt", "W Marginal Way SW & Highland Park Way SW", "98106", "-122.356966", "47.563271", [ null, "47.563271", "-122.356966", null, false ] ]
+, [ 395, "2C790445-DA8B-4E18-8E17-C1018EC2A792", 395, 1457718696, "386118", 1457718696, "386118", null, "3694", "2401", "West Ewing Mini Park", "244 W Ewing St", "98119", "-122.360602", "47.65205", [ null, "47.65205", "-122.360602", null, false ] ]
+, [ 396, "295780E7-43F4-4967-BC70-408E352BA19A", 396, 1457718696, "386118", 1457718696, "386118", null, "375", "2402", "West Montlake Park", "2815 W Park Dr E", "98112", "-122.30982", "47.646219", [ null, "47.646219", "-122.30982", null, false ] ]
+, [ 397, "C6A01D1B-D221-47BE-A085-A80F3D2A5722", 397, 1457718696, "386118", 1457718696, "386118", null, "330", "2561", "West Queen Anne Playfield", "150 W Blaine St", "98119", "-122.359504", "47.635514", [ null, "47.635514", "-122.359504", null, false ] ]
+, [ 398, "7E993FB1-C2BC-4715-848B-411057198E05", 398, 1457718696, "386118", 1457718696, "386118", null, "469", "2566", "West Seattle Golf Course", "4600 35th Ave SW", "98126", "-122.369657", "47.55986", [ null, "47.55986", "-122.369657", null, false ] ]
+, [ 399, "E5F883C7-53FA-48FC-ABB5-8196779BB20C", 399, 1457718696, "386118", 1457718696, "386118", null, "472", "2528", "West Seattle Stadium", "4432 35th Ave SW", "98126", "-122.374348", "47.562826", [ null, "47.562826", "-122.374348", null, false ] ]
+, [ 400, "85F8DC5B-CF87-4E2E-AA0E-28383EF571B5", 400, 1457718696, "386118", 1457718696, "386118", null, "468", "1701", "Westcrest Park", "9000 8th Ave SW", "98106", "-122.341719", "47.525783", [ null, "47.525783", "-122.341719", null, false ] ]
+, [ 401, "C8F8EC1F-1000-45B0-B55E-90A6AA43FB5A", 401, 1457718696, "386118", 1457718696, "386118", null, "494", "1702", "Westlake Greenbelt", "Westlake Ave & Halladay St", "98109", "-122.34338", "47.641586", [ null, "47.641586", "-122.34338", null, false ] ]
+, [ 402, "9D3F34DC-AEEA-4FC8-B7C5-ACB6AD38872C", 402, 1457718696, "386118", 1457718696, "386118", null, "332", "1703", "Westlake Park", "401 Pine St", "98101", "-122.33724", "47.611099", [ null, "47.611099", "-122.33724", null, false ] ]
+, [ 403, "EE0262A3-43D2-4D99-8FB7-007C01B938ED", 403, 1457718696, "386118", 1457718696, "386118", null, "334", "1705", "Westlake Square", "1900 Westlake Ave", "98109", "-122.337285", "47.613627", [ null, "47.613627", "-122.337285", null, false ] ]
+, [ 404, "55364B67-745E-429B-B862-431D176801A9", 404, 1457718696, "386118", 1457718696, "386118", null, "385", "2530", "William Grose Park", "1814 30th Ave", "98122", "-122.29294", "47.618021", [ null, "47.618021", "-122.29294", null, false ] ]
+, [ 405, "DB1681C3-D2D1-4DD9-9BB3-84EBB13A077B", 405, 1457718696, "386118", 1457718696, "386118", null, "4016", "1707", "Williams Place", "199 15th Ave E", "98112", "-122.313094", "47.619809", [ null, "47.619809", "-122.313094", null, false ] ]
+, [ 406, "E64DB5F2-62A6-4250-A2A9-7D12F09A2F0E", 406, 1457718696, "386118", 1457718696, "386118", null, "278", "1814", "Wolf Creek Ravine Natural Area", "McGraw St between 2nd Ave N & Nobb Hill Ave N", "98109", "-122.352314", "47.639775", [ null, "47.639775", "-122.352314", null, false ] ]
+, [ 407, "E3FDF54B-3680-4D71-85CB-67590D05663C", 407, 1457718696, "386118", 1457718696, "386118", null, "292", "1815", "Woodland Park", "1000 N 50th St", "98103", "-122.344218", "47.668906", [ null, "47.668906", "-122.344218", null, false ] ]
+, [ 408, "440A7495-3C05-48D2-893F-D9ED97AF8F43", 408, 1457718696, "386118", 1457718696, "386118", null, "1000292", "292", "Woodland Park Rose Garden", "750 N 50th St", "98103", "-122.35054", "47.666499", [ null, "47.666499", "-122.35054", null, false ] ]
+, [ 409, "CFC97442-9C74-4F46-984D-14B51387EED4", 409, 1457718696, "386118", 1457718696, "386118", null, "200", "9909", "Woodland Park Zoo", "700 N 50th St", "98103", "-122.35043", "47.666183", [ null, "47.666183", "-122.35043", null, false ] ]
+, [ 410, "EBA1BE98-36B6-4311-82AF-7C0D2F15AEAD", 410, 1457718696, "386118", 1457718696, "386118", null, "4563", "0", "Yesler Playfield", "835 Yesler Way", "98104", "-122.320083", "47.601262", [ null, "47.601262", "-122.320083", null, false ] ]
+, [ 411, "FCA79ED2-47D0-4516-965F-4389490920F1", 411, 1457718696, "386118", 1457718696, "386118", null, "580", "1712", "York Park", "3650 Renton Ave S", "98144", "-122.295537", "47.570461", [ null, "47.570461", "-122.295537", null, false ] ]
+, [ 412, "328322EF-D8E7-4EBC-BDDD-5939D5C0C695", 412, 1457718696, "386118", 1457718696, "386118", null, "3926", "1816", "York Playground", "3327 34th Ave S", "98126", "-122.290713", "47.572695", [ null, "47.572695", "-122.290713", null, false ] ]
+ ]
+}
