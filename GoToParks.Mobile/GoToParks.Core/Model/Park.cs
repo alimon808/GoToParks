@@ -1,4 +1,4 @@
-﻿namespace GoToParks.Core.Model
+﻿namespace GoToParks.Core
 {
     public class Park
     {
