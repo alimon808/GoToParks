@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25029.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToParks.Android", "GoToParks.Android\GoToParks.Android.csproj", "{8F519428-BBBB-4C63-A578-DC7D3EFE45A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToParks.Droid", "GoToParks.Droid\GoToParks.Droid.csproj", "{8F519428-BBBB-4C63-A578-DC7D3EFE45A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToParks.Core", "GoToParks.Core\GoToParks.Core.csproj", "{D62F713B-F0BC-4FFC-9308-F1E81B72D2F9}"
 EndProject
