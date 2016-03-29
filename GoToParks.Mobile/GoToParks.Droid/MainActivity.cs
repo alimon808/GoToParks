@@ -5,6 +5,9 @@ using Android.Widget;
 using Android.OS;
 using Android.Gms.Maps;
 using Android.Gms.Maps.Model;
+using GoToParks.Core.Service;
+using GoToParks.Core;
+using System.Collections.Generic;
 
 namespace GoToParks.Droid
 {
@@ -16,7 +19,7 @@ namespace GoToParks.Droid
         private MapFragment mapFragment;
         private LatLng seattleLocation;
         private Button externalMapButton;
-
+        private ParkDataService parkDataService;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -25,13 +28,9 @@ namespace GoToParks.Droid
             // Set our view from the "main" layout resource
             seattleLocation = new LatLng(47.636477, -122.294835);
             SetContentView(Resource.Layout.Main);
-
+            parkDataService = new ParkDataService();
             FindViews();
             HandleEvents();
-            //Android.Net.Uri seattleLocationUri = Android.Net.Uri.Parse("geo:47.636477,-122.294835");
-
-            //Intent mapIntent = new Intent(Intent.ActionView, seattleLocationUri);
-            
             CreateMapFragment();
             UpdateMapView();
         }
@@ -73,15 +72,20 @@ namespace GoToParks.Droid
         private void UpdateMapView()
         {
             var mapReadyCallback = new LocalMapReady();
+            List<Park> parks = parkDataService.GetAllParks();
             mapReadyCallback.MapReady += (sender, args) =>
             {
                 googleMap = (sender as LocalMapReady).Map;
                 if (googleMap != null)
                 {
-                    MarkerOptions markerOptions = new MarkerOptions();
-                    markerOptions.SetPosition(seattleLocation);
-                    markerOptions.SetTitle("Seattle");
-                    googleMap.AddMarker(markerOptions);
+                    foreach (var park in parks)
+                    {
+                        LatLng location = new LatLng(park.Lat, park.Long);
+                        MarkerOptions markerOptions = new MarkerOptions();
+                        markerOptions.SetPosition(location);
+                        markerOptions.SetTitle(park.Name);
+                        googleMap.AddMarker(markerOptions);
+                    }
 
                     CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngZoom(seattleLocation, 15);
                     googleMap.MoveCamera(cameraUpdate);
