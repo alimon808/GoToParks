@@ -57,7 +57,7 @@ namespace GoToParks.Droid
             if (mapFragment == null)
             {
                 var googleMapOptions = new GoogleMapOptions()
-                    .InvokeMapType(GoogleMap.MapTypeSatellite)
+                    .InvokeMapType(GoogleMap.MapTypeNormal)
                     .InvokeZoomControlsEnabled(true)
                     .InvokeCompassEnabled(true);
 
@@ -82,12 +82,13 @@ namespace GoToParks.Droid
                     {
                         LatLng location = new LatLng(park.Lat, park.Long);
                         MarkerOptions markerOptions = new MarkerOptions();
-                        markerOptions.SetPosition(location);
-                        markerOptions.SetTitle(park.Name);
+                        markerOptions.SetPosition(location)
+                                     .SetTitle(park.Name)
+                                     .SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
                         googleMap.AddMarker(markerOptions);
                     }
 
-                    CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngZoom(seattleLocation, 15);
+                    CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngZoom(seattleLocation, 12);
                     googleMap.MoveCamera(cameraUpdate);
                 }
             };
