@@ -90,6 +90,7 @@ namespace GoToParks.Droid
 
                     CameraUpdate cameraUpdate = CameraUpdateFactory.NewLatLngZoom(seattleLocation, 12);
                     googleMap.MoveCamera(cameraUpdate);
+                    googleMap.MarkerClick += MapOnMarkerClick; ;
                 }
             };
 
@@ -109,6 +110,13 @@ namespace GoToParks.Droid
                     handler(this, EventArgs.Empty);
                 }
             }
+        }
+
+        private void MapOnMarkerClick(object sender, GoogleMap.MarkerClickEventArgs markerClickEventArgs)
+        {
+            markerClickEventArgs.Handled = true;
+            Marker marker = markerClickEventArgs.Marker;
+            googleMap.MoveCamera(CameraUpdateFactory.NewLatLngZoom(marker.Position, 15));
         }
     }
 }
