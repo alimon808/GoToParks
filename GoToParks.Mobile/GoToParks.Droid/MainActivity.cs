@@ -84,7 +84,8 @@ namespace GoToParks.Droid
                         MarkerOptions markerOptions = new MarkerOptions();
                         markerOptions.SetPosition(location)
                                      .SetTitle(park.Name)
-                                     .SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
+                                     //.SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
+                                     .SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.tree16));
                         googleMap.AddMarker(markerOptions);
                     }
 
@@ -114,9 +115,9 @@ namespace GoToParks.Droid
 
         private void MapOnMarkerClick(object sender, GoogleMap.MarkerClickEventArgs markerClickEventArgs)
         {
-            markerClickEventArgs.Handled = true;
+            markerClickEventArgs.Handled = false;
             Marker marker = markerClickEventArgs.Marker;
-            googleMap.MoveCamera(CameraUpdateFactory.NewLatLngZoom(marker.Position, 15));
+            googleMap.AnimateCamera(CameraUpdateFactory.NewLatLngZoom(marker.Position, 15));
         }
     }
 }

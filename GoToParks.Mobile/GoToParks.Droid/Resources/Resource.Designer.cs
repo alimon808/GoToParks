@@ -321,6 +321,24 @@ namespace GoToParks.Droid
 			// aapt resource value: 0x7f02002b
 			public const int monoandroidsplash = 2130837547;
 			
+			// aapt resource value: 0x7f02002c
+			public const int tree128 = 2130837548;
+			
+			// aapt resource value: 0x7f02002d
+			public const int tree16 = 2130837549;
+			
+			// aapt resource value: 0x7f02002e
+			public const int tree256 = 2130837550;
+			
+			// aapt resource value: 0x7f02002f
+			public const int tree32 = 2130837551;
+			
+			// aapt resource value: 0x7f020030
+			public const int tree512 = 2130837552;
+			
+			// aapt resource value: 0x7f020031
+			public const int tree64 = 2130837553;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
