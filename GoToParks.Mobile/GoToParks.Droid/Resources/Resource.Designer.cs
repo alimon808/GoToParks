@@ -322,22 +322,7 @@ namespace GoToParks.Droid
 			public const int monoandroidsplash = 2130837547;
 			
 			// aapt resource value: 0x7f02002c
-			public const int tree128 = 2130837548;
-			
-			// aapt resource value: 0x7f02002d
-			public const int tree16 = 2130837549;
-			
-			// aapt resource value: 0x7f02002e
-			public const int tree256 = 2130837550;
-			
-			// aapt resource value: 0x7f02002f
-			public const int tree32 = 2130837551;
-			
-			// aapt resource value: 0x7f020030
-			public const int tree512 = 2130837552;
-			
-			// aapt resource value: 0x7f020031
-			public const int tree64 = 2130837553;
+			public const int tree16 = 2130837548;
 			
 			static Drawable()
 			{
@@ -352,6 +337,9 @@ namespace GoToParks.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f08000e
+			public const int addressTextView = 2131230734;
+			
 			// aapt resource value: 0x7f080005
 			public const int adjust_height = 2131230725;
 			
@@ -364,8 +352,11 @@ namespace GoToParks.Droid
 			// aapt resource value: 0x7f08000b
 			public const int dark = 2131230731;
 			
-			// aapt resource value: 0x7f08000d
-			public const int externalMapButton = 2131230733;
+			// aapt resource value: 0x7f080010
+			public const int externalMapButton = 2131230736;
+			
+			// aapt resource value: 0x7f08000f
+			public const int hoursTextView = 2131230735;
 			
 			// aapt resource value: 0x7f080000
 			public const int hybrid = 2131230720;
@@ -376,8 +367,8 @@ namespace GoToParks.Droid
 			// aapt resource value: 0x7f08000c
 			public const int light = 2131230732;
 			
-			// aapt resource value: 0x7f08000e
-			public const int mapFrameLayout = 2131230734;
+			// aapt resource value: 0x7f080011
+			public const int mapFrameLayout = 2131230737;
 			
 			// aapt resource value: 0x7f080001
 			public const int none = 2131230721;
@@ -393,6 +384,9 @@ namespace GoToParks.Droid
 			
 			// aapt resource value: 0x7f080004
 			public const int terrain = 2131230724;
+			
+			// aapt resource value: 0x7f08000d
+			public const int titleTextView = 2131230733;
 			
 			// aapt resource value: 0x7f080009
 			public const int wide = 2131230729;
@@ -427,7 +421,10 @@ namespace GoToParks.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int InfoWindow = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{

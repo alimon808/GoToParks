@@ -8,6 +8,7 @@ using Android.Gms.Maps.Model;
 using GoToParks.Core.Service;
 using GoToParks.Core;
 using System.Collections.Generic;
+using static Android.Gms.Maps.GoogleMap;
 
 namespace GoToParks.Droid
 {
@@ -83,9 +84,9 @@ namespace GoToParks.Droid
                         LatLng location = new LatLng(park.Lat, park.Long);
                         MarkerOptions markerOptions = new MarkerOptions();
                         markerOptions.SetPosition(location)
-                                     .SetTitle(park.Name)
-                                     //.SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
+                                     .SetTitle(park.Id.ToString())
                                      .SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.tree16));
+
                         googleMap.AddMarker(markerOptions);
                     }
 
@@ -118,6 +119,9 @@ namespace GoToParks.Droid
             markerClickEventArgs.Handled = false;
             Marker marker = markerClickEventArgs.Marker;
             googleMap.AnimateCamera(CameraUpdateFactory.NewLatLngZoom(marker.Position, 15));
+
+            InfoWindow infoWindow = new InfoWindow(LayoutInflater);
+            googleMap.SetInfoWindowAdapter(infoWindow);
         }
     }
 }
