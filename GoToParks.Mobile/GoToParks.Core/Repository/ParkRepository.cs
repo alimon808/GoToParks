@@ -18,6 +18,12 @@ namespace GoToParks.Core
             return parks;
         }
 
+        public Park GetParkById(int id)
+        {
+            IEnumerable<Park> park = from p in parks where p.Id == id select p;
+            return park.FirstOrDefault();
+        }
+
         private static List<Park> parks = new List<Park>()
         {
             new Park()
@@ -25,6 +31,7 @@ namespace GoToParks.Core
                 Id = 1,
                 Name = "Seward Park",
                 Address = "5900 Lake Washington Blvd S",
+                Hours = "6am - 9pm",
                 Lat = 47.54923f,
                 Long = -122.250639f
             },
@@ -33,6 +40,7 @@ namespace GoToParks.Core
                 Id = 2,
                 Name = "Discover Park",
                 Address = "3801 Discover Park Blvd",
+                Hours = "8am - 10pm",
                 Lat = 47.66083f,
                 Long = -122.415282f
             },
@@ -41,6 +49,7 @@ namespace GoToParks.Core
                 Id = 3,
                 Name = "Lincoln Park",
                 Address = "8011 Fauntleroy Wa SW",
+                Hours = "7am - 7pm",
                 Lat = 47.531176f,
                 Long = -122.396012f
             },
@@ -49,6 +58,7 @@ namespace GoToParks.Core
                 Id = 4,
                 Name = "Washington Park Arboretum",
                 Address = "2300 Arboretum Dr E",
+                Hours = "5am - 10pm",
                 Lat = 47.636477f,
                 Long = -122.294835f
             },
