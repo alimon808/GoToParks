@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="InfoWindow.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="PicassoActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -76,6 +77,9 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\InfoWindow.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\PicassoLayout.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -101,6 +105,10 @@
     <ProjectReference Include="..\GoToParks.Core\GoToParks.Core.csproj">
       <Project>{d62f713b-f0bc-4ffc-9308-f1e81b72d2f9}</Project>
       <Name>GoToParks.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PicassoBindingLibrary\PicassoBindingLibrary.csproj">
+      <Project>{8b0464e8-aa24-4f62-a4b9-a409d9f879ab}</Project>
+      <Name>PicassoBindingLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

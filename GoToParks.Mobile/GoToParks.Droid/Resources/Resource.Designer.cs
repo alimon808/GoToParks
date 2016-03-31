@@ -376,6 +376,9 @@ namespace GoToParks.Droid
 			// aapt resource value: 0x7f080002
 			public const int normal = 2131230722;
 			
+			// aapt resource value: 0x7f080012
+			public const int picassoImageView = 2131230738;
+			
 			// aapt resource value: 0x7f080003
 			public const int satellite = 2131230723;
 			
@@ -425,6 +428,9 @@ namespace GoToParks.Droid
 			
 			// aapt resource value: 0x7f030001
 			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int PicassoLayout = 2130903042;
 			
 			static Layout()
 			{
