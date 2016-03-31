@@ -31,16 +31,16 @@ namespace GoToParks.Core
                 Id = 1,
                 Name = "Seward Park",
                 Address = "5900 Lake Washington Blvd S",
-                Hours = "6am - 9pm",
+                Hours = "6am - 10pm",
                 Lat = 47.54923f,
                 Long = -122.250639f
             },
             new Park()
             {
                 Id = 2,
-                Name = "Discover Park",
+                Name = "Discovery Park",
                 Address = "3801 Discover Park Blvd",
-                Hours = "8am - 10pm",
+                Hours = "4am - 11:30pm",
                 Lat = 47.66083f,
                 Long = -122.415282f
             },
@@ -49,7 +49,7 @@ namespace GoToParks.Core
                 Id = 3,
                 Name = "Lincoln Park",
                 Address = "8011 Fauntleroy Wa SW",
-                Hours = "7am - 7pm",
+                Hours = "4am - 11:30pm",
                 Lat = 47.531176f,
                 Long = -122.396012f
             },
@@ -58,11 +58,64 @@ namespace GoToParks.Core
                 Id = 4,
                 Name = "Washington Park Arboretum",
                 Address = "2300 Arboretum Dr E",
-                Hours = "5am - 10pm",
+                Hours = "dawn - dusk",
                 Lat = 47.636477f,
                 Long = -122.294835f
             },
-
+            new Park()
+            {
+                Id = 5,
+                Name = "Volunteer Park",
+                Address = "1247 15th Ave E",
+                Hours = "6am - 10pm",
+                Lat = 47.630378f,
+                Long = -122.315568f
+            },
+            new Park()
+            {
+                Id = 6,
+                Name = "Boren Park",
+                Address = "1606 15th Ave E",
+                Hours = "4am - 11:30pm",
+                Lat = 47.635274f,
+                Long = -122.311628f
+            },
+            new Park()
+            {
+                Id = 7,
+                Name = "Montlake Playfield",
+                Address = "1618 E Calhoun St",
+                Hours = "4am - 11:30pm",
+                Lat = 47.642407f,
+                Long = -122.310081f
+            },
+            new Park()
+            {
+                Id = 8,
+                Name = "Interlaken Park",
+                Address = "2451 Delmar Dr E",
+                Hours = "4am - 11:30pm",
+                Lat = 47.636257f,
+                Long = -122.308316f
+            },
+            new Park()
+            {
+                Id = 9,
+                Name = "West Monlake Park",
+                Address = "2815 W Park Dr E",
+                Hours = "4am - 11:30pm",
+                Lat = 47.646219f,
+                Long = -122.30982f
+            },
+            new Park()
+            {
+                Id = 10,
+                Name = "Cal Anderson Park",
+                Address = "1635 11th Ave",
+                Hours = "4am - 11:30pm",
+                Lat = 47.617013f,
+                Long = -122.319134f
+            },
         };
     }
 }

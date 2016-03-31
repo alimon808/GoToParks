@@ -26,7 +26,6 @@ namespace GoToParks.Droid
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource
             seattleLocation = new LatLng(47.636477, -122.294835);
             SetContentView(Resource.Layout.Main);
             parkDataService = new ParkDataService();
