@@ -319,10 +319,13 @@ namespace GoToParks.Droid
 			public const int Icon = 2130837546;
 			
 			// aapt resource value: 0x7f02002b
-			public const int monoandroidsplash = 2130837547;
+			public const int monkey = 2130837547;
 			
 			// aapt resource value: 0x7f02002c
-			public const int tree16 = 2130837548;
+			public const int monoandroidsplash = 2130837548;
+			
+			// aapt resource value: 0x7f02002d
+			public const int tree16 = 2130837549;
 			
 			static Drawable()
 			{
@@ -445,11 +448,14 @@ namespace GoToParks.Droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040021
+			public const int ApplicationName = 2130968609;
+			
 			// aapt resource value: 0x7f040020
-			public const int ApplicationName = 2130968608;
+			public const int Hello = 2130968608;
 			
 			// aapt resource value: 0x7f04001f
-			public const int Hello = 2130968607;
+			public const int app_name = 2130968607;
 			
 			// aapt resource value: 0x7f040001
 			public const int auth_google_play_services_client_facebook_display_name = 2130968577;
