@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToParks.Droid", "GoToPark
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToParks.Core", "GoToParks.Core\GoToParks.Core.csproj", "{D62F713B-F0BC-4FFC-9308-F1E81B72D2F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicassoBindingLibrary", "PicassoBindingLibrary\PicassoBindingLibrary.csproj", "{8B0464E8-AA24-4F62-A4B9-A409D9F879AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToParks.BindingLibrary", "GoToParks.BindingLibrary\GoToParks.BindingLibrary.csproj", "{C85C929F-4CCC-496D-B566-4E4EA4842888}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{D62F713B-F0BC-4FFC-9308-F1E81B72D2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D62F713B-F0BC-4FFC-9308-F1E81B72D2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D62F713B-F0BC-4FFC-9308-F1E81B72D2F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B0464E8-AA24-4F62-A4B9-A409D9F879AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B0464E8-AA24-4F62-A4B9-A409D9F879AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B0464E8-AA24-4F62-A4B9-A409D9F879AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B0464E8-AA24-4F62-A4B9-A409D9F879AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85C929F-4CCC-496D-B566-4E4EA4842888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85C929F-4CCC-496D-B566-4E4EA4842888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85C929F-4CCC-496D-B566-4E4EA4842888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85C929F-4CCC-496D-B566-4E4EA4842888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

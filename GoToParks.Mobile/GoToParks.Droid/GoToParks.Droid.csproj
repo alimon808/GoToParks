@@ -102,13 +102,13 @@
     </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GoToParks.BindingLibrary\GoToParks.BindingLibrary.csproj">
+      <Project>{c85c929f-4ccc-496d-b566-4e4ea4842888}</Project>
+      <Name>GoToParks.BindingLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GoToParks.Core\GoToParks.Core.csproj">
       <Project>{d62f713b-f0bc-4ffc-9308-f1e81b72d2f9}</Project>
       <Name>GoToParks.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PicassoBindingLibrary\PicassoBindingLibrary.csproj">
-      <Project>{8b0464e8-aa24-4f62-a4b9-a409d9f879ab}</Project>
-      <Name>PicassoBindingLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
