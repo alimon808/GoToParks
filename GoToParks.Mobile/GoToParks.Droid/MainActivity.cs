@@ -12,7 +12,7 @@ using static Android.Gms.Maps.GoogleMap;
 
 namespace GoToParks.Droid
 {
-    [Activity(Label = "GoToParks", MainLauncher =true, Icon = "@drawable/icon")]
+    [Activity(Label = "GoToParks", MainLauncher = false, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         private GoogleMap googleMap;
