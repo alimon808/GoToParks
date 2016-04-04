@@ -68,6 +68,7 @@
     <Compile Include="Adapter\ParkListAdapter.cs" />
     <Compile Include="InfoWindow.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="ParkDetailActivity.cs" />
     <Compile Include="ParkListActivity.cs" />
     <Compile Include="PicassoActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -84,7 +85,7 @@
     <AndroidResource Include="Resources\layout\PicassoLayout.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\ParkRowView.axml">
+    <AndroidResource Include="Resources\layout\ParkDetailView.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ParkListView.axml">

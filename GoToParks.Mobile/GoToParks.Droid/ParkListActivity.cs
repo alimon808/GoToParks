@@ -16,7 +16,7 @@ using GoToParks.Droid.Adapter;
 namespace GoToParks.Droid
 {
 
-    [Activity(Label = "Seattle Parks", MainLauncher = true)]
+    [Activity(Label = "Seattle Parks", MainLauncher = false)]
     public class ParkListActivity : Activity
     {
         private ListView parkListView;
