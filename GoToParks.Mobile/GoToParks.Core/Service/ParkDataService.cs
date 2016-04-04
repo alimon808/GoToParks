@@ -18,5 +18,10 @@ namespace GoToParks.Core.Service
         {
             return parkRepository.GetAllParks();
         }
+
+        public Park GetParkById(int id)
+        {
+            return parkRepository.GetParkById(id);
+        }
     }
 }
