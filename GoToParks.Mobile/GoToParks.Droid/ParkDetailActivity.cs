@@ -19,14 +19,14 @@ namespace GoToParks.Droid
     {
         private TextView parkNameTextView;
         private Park selectedPark;
-        private ParkDataService parkDataService;
+        private ParkDataService dataService;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.ParkDetailView);
-            parkDataService = new ParkDataService();
-            selectedPark = parkDataService.GetParkById(1);
+            dataService = new ParkDataService();
+            selectedPark = dataService.GetParkById(1);
             FindViews();
             BindData();
         }
