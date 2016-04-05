@@ -8,8 +8,8 @@
     <ImageView
         android:src="@android:drawable/ic_menu_gallery"
         android:padding="5dp"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:id="@+id/parkImageView" />
     <RelativeLayout
         android:paddingLeft="10dp"
@@ -27,13 +27,14 @@
             android:id="@+id/parkNameTextView" />
         <TextView
             android:text="Hours"
-            android:textSize="16dp"
+            android:textSize="12dp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
-            android:gravity="right"
-            android:layout_width="100dp"
+            android:gravity="left"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/parkNameTextView"
             android:id="@+id/parkHoursTextView" />
     </RelativeLayout>
 </LinearLayout>
