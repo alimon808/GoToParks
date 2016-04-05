@@ -14,7 +14,7 @@ using GoToParks.Core.Service;
 
 namespace GoToParks.Droid
 {
-    [Activity(Label = "Park Detail", MainLauncher = true)]
+    [Activity(Label = "Park Detail", MainLauncher = false)]
     public class ParkDetailActivity : Activity
     {
         private TextView parkNameTextView;
@@ -25,8 +25,11 @@ namespace GoToParks.Droid
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.ParkDetailView);
+
             dataService = new ParkDataService();
-            selectedPark = dataService.GetParkById(1);
+            var selectedParkId = Intent.Extras.GetInt("selectedParkId");
+            selectedPark = dataService.GetParkById(selectedParkId);
+
             FindViews();
             BindData();
         }

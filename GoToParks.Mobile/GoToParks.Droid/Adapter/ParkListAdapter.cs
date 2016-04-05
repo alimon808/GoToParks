@@ -44,11 +44,10 @@ namespace GoToParks.Droid.Adapter
             var item = items[position];
             if (convertView == null)
             {
-                convertView = context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem1, null);
+                convertView = context.LayoutInflater.Inflate(Android.Resource.Layout.ActivityListItem, null);
             }
             convertView.FindViewById<TextView>(Android.Resource.Id.Text1).Text = item.Name;
             return convertView;
-            //convertView.FindViewById<TextView>(Resource.Id)
         }
     }
 }
