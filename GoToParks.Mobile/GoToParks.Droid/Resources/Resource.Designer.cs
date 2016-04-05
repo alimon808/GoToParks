@@ -382,17 +382,20 @@ namespace GoToParks.Droid
 			// aapt resource value: 0x7f080014
 			public const int parkAddressTextView = 2131230740;
 			
+			// aapt resource value: 0x7f080015
+			public const int parkHoursTextView = 2131230741;
+			
 			// aapt resource value: 0x7f080012
 			public const int parkImageView = 2131230738;
 			
-			// aapt resource value: 0x7f080015
-			public const int parkListView = 2131230741;
+			// aapt resource value: 0x7f080016
+			public const int parkListView = 2131230742;
 			
 			// aapt resource value: 0x7f080013
 			public const int parkNameTextView = 2131230739;
 			
-			// aapt resource value: 0x7f080016
-			public const int picassoImageView = 2131230742;
+			// aapt resource value: 0x7f080017
+			public const int picassoImageView = 2131230743;
 			
 			// aapt resource value: 0x7f080003
 			public const int satellite = 2131230723;
@@ -448,10 +451,13 @@ namespace GoToParks.Droid
 			public const int ParkDetailView = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int ParkListView = 2130903043;
+			public const int ParkListRowView = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int PicassoLayout = 2130903044;
+			public const int ParkListView = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int PicassoLayout = 2130903045;
 			
 			static Layout()
 			{

@@ -44,9 +44,10 @@ namespace GoToParks.Droid.Adapter
             var item = items[position];
             if (convertView == null)
             {
-                convertView = context.LayoutInflater.Inflate(Android.Resource.Layout.ActivityListItem, null);
+                convertView = context.LayoutInflater.Inflate(Resource.Layout.ParkListRowView, null);
             }
-            convertView.FindViewById<TextView>(Android.Resource.Id.Text1).Text = item.Name;
+            convertView.FindViewById<TextView>(Resource.Id.parkNameTextView).Text = item.Name;
+            convertView.FindViewById<TextView>(Resource.Id.parkHoursTextView).Text = item.Hours;
             return convertView;
         }
     }
