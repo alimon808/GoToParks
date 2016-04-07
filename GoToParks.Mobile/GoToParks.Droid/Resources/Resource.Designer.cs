@@ -340,8 +340,8 @@ namespace GoToParks.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08000f
-			public const int addressTextView = 2131230735;
+			// aapt resource value: 0x7f080010
+			public const int addressTextView = 2131230736;
 			
 			// aapt resource value: 0x7f080005
 			public const int adjust_height = 2131230725;
@@ -355,14 +355,14 @@ namespace GoToParks.Droid
 			// aapt resource value: 0x7f08000b
 			public const int dark = 2131230731;
 			
-			// aapt resource value: 0x7f080011
-			public const int externalMapButton = 2131230737;
+			// aapt resource value: 0x7f080012
+			public const int externalMapButton = 2131230738;
 			
 			// aapt resource value: 0x7f080017
 			public const int fragmentContainer = 2131230743;
 			
-			// aapt resource value: 0x7f080010
-			public const int hoursTextView = 2131230736;
+			// aapt resource value: 0x7f080011
+			public const int hoursTextView = 2131230737;
 			
 			// aapt resource value: 0x7f080000
 			public const int hybrid = 2131230720;
@@ -373,8 +373,8 @@ namespace GoToParks.Droid
 			// aapt resource value: 0x7f08000c
 			public const int light = 2131230732;
 			
-			// aapt resource value: 0x7f080012
-			public const int mapFrameLayout = 2131230738;
+			// aapt resource value: 0x7f08000e
+			public const int mapFrameLayout = 2131230734;
 			
 			// aapt resource value: 0x7f080001
 			public const int none = 2131230721;
@@ -409,8 +409,8 @@ namespace GoToParks.Droid
 			// aapt resource value: 0x7f080004
 			public const int terrain = 2131230724;
 			
-			// aapt resource value: 0x7f08000e
-			public const int titleTextView = 2131230734;
+			// aapt resource value: 0x7f08000f
+			public const int titleTextView = 2131230735;
 			
 			// aapt resource value: 0x7f080009
 			public const int wide = 2131230729;
@@ -448,25 +448,28 @@ namespace GoToParks.Droid
 			public const int AllParksFragment = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int InfoWindow = 2130903041;
+			public const int GoogleMapFragment = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Main = 2130903042;
+			public const int InfoWindow = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int ParkDetailView = 2130903043;
+			public const int Main = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int ParkListRowView = 2130903044;
+			public const int ParkDetailView = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int ParkListView = 2130903045;
+			public const int ParkListRowView = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int PicassoLayout = 2130903046;
+			public const int ParkListView = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int TopTenParksFragment = 2130903047;
+			public const int PicassoLayout = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int TopTenParksFragment = 2130903048;
 			
 			static Layout()
 			{

@@ -31,6 +31,7 @@ namespace GoToParks.Droid
             ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
             AddTab("All", new AllParksFragment());
             AddTab("Top 10", new TopTenParksFragment());
+            AddTab("Map", new GoogleMapFragment());
             //parkListView.ItemClick += ParkListView_ItemClick;
         }
 
