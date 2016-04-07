@@ -116,6 +116,51 @@ namespace GoToParks.Core
                 Lat = 47.617013f,
                 Long = -122.319134f
             },
+            new Park()
+            {
+                Id = 11,
+                Name = "Schmitz Preserve Park",
+                Address = "5551 SW Admiral Way",
+                Hours = "6am - 11pm",
+                Lat = 47.574375f,
+                Long = -122.400425f
+            },
+            new Park()
+            {
+                Id = 12,
+                Name = "Alki Playground",
+                Address = "5817 SW Lander St",
+                Hours = "4am - 11:30pm",
+                Lat = 47.578497f,
+                Long = -122.407312f
+            },
+            new Park()
+            {
+                Id = 13,
+                Name = "Cormorant Cove",
+                Address = "3701 Beach Dr SW",
+                Hours = "4am - 11:30pm",
+                Lat = 47.570984f,
+                Long = -122.412089f
+            },
+            new Park()
+            {
+                Id = 14,
+                Name = "Emma Schmitz Memorial Overlook",
+                Address = "4503 Beach Dr SW",
+                Hours = "4am - 11:30pm",
+                Lat = 47.562898f,
+                Long = -122.40712f
+            },
+            new Park()
+            {
+                Id = 15,
+                Name = "Camp Long",
+                Address = "5200 35th Ave SW",
+                Hours = "10am - 6pm",
+                Lat = 47.556242f,
+                Long = -122.373161f
+            }
         };
     }
 }
