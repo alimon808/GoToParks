@@ -31,6 +31,11 @@ namespace GoToParks.Droid.Fragments
             listView.ItemClick += ListView_ItemClick;
         }
 
+        protected void FindViews()
+        {
+            listView = this.View.FindViewById<ListView>(Resource.Id.parkListView);
+        }
+
         private void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             var park = parks[e.Position];

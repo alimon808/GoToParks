@@ -12,6 +12,7 @@ using Android.Widget;
 using GoToParks.Core;
 using GoToParks.Core.Service;
 using GoToParks.Droid.Adapter;
+using GoToParks.Droid.Fragments;
 
 namespace GoToParks.Droid
 {
@@ -27,13 +28,33 @@ namespace GoToParks.Droid
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.ParkListView);
-            parkListView = FindViewById<ListView>(Resource.Id.parkListView);
-            dataService = new ParkDataService();
-            allParks = dataService.GetAllParks();
-            parkListView.Adapter = new ParkListAdapter(this, allParks);
-            parkListView.FastScrollEnabled = true;
+            ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
+            AddTab("All", new AllParksFragment());
 
-            parkListView.ItemClick += ParkListView_ItemClick;
+            //parkListView.ItemClick += ParkListView_ItemClick;
+        }
+
+        private void AddTab(string tabText, Fragment view)
+        {
+            var tab = this.ActionBar.NewTab();
+            tab.SetText(tabText);
+
+            tab.TabSelected += delegate (object sender, ActionBar.TabEventArgs e)
+            {
+                var fragment = this.FragmentManager.FindFragmentById(Resource.Id.fragmentContainer);
+                if (fragment != null)
+                {
+                    e.FragmentTransaction.Remove(fragment);
+                }
+                e.FragmentTransaction.Add(Resource.Id.fragmentContainer, view);
+            };
+
+            tab.TabUnselected += delegate (object sender, ActionBar.TabEventArgs e)
+            {
+                e.FragmentTransaction.Remove(view);
+            };
+
+            this.ActionBar.AddTab(tab);
         }
 
         private void ParkListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
