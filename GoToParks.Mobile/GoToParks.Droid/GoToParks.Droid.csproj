@@ -71,9 +71,8 @@
     <Compile Include="Fragments\GoogleMapFragment.cs" />
     <Compile Include="Fragments\TopTenParksFragment.cs" />
     <Compile Include="InfoWindow.cs" />
-    <Compile Include="MainActivity.cs" />
     <Compile Include="ParkDetailActivity.cs" />
-    <Compile Include="ParkListActivity.cs" />
+    <Compile Include="MainActivity.cs" />
     <Compile Include="PicassoActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,7 +91,7 @@
     <AndroidResource Include="Resources\layout\ParkDetailView.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\ParkListView.axml">
+    <AndroidResource Include="Resources\layout\MainView.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ParkListRowView.axml">
@@ -107,9 +106,6 @@
     <AndroidResource Include="Resources\layout\GoogleMapFragment.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

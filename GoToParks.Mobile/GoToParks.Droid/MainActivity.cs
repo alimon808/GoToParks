@@ -18,7 +18,7 @@ namespace GoToParks.Droid
 {
 
     [Activity(Label = "Seattle Parks", MainLauncher = true)]
-    public class ParkListActivity : Activity
+    public class MainActivity : Activity
     {
         private ListView parkListView;
         private List<Park> allParks;
@@ -27,7 +27,7 @@ namespace GoToParks.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.ParkListView);
+            SetContentView(Resource.Layout.MainView);
             ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
             AddTab("All", new AllParksFragment());
             AddTab("Top 10", new TopTenParksFragment());
