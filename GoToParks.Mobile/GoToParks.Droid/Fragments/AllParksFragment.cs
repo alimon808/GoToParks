@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using GoToParks.Core;
 using GoToParks.Droid.Adapter;
 
 namespace GoToParks.Droid.Fragments
@@ -27,7 +28,7 @@ namespace GoToParks.Droid.Fragments
             FindViews();
             HandleEvents();
 
-            parks = dataService.GetAllParks();
+            parks = dataService.GetAllParks().OrderBy(p => p.Name).ToList();
             listView.Adapter = new ParkListAdapter(this.Activity, parks);
         }
 

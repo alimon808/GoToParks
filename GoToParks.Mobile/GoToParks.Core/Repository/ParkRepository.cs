@@ -20,7 +20,9 @@ namespace GoToParks.Core
 
         public Park GetParkById(int id)
         {
-            IEnumerable<Park> park = from p in parks where p.Id == id select p;
+            IEnumerable<Park> park = from p in parks
+                                     where p.Id == id
+                                     select p;
             return park.FirstOrDefault();
         }
 
