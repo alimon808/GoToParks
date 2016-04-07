@@ -33,7 +33,8 @@ namespace GoToParks.Core
                 Address = "5900 Lake Washington Blvd S",
                 Hours = "6am - 10pm",
                 Lat = 47.54923f,
-                Long = -122.250639f
+                Long = -122.250639f,
+                Rating = 100
             },
             new Park()
             {
@@ -42,7 +43,8 @@ namespace GoToParks.Core
                 Address = "3801 Discover Park Blvd",
                 Hours = "4am - 11:30pm",
                 Lat = 47.66083f,
-                Long = -122.415282f
+                Long = -122.415282f,
+                Rating = 99
             },
             new Park()
             {
@@ -51,7 +53,8 @@ namespace GoToParks.Core
                 Address = "8011 Fauntleroy Wa SW",
                 Hours = "4am - 11:30pm",
                 Lat = 47.531176f,
-                Long = -122.396012f
+                Long = -122.396012f,
+                Rating = 90
             },
             new Park()
             {
@@ -60,7 +63,8 @@ namespace GoToParks.Core
                 Address = "2300 Arboretum Dr E",
                 Hours = "dawn - dusk",
                 Lat = 47.636477f,
-                Long = -122.294835f
+                Long = -122.294835f,
+                Rating = 92
             },
             new Park()
             {
@@ -69,7 +73,8 @@ namespace GoToParks.Core
                 Address = "1247 15th Ave E",
                 Hours = "6am - 10pm",
                 Lat = 47.630378f,
-                Long = -122.315568f
+                Long = -122.315568f,
+                Rating = 95
             },
             new Park()
             {
@@ -78,7 +83,8 @@ namespace GoToParks.Core
                 Address = "1606 15th Ave E",
                 Hours = "4am - 11:30pm",
                 Lat = 47.635274f,
-                Long = -122.311628f
+                Long = -122.311628f,
+                Rating = 50
             },
             new Park()
             {
@@ -87,7 +93,8 @@ namespace GoToParks.Core
                 Address = "1618 E Calhoun St",
                 Hours = "4am - 11:30pm",
                 Lat = 47.642407f,
-                Long = -122.310081f
+                Long = -122.310081f,
+                Rating = 60
             },
             new Park()
             {
@@ -96,7 +103,8 @@ namespace GoToParks.Core
                 Address = "2451 Delmar Dr E",
                 Hours = "4am - 11:30pm",
                 Lat = 47.636257f,
-                Long = -122.308316f
+                Long = -122.308316f,
+                Rating = 45
             },
             new Park()
             {
@@ -105,7 +113,8 @@ namespace GoToParks.Core
                 Address = "2815 W Park Dr E",
                 Hours = "4am - 11:30pm",
                 Lat = 47.646219f,
-                Long = -122.30982f
+                Long = -122.30982f,
+                Rating = 30
             },
             new Park()
             {
@@ -114,7 +123,8 @@ namespace GoToParks.Core
                 Address = "1635 11th Ave",
                 Hours = "4am - 11:30pm",
                 Lat = 47.617013f,
-                Long = -122.319134f
+                Long = -122.319134f,
+                Rating = 85
             },
             new Park()
             {
@@ -123,7 +133,8 @@ namespace GoToParks.Core
                 Address = "5551 SW Admiral Way",
                 Hours = "6am - 11pm",
                 Lat = 47.574375f,
-                Long = -122.400425f
+                Long = -122.400425f,
+                Rating = 66
             },
             new Park()
             {
@@ -132,7 +143,8 @@ namespace GoToParks.Core
                 Address = "5817 SW Lander St",
                 Hours = "4am - 11:30pm",
                 Lat = 47.578497f,
-                Long = -122.407312f
+                Long = -122.407312f,
+                Rating = 50
             },
             new Park()
             {
@@ -141,7 +153,8 @@ namespace GoToParks.Core
                 Address = "3701 Beach Dr SW",
                 Hours = "4am - 11:30pm",
                 Lat = 47.570984f,
-                Long = -122.412089f
+                Long = -122.412089f,
+                Rating = 49
             },
             new Park()
             {
@@ -150,7 +163,8 @@ namespace GoToParks.Core
                 Address = "4503 Beach Dr SW",
                 Hours = "4am - 11:30pm",
                 Lat = 47.562898f,
-                Long = -122.40712f
+                Long = -122.40712f,
+                Rating = 44
             },
             new Park()
             {
@@ -159,7 +173,8 @@ namespace GoToParks.Core
                 Address = "5200 35th Ave SW",
                 Hours = "10am - 6pm",
                 Lat = 47.556242f,
-                Long = -122.373161f
+                Long = -122.373161f,
+                Rating = 62
             }
         };
     }
