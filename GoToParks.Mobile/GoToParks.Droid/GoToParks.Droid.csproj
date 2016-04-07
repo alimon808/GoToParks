@@ -68,6 +68,7 @@
     <Compile Include="Adapter\ParkListAdapter.cs" />
     <Compile Include="Fragments\AllParksFragment.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
+    <Compile Include="Fragments\TopTenParksFragment.cs" />
     <Compile Include="InfoWindow.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="ParkDetailActivity.cs" />
@@ -97,6 +98,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\AllParksFragment.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\TopTenParksFragment.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

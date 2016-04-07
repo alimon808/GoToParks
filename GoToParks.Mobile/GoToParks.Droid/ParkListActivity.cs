@@ -30,7 +30,7 @@ namespace GoToParks.Droid
             SetContentView(Resource.Layout.ParkListView);
             ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
             AddTab("All", new AllParksFragment());
-
+            AddTab("Top 10", new TopTenParksFragment());
             //parkListView.ItemClick += ParkListView_ItemClick;
         }
 

@@ -18,6 +18,11 @@ namespace GoToParks.Core
             return parks;
         }
 
+        public List<Park> GetTopTenParks()
+        {
+            return parks.OrderByDescending(p => p.Rating).Take(10).ToList();
+        }
+
         public Park GetParkById(int id)
         {
             IEnumerable<Park> park = from p in parks
