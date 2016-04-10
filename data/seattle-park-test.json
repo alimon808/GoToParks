@@ -1,0 +1,138 @@
+[
+  {
+    "Id": 1,
+    "Name": "Seward Park",
+    "Address": "5900 Lake Washington Blvd S",
+    "Hours": "6am - 10pm",
+    "Lat": 47.54923,
+    "Long": -122.250639,
+    "Rating": 100
+  },
+  {
+    "Id":2,
+    "Name":"Discovery Park",
+    "Address":"3801 Discover Park Blvd",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.66083,
+    "Long":-122.415282,
+    "Rating":99
+  },
+  {
+    "Id":3,
+    "Name":"Lincoln Park",
+    "Address":"8011 Fauntleroy Wa SW",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.531176,
+    "Long":-122.396012,
+    "Rating":90
+  },
+  {
+    "Id":4,
+    "Name":"Washington Park Arboretum",
+    "Address":"2300 Arboretum Dr E",
+    "Hours":"dawn - dusk",
+    "Lat":47.636477,
+    "Long":-122.294835,
+    "Rating":92
+  },
+  {
+    "Id":5,
+    "Name":"Volunteer Park",
+    "Address":"1247 15th Ave E",
+    "Hours":"6am - 10pm",
+    "Lat":47.630378,
+    "Long":-122.315568,
+    "Rating":95
+  },
+  {
+    "Id":6,
+    "Name":"Boren Park",
+    "Address":"1606 15th Ave E",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.635274,
+    "Long":-122.311628,
+    "Rating":50
+  },
+  {
+    "Id":7,
+    "Name":"Montlake Playfield",
+    "Address":"1618 E Calhoun St",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.642407,
+    "Long":-122.310081,
+    "Rating":60
+  },
+  {
+    "Id":8,
+    "Name":"Interlaken Park",
+    "Address":"2451 Delmar Dr E",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.636257,
+    "Long":-122.308316,
+    "Rating":45
+  },
+  {
+    "Id":9,
+    "Name":"West Monlake Park",
+    "Address":"2815 W Park Dr E",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.646219,
+    "Long":-122.30982,
+    "Rating":30
+  },
+  {
+    "Id":10,
+    "Name":"Cal Anderson Park",
+    "Address":"1635 11th Ave",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.617013,
+    "Long":-122.319134,
+    "Rating":85
+  },
+  {
+    "Id":11,
+    "Name":"Schmitz Preserve Park",
+    "Address":"5551 SW Admiral Way",
+    "Hours":"6am - 11pm",
+    "Lat":47.574375,
+    "Long":-122.400425,
+    "Rating":66
+  },
+  {
+    "Id":12,
+    "Name":"Alki Playground",
+    "Address":"5817 SW Lander St",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.578497,
+    "Long":-122.407312,
+    "Rating":50
+  },
+  {
+    "Id":13,
+    "Name":"Cormorant Cove",
+    "Address":"3701 Beach Dr SW",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.570984,
+    "Long":-122.412089,
+    "Rating":49
+  },
+  {
+    "Id":14,
+    "Name":"Emma Schmitz Memorial Overlook",
+    "Address":"4503 Beach Dr SW",
+    "Hours":"4am - 11:30pm",
+    "Lat":47.562898,
+    "Long":-122.40712,
+    "Rating":44
+  },
+  {
+    "Id":15,
+    "Name":"Camp Long",
+    "Address":"5200 35th Ave SW",
+    "Hours":"10am - 6pm",
+    "Lat":47.556242,
+    "Long":-122.373161,
+    "Rating":62
+  }
+
+]
