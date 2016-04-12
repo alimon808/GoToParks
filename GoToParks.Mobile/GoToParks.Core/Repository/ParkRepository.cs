@@ -11,7 +11,7 @@ namespace GoToParks.Core
     public class ParkRepository
     {
         private static List<Park> parks = new List<Park>();
-        string url = "http://gillcleerenpluralsight.blob.core.windows.net/files/hotdogs.json";
+        string url = "http://gotoparks.azurewebsites.net/seattle-park-test.json";
 
         public ParkRepository()
         {
